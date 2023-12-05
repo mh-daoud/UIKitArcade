@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		843949B22B1EE49000F2C59B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B12B1EE49000F2C59B /* AppDelegate.swift */; };
-		843949B42B1EE49000F2C59B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B32B1EE49000F2C59B /* SceneDelegate.swift */; };
 		843949B62B1EE49000F2C59B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B52B1EE49000F2C59B /* ViewController.swift */; };
-		843949B92B1EE49000F2C59B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843949B72B1EE49000F2C59B /* Main.storyboard */; };
 		843949BB2B1EE49300F2C59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843949BA2B1EE49300F2C59B /* Assets.xcassets */; };
 		843949BE2B1EE49300F2C59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843949BC2B1EE49300F2C59B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		843949AE2B1EE49000F2C59B /* UIKitArcade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitArcade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843949B12B1EE49000F2C59B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		843949B32B1EE49000F2C59B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		843949B52B1EE49000F2C59B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		843949B82B1EE49000F2C59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		843949BA2B1EE49300F2C59B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843949BD2B1EE49300F2C59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843949BF2B1EE49300F2C59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,14 +53,20 @@
 			isa = PBXGroup;
 			children = (
 				843949B12B1EE49000F2C59B /* AppDelegate.swift */,
-				843949B32B1EE49000F2C59B /* SceneDelegate.swift */,
 				843949B52B1EE49000F2C59B /* ViewController.swift */,
-				843949B72B1EE49000F2C59B /* Main.storyboard */,
+				843949C52B1EE69E00F2C59B /* Files */,
+			);
+			path = UIKitArcade;
+			sourceTree = "<group>";
+		};
+		843949C52B1EE69E00F2C59B /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				843949BA2B1EE49300F2C59B /* Assets.xcassets */,
 				843949BC2B1EE49300F2C59B /* LaunchScreen.storyboard */,
 				843949BF2B1EE49300F2C59B /* Info.plist */,
 			);
-			path = UIKitArcade;
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +129,6 @@
 			files = (
 				843949BE2B1EE49300F2C59B /* LaunchScreen.storyboard in Resources */,
 				843949BB2B1EE49300F2C59B /* Assets.xcassets in Resources */,
-				843949B92B1EE49000F2C59B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +141,12 @@
 			files = (
 				843949B62B1EE49000F2C59B /* ViewController.swift in Sources */,
 				843949B22B1EE49000F2C59B /* AppDelegate.swift in Sources */,
-				843949B42B1EE49000F2C59B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		843949B72B1EE49000F2C59B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				843949B82B1EE49000F2C59B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		843949BC2B1EE49300F2C59B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
