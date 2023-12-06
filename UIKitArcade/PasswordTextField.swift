@@ -13,6 +13,9 @@ class PasswordTextField : UIView {
     let lockImageView = UIImageView(image: UIImage(systemName: "lock.fill")?.withTintColor(.systemBlue))
     let textField = UITextField()
     let eyeButton = UIButton(type: .custom)
+    let dividerView = UIView()
+    let errorLabel = UILabel()
+    
     let placeHolderText : String
     
     init(placeHolderText: String) {
@@ -28,7 +31,7 @@ class PasswordTextField : UIView {
     }
     
     override var intrinsicContentSize: CGSize {
-        return CGSize(width: 200, height: 200)
+        return CGSize(width: 200, height: 60)
     }
 }
 
@@ -39,7 +42,6 @@ extension PasswordTextField {
     
     func style(){
         translatesAutoresizingMaskIntoConstraints = false
-        backgroundColor = .systemOrange
         
         lockImageView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -56,10 +58,21 @@ extension PasswordTextField {
         eyeButton.setImage(UIImage(systemName: "eye.circle")?.withTintColor(.systemBlue), for: .normal)
         eyeButton.setImage(UIImage(systemName: "eye.slash.circle")?.withTintColor(.systemBlue), for: .selected)
         eyeButton.addTarget(self, action: #selector(togglePasswordView), for: .primaryActionTriggered)
+        
+        dividerView.translatesAutoresizingMaskIntoConstraints = false
+        dividerView.backgroundColor = .separator
+        
+        errorLabel.translatesAutoresizingMaskIntoConstraints = false
+        errorLabel.font = .preferredFont(forTextStyle: .footnote)
+        errorLabel.textColor = .systemRed
+        errorLabel.text = "Your password must meet the requirements below."
+        errorLabel.numberOfLines = 0
+        errorLabel.lineBreakMode = .byWordWrapping
+        errorLabel.isHidden = false
     }
     
     func layout(){
-        [lockImageView, textField, eyeButton].forEach(addSubview)
+        [lockImageView, textField, eyeButton, dividerView, errorLabel].forEach(addSubview)
         
         //LockImageView
         NSLayoutConstraint.activate([
@@ -72,7 +85,6 @@ extension PasswordTextField {
             textField.topAnchor.constraint(equalTo: topAnchor),
             textField.leadingAnchor.constraint(equalToSystemSpacingAfter: lockImageView.trailingAnchor, multiplier: 1)
         ])
-        textField.setContentHuggingPriority(UILayoutPriority(249), for: .horizontal)
 
         //eyeButton
         NSLayoutConstraint.activate([
@@ -80,6 +92,26 @@ extension PasswordTextField {
             eyeButton.leadingAnchor.constraint(equalToSystemSpacingAfter: textField.trailingAnchor, multiplier: 1),
             eyeButton.trailingAnchor.constraint(equalTo: trailingAnchor)
         ])
+        
+        //divider
+        NSLayoutConstraint.activate([
+            dividerView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            dividerView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            dividerView.topAnchor.constraint(equalTo: textField.bottomAnchor, constant: 4),
+            dividerView.heightAnchor.constraint(equalToConstant: 1)
+        ])
+        
+        //errorMessage
+        NSLayoutConstraint.activate([
+            errorLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
+            errorLabel.topAnchor.constraint(equalToSystemSpacingBelow: dividerView.bottomAnchor, multiplier: 1),
+            errorLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
+        ])
+        
+        lockImageView.setContentHuggingPriority(.defaultHigh, for: .horizontal)
+        textField.setContentHuggingPriority(.defaultLow, for: .horizontal)
+        eyeButton.setContentHuggingPriority(.defaultHigh, for: .horizontal)
+
     }
 }
 
