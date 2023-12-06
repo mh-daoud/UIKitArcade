@@ -13,6 +13,7 @@
 		843949BE2B1EE49300F2C59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843949BC2B1EE49300F2C59B /* LaunchScreen.storyboard */; };
 		843949C72B1EEAC300F2C59B /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949C62B1EEAC200F2C59B /* PasswordTextField.swift */; };
 		843949DD2B20311100F2C59B /* PasswordCriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949DC2B20311100F2C59B /* PasswordCriteriaView.swift */; };
+		843949E02B2038BA00F2C59B /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949DF2B2038BA00F2C59B /* PasswordStatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		843949BF2B1EE49300F2C59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843949C62B1EEAC200F2C59B /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 		843949DC2B20311100F2C59B /* PasswordCriteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaView.swift; sourceTree = "<group>"; };
+		843949DF2B2038BA00F2C59B /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,7 @@
 				843949B12B1EE49000F2C59B /* AppDelegate.swift */,
 				843949B52B1EE49000F2C59B /* ViewController.swift */,
 				843949C62B1EEAC200F2C59B /* PasswordTextField.swift */,
-				843949DE2B2034EF00F2C59B /* PasswordCriteriaView */,
+				843949DE2B2034EF00F2C59B /* PasswordStatusView */,
 				843949C52B1EE69E00F2C59B /* Files */,
 			);
 			path = UIKitArcade;
@@ -75,12 +77,13 @@
 			name = Files;
 			sourceTree = "<group>";
 		};
-		843949DE2B2034EF00F2C59B /* PasswordCriteriaView */ = {
+		843949DE2B2034EF00F2C59B /* PasswordStatusView */ = {
 			isa = PBXGroup;
 			children = (
 				843949DC2B20311100F2C59B /* PasswordCriteriaView.swift */,
+				843949DF2B2038BA00F2C59B /* PasswordStatusView.swift */,
 			);
-			path = PasswordCriteriaView;
+			path = PasswordStatusView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +159,7 @@
 				843949B62B1EE49000F2C59B /* ViewController.swift in Sources */,
 				843949B22B1EE49000F2C59B /* AppDelegate.swift in Sources */,
 				843949DD2B20311100F2C59B /* PasswordCriteriaView.swift in Sources */,
+				843949E02B2038BA00F2C59B /* PasswordStatusView.swift in Sources */,
 				843949C72B1EEAC300F2C59B /* PasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

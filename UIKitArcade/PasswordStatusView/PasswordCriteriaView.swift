@@ -34,10 +34,10 @@ class PasswordCriteriaView : UIView {
         imageView.image = ciricleImage
     }
     
-    init(criteriaTitle: String) {
+    init(text: String) {
         super.init(frame: .zero)
         
-        label.text = criteriaTitle
+        label.text = text
         
         style()
         layout()
