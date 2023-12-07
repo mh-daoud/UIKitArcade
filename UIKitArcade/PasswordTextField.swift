@@ -8,6 +8,10 @@
 import Foundation
 import UIKit
 
+protocol PasswordTextFieldDelegate: AnyObject {
+    func editingChanged(_ sender: PasswordTextField)
+}
+
 class PasswordTextField : UIView {
     
     let lockImageView = UIImageView(image: UIImage(systemName: "lock.fill")?.withTintColor(.systemBlue))
@@ -15,6 +19,8 @@ class PasswordTextField : UIView {
     let eyeButton = UIButton(type: .custom)
     let dividerView = UIView()
     let errorLabel = UILabel()
+    
+    weak var delegate: PasswordTextFieldDelegate?
     
     let placeHolderText : String
     
@@ -47,12 +53,13 @@ extension PasswordTextField {
         
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.isSecureTextEntry = false // true
-        //textField.delegate = self
+        textField.delegate = self
         textField.placeholder = placeHolderText
         textField.keyboardType = .asciiCapable // to prevent entering emojys as passwords
         textField.attributedPlaceholder = NSAttributedString(string: placeHolderText, attributes: [
             .foregroundColor: UIColor.secondaryLabel
         ])
+        textField.addTarget(self, action: #selector(textFieldEditingChanged), for: .editingChanged)
         
         eyeButton.translatesAutoresizingMaskIntoConstraints = false
         eyeButton.setImage(UIImage(systemName: "eye.circle")?.withTintColor(.systemBlue), for: .normal)
@@ -68,7 +75,7 @@ extension PasswordTextField {
         errorLabel.text = "Your password must meet the requirements below."
         errorLabel.numberOfLines = 0
         errorLabel.lineBreakMode = .byWordWrapping
-        errorLabel.isHidden = false
+        errorLabel.isHidden = true
     }
     
     func layout(){
@@ -122,4 +129,15 @@ extension PasswordTextField {
         textField.isSecureTextEntry.toggle()
         eyeButton.isSelected.toggle()
     }
+    
+    @objc func textFieldEditingChanged(_ Sender: UITextField) {
+        delegate?.editingChanged(self)
+    }
+}
+
+
+// MARK: TextFeild Delegate
+
+extension PasswordTextField : UITextFieldDelegate {
+    
 }
