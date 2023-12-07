@@ -21,7 +21,7 @@ class PasswordStatusView : UIView {
     let specialCharacterCriteriaView = PasswordCriteriaView(text: "special character (e.g. !@#$%^)")
     
     //Used to determine if we reset critera back to empty state
-    private var shouldResetCriteria: Bool = true
+    var shouldResetCriteria: Bool = true
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -93,8 +93,25 @@ extension PasswordStatusView {
         let attrText = NSMutableAttributedString(string: "Use at least ", attributes: plainTextAttributes)
         attrText.append(NSAttributedString(string: "3 of these 4 ", attributes: boldTextAttributes))
         attrText.append(NSAttributedString(string: "criteria when setting your password.", attributes: plainTextAttributes))
-
+        
         return attrText
+    }
+    
+    func validate(_ text: String ) -> Bool {
+        let uppercaseMet = PasswordCriteria.uppercaseMet(text)
+        let lowercaseMet = PasswordCriteria.lowercaseMet(text)
+        let digitMet = PasswordCriteria.digitMet(text)
+        let specialCharacterMet = PasswordCriteria.specialCharacterMet(text)
+        
+        return  PasswordCriteria.lenghtAndNoSpaceMet(text) && [uppercaseMet, lowercaseMet, digitMet, specialCharacterMet].filter({$0 }).count >= 3
+    }
+    
+    func reset() {
+        lengthCriteriaView.reset()
+        uppercaseCriteriaView.reset()
+        lowerCaseCriteriaView.reset()
+        digitCriteriaView.reset()
+        specialCharacterCriteriaView.reset()
     }
 }
 
@@ -116,7 +133,13 @@ extension PasswordStatusView {
             lowercaseMet ? lowerCaseCriteriaView.isCriteriaMet = true : lowerCaseCriteriaView.reset()
             digitMet ? digitCriteriaView.isCriteriaMet = true : digitCriteriaView.reset()
             specialCharacterMet ? specialCharacterCriteriaView.isCriteriaMet = true : specialCharacterCriteriaView.reset()
-
+        }
+        else {
+            lengthCriteriaView.isCriteriaMet = lengthAndNoSpaceMet
+            uppercaseCriteriaView.isCriteriaMet = uppercaseMet
+            lowerCaseCriteriaView.isCriteriaMet = lowercaseMet
+            digitCriteriaView.isCriteriaMet = digitMet
+            specialCharacterCriteriaView.isCriteriaMet = specialCharacterMet
         }
     }
 }
