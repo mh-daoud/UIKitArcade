@@ -29,6 +29,7 @@ extension ViewController {
         setupNewPassword()
         setupConfirmPassword()
         setupDismissKeyboardGesture()
+        setupKeyboardHiding()
     }
     
     func setupNewPassword(){
@@ -78,6 +79,11 @@ extension ViewController {
         view.addGestureRecognizer(dismissKeyboardTap)
     }
     
+    func setupKeyboardHiding(){
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
     func style() {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
@@ -93,7 +99,7 @@ extension ViewController {
         resetButton.translatesAutoresizingMaskIntoConstraints = false
         resetButton.configuration = .filled()
         resetButton.setTitle("Reset password", for: [])
-        //resetButton.addTarget(self, action: #selector(resetPasswordButtonTapped), for: .touchUpInside)
+        resetButton.addTarget(self, action: #selector(resetPasswordButtonTapped), for: .touchUpInside)
         
     }
     
@@ -140,4 +146,48 @@ extension ViewController {
         view.endEditing(true)
     }
     
+    @objc func resetPasswordButtonTapped(){
+        view.endEditing(true)
+        
+        let isValidNewPassword = newPasswordTextField.validate()
+        let isValidConfirmPassword = confirmPasswordTextField.validate()
+        
+        if isValidNewPassword && isValidConfirmPassword {
+            showAlert(title: "Success", message: "You have successfully changed your password.")
+        }
+    }
+    
+    private func showAlert(title: String, message: String) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Ok", style: .default))
+        present(alertController, animated: true)
+    }
+    
+}
+
+
+// MARK: Keyboard Notifications
+extension ViewController {
+    @objc func keyboardWillShow(sender: NSNotification ){
+        guard let userInfo = sender.userInfo,
+              let keyboardFrame = userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue,
+              let currentTextField = UIResponder.currentFirst() as? UITextField else { return }
+        
+        let keyboardTopY = keyboardFrame.cgRectValue.origin.y
+        let convertedTextFieldbottomY = view.convert(currentTextField.frame, from: currentTextField.superview)
+        let textFieldBottomY = convertedTextFieldbottomY.origin.y + convertedTextFieldbottomY.size.height
+        
+        if textFieldBottomY > keyboardTopY {
+            let textBoxY = convertedTextFieldbottomY.origin.y
+            let newFrameOffset = (textBoxY - keyboardTopY/2) * -1
+            view.frame.origin.y = newFrameOffset
+        }
+        
+        print("foo - userInfo: \(userInfo)")
+        print("foo - keyboardFrame: \(keyboardFrame)")
+        print("foo - currentTextField: \(currentTextField)")
+    }
+    @objc func keyboardWillHide(sender: NSNotification){
+        view.frame.origin.y = 0
+    }
 }
