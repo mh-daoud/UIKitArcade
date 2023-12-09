@@ -16,7 +16,7 @@ class PasswordCriteriaView : UIView {
     
     let checkmarkImage = UIImage(systemName: "checkmark.circle")!.withTintColor(.systemGreen, renderingMode: .alwaysOriginal)
     let xmarkImage = UIImage(systemName: "xmark.circle")!.withTintColor(.systemRed, renderingMode: .alwaysOriginal)
-    let ciricleImage = UIImage(systemName: "circle")!.withTintColor(.tertiaryLabel, renderingMode: .alwaysOriginal)
+    let circleImage = UIImage(systemName: "circle")!.withTintColor(.tertiaryLabel, renderingMode: .alwaysOriginal)
     
     var isCriteriaMet: Bool = false {
         didSet {
@@ -31,7 +31,7 @@ class PasswordCriteriaView : UIView {
     
     func reset(){
         isCriteriaMet = false
-        imageView.image = ciricleImage
+        imageView.image = circleImage
     }
     
     init(text: String) {
@@ -67,7 +67,7 @@ extension PasswordCriteriaView {
         
         //icon
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = ciricleImage
+        imageView.image = circleImage
         
         //label
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -97,5 +97,21 @@ extension PasswordCriteriaView {
         
         imageView.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         label.setContentHuggingPriority(.defaultLow, for: .horizontal)
+    }
+}
+
+
+// MARK: Tests
+extension PasswordCriteriaView {
+    var isCheckMarkImage: Bool {
+        return imageView.image == checkmarkImage
+    }
+
+    var isXmarkImage: Bool {
+        return imageView.image == xmarkImage
+    }
+
+    var isResetImage: Bool {
+        return imageView.image == circleImage
     }
 }

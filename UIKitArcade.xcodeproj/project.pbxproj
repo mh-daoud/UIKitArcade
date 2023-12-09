@@ -16,7 +16,20 @@
 		843949E02B2038BA00F2C59B /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949DF2B2038BA00F2C59B /* PasswordStatusView.swift */; };
 		843949E92B217E3700F2C59B /* PasswordCritieria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949E82B217E3700F2C59B /* PasswordCritieria.swift */; };
 		843949EC2B2194BF00F2C59B /* UIResponder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949EB2B2194BE00F2C59B /* UIResponder+Utils.swift */; };
+		84C9FA142B22FC3D0054E90E /* PasswordCriteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */; };
+		84C9FA162B243BEC0054E90E /* PasswordStatusViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */; };
+		84C9FA182B2443D30054E90E /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA172B2443D30054E90E /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C9FA0E2B22FB7B0054E90E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843949A62B1EE49000F2C59B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843949AD2B1EE49000F2C59B;
+			remoteInfo = UIKitArcade;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		843949AE2B1EE49000F2C59B /* UIKitArcade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitArcade.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +43,21 @@
 		843949DF2B2038BA00F2C59B /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
 		843949E82B217E3700F2C59B /* PasswordCritieria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCritieria.swift; sourceTree = "<group>"; };
 		843949EB2B2194BE00F2C59B /* UIResponder+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Utils.swift"; sourceTree = "<group>"; };
+		84C9FA0A2B22FB7B0054E90E /* UIKitArcadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitArcadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaTests.swift; sourceTree = "<group>"; };
+		84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusViewTests.swift; sourceTree = "<group>"; };
+		84C9FA172B2443D30054E90E /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		843949AB2B1EE49000F2C59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C9FA072B22FB7B0054E90E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				843949B02B1EE49000F2C59B /* UIKitArcade */,
+				84C9FA0B2B22FB7B0054E90E /* UIKitArcadeTests */,
 				843949AF2B1EE49000F2C59B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				843949AE2B1EE49000F2C59B /* UIKitArcade.app */,
+				84C9FA0A2B22FB7B0054E90E /* UIKitArcadeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +126,16 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		84C9FA0B2B22FB7B0054E90E /* UIKitArcadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */,
+				84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */,
+				84C9FA172B2443D30054E90E /* ViewControllerTests.swift */,
+			);
+			path = UIKitArcadeTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,6 +156,24 @@
 			productReference = 843949AE2B1EE49000F2C59B /* UIKitArcade.app */;
 			productType = "com.apple.product-type.application";
 		};
+		84C9FA092B22FB7B0054E90E /* UIKitArcadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C9FA122B22FB7B0054E90E /* Build configuration list for PBXNativeTarget "UIKitArcadeTests" */;
+			buildPhases = (
+				84C9FA062B22FB7B0054E90E /* Sources */,
+				84C9FA072B22FB7B0054E90E /* Frameworks */,
+				84C9FA082B22FB7B0054E90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C9FA0F2B22FB7B0054E90E /* PBXTargetDependency */,
+			);
+			name = UIKitArcadeTests;
+			productName = UIKitArcadeTests;
+			productReference = 84C9FA0A2B22FB7B0054E90E /* UIKitArcadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -132,6 +186,11 @@
 				TargetAttributes = {
 					843949AD2B1EE49000F2C59B = {
 						CreatedOnToolsVersion = 15.0.1;
+					};
+					84C9FA092B22FB7B0054E90E = {
+						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
+						TestTargetID = 843949AD2B1EE49000F2C59B;
 					};
 				};
 			};
@@ -149,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				843949AD2B1EE49000F2C59B /* UIKitArcade */,
+				84C9FA092B22FB7B0054E90E /* UIKitArcadeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -160,6 +220,13 @@
 			files = (
 				843949BE2B1EE49300F2C59B /* LaunchScreen.storyboard in Resources */,
 				843949BB2B1EE49300F2C59B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C9FA082B22FB7B0054E90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +247,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84C9FA062B22FB7B0054E90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C9FA182B2443D30054E90E /* ViewControllerTests.swift in Sources */,
+				84C9FA142B22FC3D0054E90E /* PasswordCriteriaTests.swift in Sources */,
+				84C9FA162B243BEC0054E90E /* PasswordStatusViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C9FA0F2B22FB7B0054E90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843949AD2B1EE49000F2C59B /* UIKitArcade */;
+			targetProxy = 84C9FA0E2B22FB7B0054E90E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		843949BC2B1EE49300F2C59B /* LaunchScreen.storyboard */ = {
@@ -367,6 +452,45 @@
 			};
 			name = Release;
 		};
+		84C9FA102B22FB7B0054E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 548SPFR25M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopa.UIKitArcadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKitArcade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIKitArcade";
+			};
+			name = Debug;
+		};
+		84C9FA112B22FB7B0054E90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 548SPFR25M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopa.UIKitArcadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKitArcade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIKitArcade";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -384,6 +508,15 @@
 			buildConfigurations = (
 				843949C32B1EE49300F2C59B /* Debug */,
 				843949C42B1EE49300F2C59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C9FA122B22FB7B0054E90E /* Build configuration list for PBXNativeTarget "UIKitArcadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C9FA102B22FB7B0054E90E /* Debug */,
+				84C9FA112B22FB7B0054E90E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
