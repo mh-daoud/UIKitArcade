@@ -6,7 +6,7 @@
 //
 
 import UIKit
-class ViewController : UIViewController {
+class PasswordResetViewController : UIViewController {
     
     typealias CustomValidation = PasswordTextField.CustomValidation
     
@@ -25,7 +25,7 @@ class ViewController : UIViewController {
     }
 }
 
-extension ViewController {
+extension PasswordResetViewController {
     func setup(){
         setupNewPassword()
         setupConfirmPassword()
@@ -86,6 +86,7 @@ extension ViewController {
     }
     
     func style() {
+        view.backgroundColor = .systemBackground
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
         stackView.spacing = 20
@@ -120,7 +121,7 @@ extension ViewController {
 
 
 // MARK: PasswordTextFieldDelegate
-extension ViewController : PasswordTextFieldDelegate {
+extension PasswordResetViewController : PasswordTextFieldDelegate {
     
     func editingChanged(_ sender: PasswordTextField) {
         if sender == newPasswordTextField {
@@ -141,7 +142,7 @@ extension ViewController : PasswordTextFieldDelegate {
 }
 
 // MARK: Actions
-extension ViewController {
+extension PasswordResetViewController {
     
     @objc func viewTapped(_ sender: UITapGestureRecognizer){
         view.endEditing(true)
@@ -171,7 +172,7 @@ extension ViewController {
 
 
 // MARK: Keyboard Notifications
-extension ViewController {
+extension PasswordResetViewController {
     @objc func keyboardWillShow(sender: NSNotification ){
         guard let userInfo = sender.userInfo,
               let keyboardFrame = userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue,

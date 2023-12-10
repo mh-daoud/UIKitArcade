@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		843949B22B1EE49000F2C59B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B12B1EE49000F2C59B /* AppDelegate.swift */; };
-		843949B62B1EE49000F2C59B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B52B1EE49000F2C59B /* ViewController.swift */; };
+		843949B62B1EE49000F2C59B /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B52B1EE49000F2C59B /* PasswordResetViewController.swift */; };
 		843949BB2B1EE49300F2C59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843949BA2B1EE49300F2C59B /* Assets.xcassets */; };
 		843949BE2B1EE49300F2C59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843949BC2B1EE49300F2C59B /* LaunchScreen.storyboard */; };
 		843949C72B1EEAC300F2C59B /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949C62B1EEAC200F2C59B /* PasswordTextField.swift */; };
@@ -19,6 +19,10 @@
 		84C9FA142B22FC3D0054E90E /* PasswordCriteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */; };
 		84C9FA162B243BEC0054E90E /* PasswordStatusViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */; };
 		84C9FA182B2443D30054E90E /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA172B2443D30054E90E /* ViewControllerTests.swift */; };
+		84C9FA1E2B24C0390054E90E /* MainAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA1D2B24C0390054E90E /* MainAppViewController.swift */; };
+		84C9FA212B24C5FC0054E90E /* HorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA202B24C5FC0054E90E /* HorizontalViewController.swift */; };
+		84C9FA232B2571350054E90E /* CarouselCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA222B2571350054E90E /* CarouselCardView.swift */; };
+		84C9FA252B2572850054E90E /* UIImageView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA242B2572850054E90E /* UIImageView+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +38,7 @@
 /* Begin PBXFileReference section */
 		843949AE2B1EE49000F2C59B /* UIKitArcade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitArcade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843949B12B1EE49000F2C59B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		843949B52B1EE49000F2C59B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843949B52B1EE49000F2C59B /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
 		843949BA2B1EE49300F2C59B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843949BD2B1EE49300F2C59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843949BF2B1EE49300F2C59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaTests.swift; sourceTree = "<group>"; };
 		84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusViewTests.swift; sourceTree = "<group>"; };
 		84C9FA172B2443D30054E90E /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		84C9FA1D2B24C0390054E90E /* MainAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppViewController.swift; sourceTree = "<group>"; };
+		84C9FA202B24C5FC0054E90E /* HorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalViewController.swift; sourceTree = "<group>"; };
+		84C9FA222B2571350054E90E /* CarouselCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCardView.swift; sourceTree = "<group>"; };
+		84C9FA242B2572850054E90E /* UIImageView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +96,9 @@
 		843949B02B1EE49000F2C59B /* UIKitArcade */ = {
 			isa = PBXGroup;
 			children = (
+				84C9FA192B24BBE20054E90E /* ViewControllers */,
 				843949EA2B2194AE00F2C59B /* Utils */,
 				843949B12B1EE49000F2C59B /* AppDelegate.swift */,
-				843949B52B1EE49000F2C59B /* ViewController.swift */,
-				843949C62B1EEAC200F2C59B /* PasswordTextField.swift */,
-				843949DE2B2034EF00F2C59B /* PasswordStatusView */,
 				843949C52B1EE69E00F2C59B /* Files */,
 			);
 			path = UIKitArcade;
@@ -122,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				843949EB2B2194BE00F2C59B /* UIResponder+Utils.swift */,
+				84C9FA242B2572850054E90E /* UIImageView+Utils.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -134,6 +141,43 @@
 				84C9FA172B2443D30054E90E /* ViewControllerTests.swift */,
 			);
 			path = UIKitArcadeTests;
+			sourceTree = "<group>";
+		};
+		84C9FA192B24BBE20054E90E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84C9FA1F2B24C5E70054E90E /* HorizontalCarouselViewController */,
+				84C9FA1C2B24C0190054E90E /* MainApp */,
+				84C9FA1A2B24BBFA0054E90E /* PasswordReset */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84C9FA1A2B24BBFA0054E90E /* PasswordReset */ = {
+			isa = PBXGroup;
+			children = (
+				843949B52B1EE49000F2C59B /* PasswordResetViewController.swift */,
+				843949C62B1EEAC200F2C59B /* PasswordTextField.swift */,
+				843949DE2B2034EF00F2C59B /* PasswordStatusView */,
+			);
+			path = PasswordReset;
+			sourceTree = "<group>";
+		};
+		84C9FA1C2B24C0190054E90E /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				84C9FA1D2B24C0390054E90E /* MainAppViewController.swift */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		84C9FA1F2B24C5E70054E90E /* HorizontalCarouselViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84C9FA202B24C5FC0054E90E /* HorizontalViewController.swift */,
+				84C9FA222B2571350054E90E /* CarouselCardView.swift */,
+			);
+			path = HorizontalCarouselViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843949B62B1EE49000F2C59B /* ViewController.swift in Sources */,
+				84C9FA252B2572850054E90E /* UIImageView+Utils.swift in Sources */,
+				843949B62B1EE49000F2C59B /* PasswordResetViewController.swift in Sources */,
+				84C9FA212B24C5FC0054E90E /* HorizontalViewController.swift in Sources */,
+				84C9FA232B2571350054E90E /* CarouselCardView.swift in Sources */,
 				843949EC2B2194BF00F2C59B /* UIResponder+Utils.swift in Sources */,
 				843949E92B217E3700F2C59B /* PasswordCritieria.swift in Sources */,
+				84C9FA1E2B24C0390054E90E /* MainAppViewController.swift in Sources */,
 				843949B22B1EE49000F2C59B /* AppDelegate.swift in Sources */,
 				843949DD2B20311100F2C59B /* PasswordCriteriaView.swift in Sources */,
 				843949E02B2038BA00F2C59B /* PasswordStatusView.swift in Sources */,
