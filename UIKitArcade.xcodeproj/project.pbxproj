@@ -23,6 +23,7 @@
 		84C9FA212B24C5FC0054E90E /* HorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA202B24C5FC0054E90E /* HorizontalViewController.swift */; };
 		84C9FA232B2571350054E90E /* CarouselCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA222B2571350054E90E /* CarouselCardView.swift */; };
 		84C9FA252B2572850054E90E /* UIImageView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA242B2572850054E90E /* UIImageView+Utils.swift */; };
+		84C9FA292B2820540054E90E /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA282B2820540054E90E /* GridViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		84C9FA202B24C5FC0054E90E /* HorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalViewController.swift; sourceTree = "<group>"; };
 		84C9FA222B2571350054E90E /* CarouselCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCardView.swift; sourceTree = "<group>"; };
 		84C9FA242B2572850054E90E /* UIImageView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Utils.swift"; sourceTree = "<group>"; };
+		84C9FA282B2820540054E90E /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		84C9FA192B24BBE20054E90E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84C9FA272B2820370054E90E /* GridViewController */,
 				84C9FA1F2B24C5E70054E90E /* HorizontalCarouselViewController */,
 				84C9FA1C2B24C0190054E90E /* MainApp */,
 				84C9FA1A2B24BBFA0054E90E /* PasswordReset */,
@@ -178,6 +181,14 @@
 				84C9FA222B2571350054E90E /* CarouselCardView.swift */,
 			);
 			path = HorizontalCarouselViewController;
+			sourceTree = "<group>";
+		};
+		84C9FA272B2820370054E90E /* GridViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84C9FA282B2820540054E90E /* GridViewController.swift */,
+			);
+			path = GridViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 				843949E92B217E3700F2C59B /* PasswordCritieria.swift in Sources */,
 				84C9FA1E2B24C0390054E90E /* MainAppViewController.swift in Sources */,
 				843949B22B1EE49000F2C59B /* AppDelegate.swift in Sources */,
+				84C9FA292B2820540054E90E /* GridViewController.swift in Sources */,
 				843949DD2B20311100F2C59B /* PasswordCriteriaView.swift in Sources */,
 				843949E02B2038BA00F2C59B /* PasswordStatusView.swift in Sources */,
 				843949C72B1EEAC300F2C59B /* PasswordTextField.swift in Sources */,

@@ -11,11 +11,13 @@ import UIKit
 enum UIKitArcadeCatalog : Int, CaseIterable {
     case PasswordReset = 0
     case HorizontalCarousel
+    case GridLayout
     
     var description : String {
         switch self {
         case .PasswordReset : return "Password Reset"
         case .HorizontalCarousel: return "Horizontal Carousel"
+        case .GridLayout: return "Grid Layout"
         }
     }
     
@@ -23,6 +25,7 @@ enum UIKitArcadeCatalog : Int, CaseIterable {
         switch self {
         case .PasswordReset : return PasswordResetViewController.self
         case .HorizontalCarousel : return HorizontalCarouselViewController.self
+        case .GridLayout : return GridViewController.self
         }
     }
 }
