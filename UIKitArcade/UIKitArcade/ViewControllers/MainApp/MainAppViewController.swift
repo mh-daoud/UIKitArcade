@@ -85,8 +85,10 @@ extension MainAppViewController : UITableViewDataSource {
         let catalogItem = catalogItems[indexPath.row]
         var configuration = cell.defaultContentConfiguration()
         configuration.text = catalogItem.description
-        configuration.image = UIImage(systemName: "chevron.right")!
+        //configuration.image = UIImage(systemName: "chevron.right")!
         cell.contentConfiguration = configuration
+        cell.accessoryType = .disclosureIndicator
+        cell.accessoryView = nil
         return cell
     }
     

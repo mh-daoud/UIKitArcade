@@ -14,7 +14,7 @@ struct CarouselItem {
     let logoTitleImageUrl: String
 }
 
-class HorizontalCarouselViewController : UIViewController {
+class SnapCarouselViewController : UIViewController {
     static let cardWidth: CGFloat = 80
     static let animatedCardWidth: CGFloat = 120
     static let cardHeight: CGFloat = 120
@@ -42,7 +42,7 @@ class HorizontalCarouselViewController : UIViewController {
     }
 }
 
-extension HorizontalCarouselViewController {
+extension SnapCarouselViewController {
     func setup() {
         items = [
             CarouselItem(portraitImageUrl: "https://shahid.mbc.net/mediaObject/Curation_2023/Clean-images/NOV/Asraralboyot_clean_poster_4/original/Asraralboyot_clean_poster_4.jpg?width=275&version=1&type=jpg",
@@ -107,17 +107,17 @@ extension HorizontalCarouselViewController {
             cardView.leadingAnchor.constraint(equalTo: prevCard.trailingAnchor, constant: 8).isActive = true
         }
         cardView.topAnchor.constraint(equalToSystemSpacingBelow: label.bottomAnchor, multiplier: 2).isActive = true
-        let cardWidthConstraint = cardView.widthAnchor.constraint(equalToConstant: HorizontalCarouselViewController.cardWidth)
+        let cardWidthConstraint = cardView.widthAnchor.constraint(equalToConstant: SnapCarouselViewController.cardWidth)
         cardWidthConstraint.isActive = true
         widthConstraints.append(cardWidthConstraint)
-        cardView.heightAnchor.constraint(equalToConstant: HorizontalCarouselViewController.cardHeight).isActive = true
+        cardView.heightAnchor.constraint(equalToConstant: SnapCarouselViewController.cardHeight).isActive = true
     }
     
     func setupAnimation() {
         let animator = UIViewPropertyAnimator(duration: 1, curve: .easeInOut) { [weak self] in
             guard let self else {return }
-            widthConstraints[prevIndex].constant = HorizontalCarouselViewController.cardWidth
-            widthConstraints[activeIndex].constant = HorizontalCarouselViewController.animatedCardWidth
+            widthConstraints[prevIndex].constant = SnapCarouselViewController.cardWidth
+            widthConstraints[activeIndex].constant = SnapCarouselViewController.animatedCardWidth
             view.layoutIfNeeded()
         }
         animator.addCompletion { [weak self] _ in

@@ -29,6 +29,10 @@ class GridViewController : UIViewController {
 extension GridViewController  {
     
     func style(){
+        
+        navigationItem.title = "Grid View Screen"
+        navigationItem.rightBarButtonItem = editButtonItem
+        
         view.backgroundColor = .systemBackground
         
         compositionalCollectionView.translatesAutoresizingMaskIntoConstraints = false
@@ -63,8 +67,8 @@ extension GridViewController  {
         //FlowCollectionView
         NSLayoutConstraint.activate([
             flowCollectionView.topAnchor.constraint(equalToSystemSpacingBelow: stackView.bottomAnchor, multiplier: 1),
-            flowCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            flowCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            flowCollectionView.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 1),
+            view.trailingAnchor.constraint(equalToSystemSpacingAfter: flowCollectionView.trailingAnchor, multiplier: 1),
             flowCollectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
         ])
     }
@@ -73,6 +77,11 @@ extension GridViewController  {
         compositionalLayoutButton.button.addTarget(self, action: #selector(compositionalLayoutButtonTapped), for: .touchUpInside)
         flowLayoutButton.button.addTarget(self, action: #selector(flowLayoutButtonTapped), for: .touchUpInside)
         compositionalLayoutButton.button.sendActions(for: .touchUpInside)
+    }
+    
+    override func setEditing(_ editing: Bool, animated: Bool) {
+        super.setEditing(editing, animated: animated)
+        
     }
 }
 

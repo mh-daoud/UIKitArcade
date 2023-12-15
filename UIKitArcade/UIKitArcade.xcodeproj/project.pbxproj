@@ -16,6 +16,9 @@
 		843949E02B2038BA00F2C59B /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949DF2B2038BA00F2C59B /* PasswordStatusView.swift */; };
 		843949E92B217E3700F2C59B /* PasswordCritieria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949E82B217E3700F2C59B /* PasswordCritieria.swift */; };
 		843949EC2B2194BF00F2C59B /* UIResponder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949EB2B2194BE00F2C59B /* UIResponder+Utils.swift */; };
+		845DABFF2B2ACD7B0066D6C8 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DABFE2B2ACD7B0066D6C8 /* BasicCell.swift */; };
+		845DAC012B2ACEAB0066D6C8 /* HorizontalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DAC002B2ACEAB0066D6C8 /* HorizontalCollectionView.swift */; };
+		845DAC042B2AD2460066D6C8 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DAC032B2AD2460066D6C8 /* SnapCarousel.swift */; };
 		84C9FA142B22FC3D0054E90E /* PasswordCriteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */; };
 		84C9FA162B243BEC0054E90E /* PasswordStatusViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */; };
 		84C9FA182B2443D30054E90E /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA172B2443D30054E90E /* ViewControllerTests.swift */; };
@@ -55,6 +58,9 @@
 		843949DF2B2038BA00F2C59B /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
 		843949E82B217E3700F2C59B /* PasswordCritieria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCritieria.swift; sourceTree = "<group>"; };
 		843949EB2B2194BE00F2C59B /* UIResponder+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Utils.swift"; sourceTree = "<group>"; };
+		845DABFE2B2ACD7B0066D6C8 /* BasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		845DAC002B2ACEAB0066D6C8 /* HorizontalCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionView.swift; sourceTree = "<group>"; };
+		845DAC032B2AD2460066D6C8 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
 		84C9FA0A2B22FB7B0054E90E /* UIKitArcadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitArcadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaTests.swift; sourceTree = "<group>"; };
 		84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusViewTests.swift; sourceTree = "<group>"; };
@@ -150,6 +156,23 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		845DABFD2B2ACD6D0066D6C8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84C9FA222B2571350054E90E /* CarouselCardView.swift */,
+				845DABFE2B2ACD7B0066D6C8 /* BasicCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		845DAC022B2AD21B0066D6C8 /* SnapCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				845DAC032B2AD2460066D6C8 /* SnapCarousel.swift */,
+			);
+			path = SnapCarousel;
+			sourceTree = "<group>";
+		};
 		84C9FA0B2B22FB7B0054E90E /* UIKitArcadeTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +186,7 @@
 		84C9FA192B24BBE20054E90E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				845DAC022B2AD21B0066D6C8 /* SnapCarousel */,
 				84C9FA272B2820370054E90E /* GridViewController */,
 				84C9FA1F2B24C5E70054E90E /* HorizontalCarouselViewController */,
 				84C9FA1C2B24C0190054E90E /* MainApp */,
@@ -193,7 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				84C9FA202B24C5FC0054E90E /* HorizontalViewController.swift */,
-				84C9FA222B2571350054E90E /* CarouselCardView.swift */,
+				845DAC002B2ACEAB0066D6C8 /* HorizontalCollectionView.swift */,
+				845DABFD2B2ACD6D0066D6C8 /* Cells */,
 			);
 			path = HorizontalCarouselViewController;
 			sourceTree = "<group>";
@@ -337,6 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845DABFF2B2ACD7B0066D6C8 /* BasicCell.swift in Sources */,
+				845DAC042B2AD2460066D6C8 /* SnapCarousel.swift in Sources */,
 				84C9FA252B2572850054E90E /* UIImageView+Utils.swift in Sources */,
 				843949B62B1EE49000F2C59B /* PasswordResetViewController.swift in Sources */,
 				84C9FA212B24C5FC0054E90E /* HorizontalViewController.swift in Sources */,
@@ -354,6 +381,7 @@
 				84C9FA462B297E830054E90E /* StateButton.swift in Sources */,
 				84C9FA3C2B2971630054E90E /* TextCell.swift in Sources */,
 				843949DD2B20311100F2C59B /* PasswordCriteriaView.swift in Sources */,
+				845DAC012B2ACEAB0066D6C8 /* HorizontalCollectionView.swift in Sources */,
 				843949E02B2038BA00F2C59B /* PasswordStatusView.swift in Sources */,
 				843949C72B1EEAC300F2C59B /* PasswordTextField.swift in Sources */,
 			);
