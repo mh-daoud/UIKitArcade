@@ -27,17 +27,17 @@ class DetailsViewController : UIViewController {
         navigationController?.hidesBarsOnTap = true
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        navigationController?.hidesBarsOnTap = false
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "View Picture"
         navigationItem.largeTitleDisplayMode = .never
         style()
         layout()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.hidesBarsOnTap = false
     }
 }
 
@@ -48,6 +48,7 @@ extension DetailsViewController {
         imageView.contentMode = .scaleAspectFit
         if let imageName , let image = UIImage(named: imageName) {
             imageView.image = image
+            navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareButtonTapped))
         }
     }
     
@@ -64,3 +65,14 @@ extension DetailsViewController {
     }
 }
 
+// MARK: Actions
+extension DetailsViewController {
+    @objc func shareButtonTapped(_ sender: UIBarButtonItem) {
+        if let image = imageView.image?.jpegData(compressionQuality: 0.8) {
+            let shareVC = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+            shareVC.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+            present(shareVC, animated: true)
+        }
+        
+    }
+}
