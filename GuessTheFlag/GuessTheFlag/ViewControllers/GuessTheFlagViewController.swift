@@ -80,18 +80,22 @@ extension GuessTheFlagViewController {
         NSLayoutConstraint.activate([
             secondButton.topAnchor.constraint(equalTo: firstButton.bottomAnchor, constant: 30),
             secondButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            secondButton.heightAnchor.constraint(equalTo: firstButton.heightAnchor)
         ])
         
         //third button
         NSLayoutConstraint.activate([
             thirdButton.topAnchor.constraint(equalTo: secondButton.bottomAnchor, constant: 30),
             thirdButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            thirdButton.heightAnchor.constraint(equalTo: secondButton.heightAnchor),
+            view.safeAreaLayoutGuide.bottomAnchor.constraint(greaterThanOrEqualToSystemSpacingBelow: thirdButton.bottomAnchor, multiplier: 1)
         ])
         
         [firstButton,secondButton,thirdButton].forEach { (button: UIView) in
             NSLayoutConstraint.activate([
-                button.widthAnchor.constraint(equalToConstant: 200),
-                button.heightAnchor.constraint(equalToConstant: 100)
+                button.widthAnchor.constraint(lessThanOrEqualToConstant: 200),
+                button.heightAnchor.constraint(lessThanOrEqualToConstant: 100),
+                button.widthAnchor.constraint(equalTo: button.heightAnchor, multiplier: 2)
             ])
         }
     }

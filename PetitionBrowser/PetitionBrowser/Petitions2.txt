@@ -1,0 +1,3685 @@
+{
+   "metadata":{
+      "responseInfo":{
+         "status":200,
+         "developerMessage":"OK",
+         "userMessage":"",
+         "errorCode":"",
+         "moreInfo":""
+      },
+      "requestInfo":{
+         "apiVersion":1,
+         "resource":"petitions",
+         "query":{
+            "body":null,
+            "createdAfter":null,
+            "createdAt":null,
+            "createdBefore":null,
+            "isPublic":1,
+            "isSignable":null,
+            "limit":"100",
+            "mock":0,
+            "offset":0,
+            "petitionsDefaultLimit":"1000",
+            "publicThreshold":149,
+            "responseId":null,
+            "signatureCount":null,
+            "signatureCountCeiling":null,
+            "signatureCountFloor":"10000",
+            "signatureThreshold":null,
+            "signatureThresholdCeiling":null,
+            "signatureThresholdFloor":null,
+            "sortBy":"DATE_REACHED_PUBLIC",
+            "sortOrder":"ASC",
+            "status":null,
+            "title":null,
+            "url":null,
+            "websiteUrl":"https://petitions.whitehouse.gov"
+         }
+      },
+      "resultset":{
+         "count":148,
+         "limit":100,
+         "offset":0
+      }
+   },
+   "results":[
+      {
+         "id":"2434791",
+         "type":"petition",
+         "title":"Immediately release Donald Trump's full tax returns, with all information needed to verify emoluments clause compliance.",
+         "body":"The unprecedented economic conflicts of this administration need to be visible to the American people, including any pertinent documentation which can reveal the foreign influences and financial interests which may put Donald Trump in conflict with the emoluments clause of the Constitution.",
+         "petition_type":[
+            {
+               "id":276,
+               "name":"Tell us what the federal government is doing about an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":1114870,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/immediately-release-donald-trumps-full-tax-returns-all-information-needed-verify-emoluments-clause-compliance",
+         "deadline":1487530036,
+         "status":"responded",
+         "response":{
+            "id":2630367,
+            "url":"https://petitions.whitehouse.gov/response/response-your-petition-3",
+            "associationTime":1519418185
+         },
+         "created":1484938036,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1484938551
+      },
+      {
+         "id":"2434746",
+         "type":"petition",
+         "title":"Divest or put in a blind trust all of the President's business and financial assets",
+         "body":"",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":364428,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/divest-or-put-blind-trust-all-presidents-business-and-financial-assets",
+         "deadline":1487529528,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1484937528,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1484942272
+      },
+      {
+         "id":"2436006",
+         "type":"petition",
+         "title":"Let American Farmers Grow Hemp Once Again to Create Jobs and Rebuild the Rural Economy",
+         "body":"Industrial hemp was once a dominant crop on the American landscape. This hardy and renewable resource was refined for various industrial applications, including paper, textiles, and cordage. Unfortunately hemp was conflated with marijuana but hemp can&amp;#039;t be used as a drug. \n\nOver time, the use of industrial hemp has evolved into an even greater variety of products, including health foods, body care, clothing, auto parts, construction materials, biofuels, plastic composites and more.\n\nFarmers in Europe, Canada and China all grow hemp and over $600 million in imported hemp products  were sold in the USA in 2016. Congress has 2 bipartisan bills which would bring back hemp farming and create rural jobs. We request that President Trump work with Congress to pass hemp legislation in 2017",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":133,
+               "name":"Rural Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":115956,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/let-american-farmers-grow-hemp-once-again-create-jobs-and-rebuild-rural-economy",
+         "deadline":1487537867,
+         "status":"responded",
+         "response":{
+            "id":2630346,
+            "url":"https://petitions.whitehouse.gov/response/response-your-petition-0",
+            "associationTime":1519417827
+         },
+         "created":1484945867,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1484952666
+      },
+      {
+         "id":"2434936",
+         "type":"petition",
+         "title":"Donald Trump:  Resign as President of the United States in Violation of the Emoluments Clause.  Release Your Tax Returns",
+         "body":"The President violates the Title of Nobility Clause, as explained in Article I, Section 9 of the United States Constitution.\n\nThe clause states:  No title of nobility shall be granted by the United States: and no person holding any office of profit or trust under them, shall, without the consent of the Congress, accept of any present, emolument, office, or title, of any kind whatever, from any king, prince, or foreign state.\n\nDonald Trump has known financial ties with Russia, and owes hundreds of millions of dollars in debt to banks in foreign countries, such as China. The complicated business entanglements create a conflict of interest for national security issues.  The American People deserve to see his tax returns.\n\nDonald Trump needs to resign as President of the United States.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":141679,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/donald-trump-resign-president-united-states-violation-emoluments-clause-release-your-tax-returns",
+         "deadline":1487530804,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1484938804,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1484966814
+      },
+      {
+         "id":"2434701",
+         "type":"petition",
+         "title":"Repeal the NFA",
+         "body":"We the People wish to see the National Firearms Act of 1934 repealed in order to remove regulations on our 2nd amendment rights, increase national economic strength, and provide protection against threats to our national security.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":331,
+               "name":"Gun Violence"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":301139,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/repeal-nfa",
+         "deadline":1487528973,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1484936973,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1484990747
+      },
+      {
+         "id":"2435781",
+         "type":"petition",
+         "title":"Repeal the 1986 Hughes amendment",
+         "body":"The 1986 Hughes amendment (as part of the Firearm Owners Protection Act) is an unconstitutional ban that limits law abiding citizens from owning fully automatic weapons that were manufactured past May 19, 1986. Select fire weapons are already very heavily regulated under the 1934 National Firearms Act which requires you to register your gun and submit a tax stamp. Since 1934 there have only been 2 known homicides committed with a legally owned fully automatic firearm and one of them was caused by a police officer. This law does nothing to prevent crime and it raises the price of legal automatic weapons to a ludicrous price due to supply and demand. Repealing the unconstitutional Hughes amendment will restore our second amendment rights that have been under attack for a very long time.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":98029,
+         "signaturesNeeded":1971,
+         "url":"https://petitions.whitehouse.gov/petition/repeal-1986-hughes-amendment",
+         "deadline":1487536795,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1484944795,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1485016038
+      },
+      {
+         "id":"2437386",
+         "type":"petition",
+         "title":"Investigate Hillary Clinton for crimes committed against the People and Government of the United States.",
+         "body":"Evidence contained in leaked emails from the Democratic National Committee indicate the need for a thorough investigation of the actions taken by Hillary Rodham Clinton while occupying the positions of United States Senator and Secretary of State.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":20700,
+         "signaturesNeeded":79300,
+         "url":"https://petitions.whitehouse.gov/petition/investigate-hillary-clinton-crimes-committed-against-people-and-government-united-states",
+         "deadline":1487545945,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1484953945,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1485036770
+      },
+      {
+         "id":"2435786",
+         "type":"petition",
+         "title":"Demand Trump administration add LGBT rights, climate change, and civil rights back to list of issues on wh.gov site",
+         "body":"Within hours of the peaceful transition of power, the Trump administration removed Civil Rights, Climate Change, and LGBT Rights from the whitehouse.gov menu bar. We demand that the incoming administration prioritizes the rights of all Americans and our climate by re-enacting policies that address all of the aforementioned issues. \n\nSign this petition to make your voice be heard. We the people will not allow ourselves to be erased.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":296,
+               "name":"Energy &amp; Environment"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":75433,
+         "signaturesNeeded":24567,
+         "url":"https://petitions.whitehouse.gov/petition/demand-trump-administration-add-lgbt-rights-climate-change-and-civil-rights-back-list-issues-whgov-site",
+         "deadline":1487536815,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1484944815,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1485076383
+      },
+      {
+         "id":"2442306",
+         "type":"petition",
+         "title":"Do not defund the NEA or NEH",
+         "body":"Recent reports suggest President Donald Trump plans to defund the National Endowment for the Arts and the National Endowment for the Humanities. Without the NEA and NEH, artists and educators could be left without crucial government grants for their projects. Everything from orchestral performances to music enrichment programs in public schools would be negatively impacted.\n\nFunding for the national endowments are a minuscule portion -- 0.004% (!) -- of the nearly $4 trillion federal budget. In 2016, the NEA and NEH each received $148 million in funding.\n\nWe ask President Trump to support the arts by not defunding the NEA and NEH.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":306,
+               "name":"Budget &amp; Taxes"
+            },
+            {
+               "id":18,
+               "name":"Education"
+            },
+            {
+               "id":301,
+               "name":"Innovation: Arts &amp; Technology"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":112648,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/do-not-defund-nea-or-neh-0",
+         "deadline":1487609742,
+         "status":"responded",
+         "response":{
+            "id":2630374,
+            "url":"https://petitions.whitehouse.gov/response/response-your-petition-4",
+            "associationTime":1519418293
+         },
+         "created":1485017742,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1485151289
+      },
+      {
+         "id":"2435006",
+         "type":"petition",
+         "title":"Boost the American Economy through Climate Action",
+         "body":"The international economy is undergoing a revolution: nations are boosting their economies while reducing their pollution.\n\nU.S. trade partners and economic competitors are finding clean energy (solar, wind) and energy efficiency to be strongly boosting their economies and increasing competitiveness while leading to cleaner air and water for their people.  China has recently announced plans to invest $350 billion (BILLION) in clean energy while creating 13 million jobs by 2020.  \n\nWith each passing day, clean energy options are becoming less expensive and increasingly (far) lower cost than traditional, polluting fossil-fuel energy options. \n\nThe Trump Administration can fulfill its pledge to protect air/water, create jobs, and boost the economy through serious climate action.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            },
+            {
+               "id":296,
+               "name":"Energy &amp; Environment"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":22608,
+         "signaturesNeeded":77392,
+         "url":"https://petitions.whitehouse.gov/petition/boost-american-economy-through-climate-action",
+         "deadline":1487531572,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1484939572,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1485188273
+      },
+      {
+         "id":"2442081",
+         "type":"petition",
+         "title":"Issue an International Arrest Warrant for George Soros",
+         "body":"George Soros is a menace to the free world and stands in the way of making America great again. He is guilty of the following crimes:\n\n1) Financially supports open sedition in major American cities resulting in millions of dollars of property damage as well as loss of life.\n\n2) Attempts to manipulate democratic elections by donating millions of dollars to his preferred candidates.\n\n3) Seeks to curtail American sovereignty. In his own words: \"The main obstacle to a stable and just world order is the United States ... Changing [the] attitude and policies of the United States remains my top priority.\" \n\n4) Is a currency manipulator. Soros initiated a British financial crisis by dumping 10 billion sterling, forcing the devaluation of the currency and gaining a billion-dollar profit.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":58657,
+         "signaturesNeeded":41343,
+         "url":"https://petitions.whitehouse.gov/petition/issue-international-arrest-warrant-george-soros",
+         "deadline":1487606605,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1485014605,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1485269026
+      },
+      {
+         "id":"2444346",
+         "type":"petition",
+         "title":"Restore and maintain accurate, science-based information on climate change to the White House website.",
+         "body":"The broad scientific consensus is that climate change is real and that human action is a significant contributing factor.\n\nAs an industrial nation, as one of the major contributors to greenhouse gas emissions, and as a leading academic and scientific center, it is incumbent upon the United States to take vigorous and proactive steps to understand the nature of climate change and to mitigate the effects on the planet. The president must display leadership and champion effective action before it is too late. Nature does not negotiate or give extensions.\n\nPlease immediately restore information on climate change to the White House website and take strong action to show that the US will be a leader in addressing this global issue.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":296,
+               "name":"Energy &amp; Environment"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":39466,
+         "signaturesNeeded":60534,
+         "url":"https://petitions.whitehouse.gov/petition/restore-and-maintain-accurate-science-based-information-climate-change-white-house-website",
+         "deadline":1487633664,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1485041664,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1485340759
+      },
+      {
+         "id":"2440436",
+         "type":"petition",
+         "title":"Preserve the National Endowment for the Arts and the National Endowment for the Humanities",
+         "body":"The Arts and Humanities  are a vital part of our cultural identity and enhance the quality of our lives. They connect us to the past, they speak to us in the present, and they are our legacy, our gift to the future.  Investing in them is never a waste, and I strongly urge that both the National Endowment for the Arts and National Endowment for the Humanities continue to receive federal funding.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":306,
+               "name":"Budget &amp; Taxes"
+            },
+            {
+               "id":18,
+               "name":"Education"
+            },
+            {
+               "id":301,
+               "name":"Innovation: Arts &amp; Technology"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":224569,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/preserve-national-endowment-arts-and-national-endowment-humanities",
+         "deadline":1487571417,
+         "status":"responded",
+         "response":{
+            "id":2630374,
+            "url":"https://petitions.whitehouse.gov/response/response-your-petition-4",
+            "associationTime":1519418293
+         },
+         "created":1484979417,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1485587135
+      },
+      {
+         "id":"2461851",
+         "type":"petition",
+         "title":"Ungag the Environmental Protection Agency.",
+         "body":"The EPA provides a robust list of protections to the American people.  The recent executive order restricting the EPA from engaging with the public through social media violates the standards of a fair and open government. Please reverse the executive actions placed on the EPA.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":296,
+               "name":"Energy &amp; Environment"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":13539,
+         "signaturesNeeded":86461,
+         "url":"https://petitions.whitehouse.gov/petition/ungag-environmental-protection-agency",
+         "deadline":1487902620,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1485310620,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1486493200
+      },
+      {
+         "id":"2461891",
+         "type":"petition",
+         "title":"Do not halt refugee resettlement, lower the number we resettle, or stop resettlement based on religion/country of origin",
+         "body":"Stopping refugee resettlement, for any period of time for any group of people, would undermine our nationxs founding principles of being a beacon of freedom and hope. This is a program that saves hundreds of lives every day, and strengthens our communities and our nation. Stopping refugee resettlement will have profound and detrimental consequences. Lives will be lost and our national interests will be at risk. The United States can x and must x continue to welcome refugees while continuing to ensure our own security. Our history has proven you donxt need to make a choice, and we should continue to do both. We urge President Trump to not stop refugee resettlement for any period of time, lower the amount of refugees we resettle, or stop resettlement based on religion or country of origin.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":11176,
+         "signaturesNeeded":88824,
+         "url":"https://petitions.whitehouse.gov/petition/do-not-halt-refugee-resettlement-lower-number-we-resettle-or-stop-resettlement-based-religioncountry-origin",
+         "deadline":1487903222,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1485311222,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1486496160
+      },
+      {
+         "id":"2457216",
+         "type":"petition",
+         "title":"America first, make Netherlands second because they requested it!",
+         "body":"The Netherlands has requested, within the scope of the new America first initiatives, to be simply: second. They don't want us to forget about them. So the White House should give them a call. 2nd place is open, and they asked nicely before anyone else. We'll make them great too. We can do it.\n\nhttps://youtu.be/j-xxis7hDOE?t=39s",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":67986,
+         "signaturesNeeded":32014,
+         "url":"https://petitions.whitehouse.gov/petition/america-first-make-netherlands-second-because-they-requested-it",
+         "deadline":1487847294,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1485255294,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1486511337
+      },
+      {
+         "id":"2467066",
+         "type":"petition",
+         "title":"AMNESTY TO CUBANS STUCK IN TRANSIT THAT LEFT CUBAN PRIOR TO JANUARY 12TH AND ARE IN LIMBO IN MEXICO",
+         "body":"We are asking that while we are aware that things cannot continue \"status quo\"  we can't turn our backs on the safety of the Cubans in Nuevo Laredo.  We request that the Senators and President Trump enact an order that will provide amnesty to Cubans who have a passport stamped leaving Cuba prior to January 12 and are in transit to USA.  Cubans under this amnesty will be processed through all the legal immigration laws that are required in the USA.  This will also send a message that if you are thinking about starting the trip we have a process that you have to do that it is no longer \"status quo\".  Please assist us in any way possible please.  As of 01/25/2017 the number at Nuevo Laredo Mexico waitin to cross is at 900.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":17864,
+         "signaturesNeeded":82136,
+         "url":"https://petitions.whitehouse.gov/petition/amnesty-cubans-stuck-transit-left-cuban-prior-january-12th-and-are-limbo-mexico",
+         "deadline":1487976602,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1485384602,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1486588321
+      },
+      {
+         "id":"2468051",
+         "type":"petition",
+         "title":"Repeal the new 2016-2017 unconstitutional gun bans in California and restore the people's 2A rights.",
+         "body":"The law abiding citizens of California are being systematically stripped of their second amendment rights by The Democratic majority pushing their agenda to rid the state of guns in a way that is biased and one-sided.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":10805,
+         "signaturesNeeded":89195,
+         "url":"https://petitions.whitehouse.gov/petition/repeal-new-2016-2017-unconstitutional-gun-bans-california-and-restore-peoples-2a-rights",
+         "deadline":1487992242,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1485400242,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1486593974
+      },
+      {
+         "id":"2476731",
+         "type":"petition",
+         "title":"Bring Niki Mossafer Rahmati, a current MIT student from Iran, back to the US",
+         "body":"Niki is from Iran and went back home for winter break. She was trying to fly back to Boston last night. She was denied access to her connecting flight to the U.S. and sent back home to Iran. Niki has a student visa and is an extremely active part of the MIT community. Please help her come back to MIT.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":18,
+               "name":"Education"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":13285,
+         "signaturesNeeded":86715,
+         "url":"https://petitions.whitehouse.gov/petition/bring-niki-mossafer-rahmati-current-mit-student-iran-back-us",
+         "deadline":1488223165,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1485631165,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1486713113
+      },
+      {
+         "id":"2486981",
+         "type":"petition",
+         "title":"Remove Steve Bannon from National Security Council",
+         "body":"Through executive order, Steve Bannon has a full seat on the xprincipals committeex of the National Security Council and the roles of the chairman of the Joint Chiefs of Staff and the director of national intelligence have been downgraded.   This is an unprecedented elevation of a political adviser to a status alongside the secretaries of state and defense and over the presidentxs top military and intelligence advisers - and it must be reversed.  Remove Steve Bannon from National Security Council.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":41277,
+         "signaturesNeeded":58723,
+         "url":"https://petitions.whitehouse.gov/petition/remove-steve-bannon-national-security-council-7",
+         "deadline":1488555775,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1485963775,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1486845112
+      },
+      {
+         "id":"2487986",
+         "type":"petition",
+         "title":"We, The Citizens of the United States of America, Demand Donald Trump be Impeached.",
+         "body":"By citing the ICA, FBI/CIA/NSA findings that Russia directly, and without precedent, interfered in the 2016 U.S. election we, the undersigned American people, demand Donald J. Trump be removed from office. The election results should have been nullified upon the investigations conclusion but when Donald Trump, with video evidence, encouraged Russia to interfere in the 2016 election he engaged in treason-a crime against our country and its people- and that alone is a crime requiring his removal from office of President via the impeach process.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":16284,
+         "signaturesNeeded":83716,
+         "url":"https://petitions.whitehouse.gov/petition/we-citizens-united-states-america-demand-donald-trump-be-impeached",
+         "deadline":1488598211,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1486006211,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1486891322
+      },
+      {
+         "id":"2488991",
+         "type":"petition",
+         "title":"Do Not Cut the Office of Violence Against Women!",
+         "body":"I strongly urge you to protect the Office of Violence Against Women.  This office is vital for the protection of women's rights and the reduction of sexual assault and domestic violence.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":26039,
+         "signaturesNeeded":73961,
+         "url":"https://petitions.whitehouse.gov/petition/do-not-cut-office-violence-against-women",
+         "deadline":1488649421,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1486057421,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1486931732
+      },
+      {
+         "id":"2494431",
+         "type":"petition",
+         "title":"Forgotten American in Turkey",
+         "body":"American Pastor Andrew Brunson has languished in prison in Turkey since October 2016, falsely charged with xmembership in an armed terrorist organizationx despite the Turkish authorities having no evidence against him. Pastor Andrew is a U.S. citizen from North Carolina who (with his family) has lived peacefully in Turkey since 1993.\n\nWe urge the President of the United States to request that Turkish President Erdoxan order Andrew's immediate release and return to the United States.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":23656,
+         "signaturesNeeded":76344,
+         "url":"https://petitions.whitehouse.gov/petition/forgotten-american-turkey",
+         "deadline":1489010010,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1486418010,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1487103525
+      },
+      {
+         "id":"2496651",
+         "type":"petition",
+         "title":"Confiscate all social media accounts of President Donald Trump and prohibit further use.",
+         "body":"President Trump has made extensive use of twitter during his Presidency in disturbing ways.  His tweets have at times been embarrassing to the country, and unbecoming the office of President of the United States.  He has used the government&#039;s official @potus account to lobby for business interests.  He has at times insulted officials of the federal government.\n\nMost disturbing of all is the fact that the President&#039;s social media addiction has distracted him from performing important official duties, such as monitoring important military actions he ordered, or attending daily intelligence briefings.  For the sake of national security, the President should be prevented from using (directly or indirectly) social media during the remainder of his term.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":22227,
+         "signaturesNeeded":77773,
+         "url":"https://petitions.whitehouse.gov/petition/confiscate-all-social-media-accounts-president-donald-trump-and-prohibit-further-use",
+         "deadline":1489180907,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1486588907,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1487163723
+      },
+      {
+         "id":"2506736",
+         "type":"petition",
+         "title":"Support 9,600 American jobs: Tell the FTA to approve funding for Caltrain electrification.",
+         "body":"Mr. Trump,\n\nYou have said infrastructure and jobs will be a keystone of your administration. When you spoke with Silicon Valley leaders you praised their innovation and said \"anything we can do to help this go along, wexre going to be there for you.\" In talks with Japanese Prime Minster Abe, he cited high speed rail as technology that could create prosperity and thousands of US jobs.\n\nShovel-ready transportation projects would put Americans to work in good manufacturing and infrastructure jobs. xCaltrain Electrification would support over 9,600 Americans, not only in California, but in states including Utah, Virginia, and Pennsylvania. \n\nhttp://www.caltrain.com/projectsplans/CaltrainModernization.html\n\nDirect the FTA to approve the $647 million in funding for Caltrain electrification",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            },
+            {
+               "id":346,
+               "name":"Transportation &amp; Infrastructure"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":15670,
+         "signaturesNeeded":84330,
+         "url":"https://petitions.whitehouse.gov/petition/support-9600-american-jobs-tell-fta-approve-funding-caltrain-electrification",
+         "deadline":1490048059,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1487459659,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1487528678
+      },
+      {
+         "id":"2507411",
+         "type":"petition",
+         "title":"Repeal the 1986 Full Auto Ban 18 USC \u00a7 922(o)",
+         "body":"The 1986 Hughes Amendment (as part of the Firearm Owners Protection Act) is an unconstitutional ban that limits law abiding citizens from owning fully automatic weapons that were manufactured past May 19, 1986. Since 1934 there have only been 2 known homicides committed with a legally owned fully automatic firearms This law does nothing to prevent crime and it raises the price of legal automatic weapons to a ludicrous price due to supply and demand. Repealing the unconstitutional Hughes Amendment will help restore our God-given right to keep and bear arms.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":18637,
+         "signaturesNeeded":81363,
+         "url":"https://petitions.whitehouse.gov/petition/repeal-1986-full-auto-ban-18-usc-ss-922o",
+         "deadline":1490138840,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1487550440,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1487556729
+      },
+      {
+         "id":"2507686",
+         "type":"petition",
+         "title":"The President of the Republic of Korea, Park Geun-Hye shouldn't be impeached by Korean National Assembly!!!",
+         "body":"Dear Mr. President,\n\nThe President of the Republic of Korea, Park Geun-Hye is a legitimate President, who has been elected by the people of Korea. Recently, she was illegally impeached by prosecutors, special investigators, and the Korean National Assembly. \n\nWithout any evidence and deviating from the presumptions of innocence, the prosecutor and even the legislature pursued the impeachment of the President. We as the People of Korea want to inform Mr. Trump and the American people about the unfairness of the impeachment. Because of this impeachment, the President is struggling in the forefront in preserving our country's democratic values.\n \nIf the Korean National Assembly are impeaching President Park for such governing act, all of the politicians in Korea must be impeached as well.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":10228,
+         "signaturesNeeded":89772,
+         "url":"https://petitions.whitehouse.gov/petition/president-republic-korea-park-geun-hye-shouldnt-be-impeached-korean-national-assembly",
+         "deadline":1490164242,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1487575842,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1487786595
+      },
+      {
+         "id":"2510361",
+         "type":"petition",
+         "title":"FIGHT FOR TRANSGENDER RIGHTS",
+         "body":"Today, I found out that trump administration has taken away my right to use the restroom that matches the way I view myself. Which leaves me with no public restroom to use. I have already started my transition to appear more masculine, so I cannot enter the woman&#039;s restroom cause I will be questioned and possibly harassed due to how I appear to be and what you are forcing upon our community. All I ask is to move forward with President Obama&#039;s change as to letting people use the restroom that matches the gender they identify as. Not the gender they&#039;re forced to be.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":25,
+               "name":"Health Care"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":64230,
+         "signaturesNeeded":35770,
+         "url":"https://petitions.whitehouse.gov/petition/fight-transgender-rights",
+         "deadline":1490465589,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1487877189,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1487878800
+      },
+      {
+         "id":"2510496",
+         "type":"petition",
+         "title":"Keep your campaign pledge to respect state marijuana legalization laws.",
+         "body":"On February 23, Press Secretary Sean Spicer indicated the Department of Justice might begin \"greater enforcement\" of federal law in states that have legalized marijuana. But during the campaign President Trump repeatedly pledged that if elected the federal government would respect the rights of states to enact their own cannabis laws. That is a wise policy supported by a growing super-majority of voters. They know that state marijuana legalization laws hurt the cartels, fund our schools and roads, and protect public health and safety. Studies in the Journal of the American Medical Association and others have shown that states with legal and accessible medical and recreational marijuana see a significant reduction in opioid death rates. Please keep your promise to the American people.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":35077,
+         "signaturesNeeded":64923,
+         "url":"https://petitions.whitehouse.gov/petition/keep-your-campaign-pledge-respect-state-marijuana-legalization-laws",
+         "deadline":1490476010,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1487887610,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1487888483
+      },
+      {
+         "id":"2510661",
+         "type":"petition",
+         "title":"Petition to Ban Google's Blatant Suppression of Free Speech",
+         "body":"Google, which controls 67.5%  of internet searches in the United States is attempting to silence any voice that doesn't coincide with their political views. This incidentally targets some of the biggest voices in alternative media, such as NaturalNews.com and Infowars.com.\n\nThis week Google wiped 140,000 Naturalnews.com articles from its database, prohibiting individuals from viewing the sites webpages if searched. Google sent no prior warning. Natural News has stated that they follow all Google terms of service rules and that they do not condone or endorse any techniques that may manipulate Natural News in the search engines. \n\nThis censorship of the Independent Media is a blatant attack on the first amendment rights of users.\n\nPlease sign and share this petition.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":301,
+               "name":"Innovation: Arts &amp; Technology"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":71770,
+         "signaturesNeeded":28230,
+         "url":"https://petitions.whitehouse.gov/petition/petition-ban-googles-blatant-suppression-free-speech",
+         "deadline":1490485283,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1487896883,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1487904144
+      },
+      {
+         "id":"2511586",
+         "type":"petition",
+         "title":"Indian Engineers  target of Hate Crime.",
+         "body":"The fatal shooting of an Indian engineer allegedly gunned down by a Kansas man on Wednesday, February 22nd, 2017,  who said xget out of my countryx must be treated as a hate crime.\n\nWe call upon President Donald Trump to state clearly and unequivocally that he denounces this incident.  We would also like the US Department of Justice and local law enforcement to investigate this murder as what it is, a hate crime. Anything less will be an injustice to the victims and their families.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":331,
+               "name":"Gun Violence"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":52884,
+         "signaturesNeeded":47116,
+         "url":"https://petitions.whitehouse.gov/petition/indian-engineers-target-hate-crime",
+         "deadline":1490566600,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1487978200,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1488004733
+      },
+      {
+         "id":"2514516",
+         "type":"petition",
+         "title":"Take Action to End the Autism Epidemic and Implement Comprehensive Reforms of Vaccine Safety Policies",
+         "body":"We cannot make America great with so many disabled autistic children, so we must urgently face the autism epidemic, admit its reality and confront its stunning rise.  In addition, we must rein in Americaxs exploding vaccine schedule. Crucial to any reform in both autism and vaccine policy is an initiative to shine light on corruption and xdrain the swampx of unaccountable bureaucrats.\nWe ask you to take six actions:\n1. Declare autism a national emergency. \n2. Convene a Presidential Commission on Vaccine Safety and Scientific Integrity. \n3. Depose the CDC whistleblower Dr. William Thompson.\n4. Conduct a study comparing total health outcomes in vaccinated and unvaccinated populations. \n5. Create a National Vaccine Safety Board.\n6. Repeal and Replace the National Childhood Vaccine Injury Act.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            },
+            {
+               "id":25,
+               "name":"Health Care"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":17208,
+         "signaturesNeeded":82792,
+         "url":"https://petitions.whitehouse.gov/petition/take-action-end-autism-epidemic-and-implement-comprehensive-reforms-vaccine-safety-policies",
+         "deadline":1490970386,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1488381986,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1488392615
+      },
+      {
+         "id":"2525016",
+         "type":"petition",
+         "title":"xEAST SEAx - Change US Policy to Recognize Both EAST SEA &amp; Sea of Japan. Both IHO &amp; UNCSGN Recommend Concurrent Usage.",
+         "body":"Name of Sea between Korea and Japan is in dispute:\n1.\tEAST SEA was used by Koreans more than 2,000 years. Korean National Anthem starts with EAST SEA.\n2.\tEAST SEA was marked as Sea of Japan in the World Map at IHO Meeting in 1929. Korea was occupied by Japanese Military Force and could not raise a voice.\n3.\tIn 1974 &amp; 1977, Both IHO &amp; UNCSGN Recommended Concurrent Usage of EAST SEA and Sea of Japan.\n4.\tUN Resolution said xA policy of accepting only one or some of such names while excluding the rest would be inconsistent as well as inexpedient in practice.x\n5.\tIn 2014, Virginia passed a Legislation to have all publishers to update the textbooks to have both names.\nUS is urged to change its policy to recognize both names &amp; pass East Sea/Sea of Japan amendment at IHO Meeting on April 24, 2017.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":18,
+               "name":"Education"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":109158,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/east-sea-change-us-policy-recognize-both-east-sea-sea-japan-both-iho-uncsgn-recommend-concurrent-usage",
+         "deadline":1492661524,
+         "status":"responded",
+         "response":{
+            "id":2630353,
+            "url":"https://petitions.whitehouse.gov/response/response-your-petition-1",
+            "associationTime":1519417938
+         },
+         "created":1490069524,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1490210598
+      },
+      {
+         "id":"2526946",
+         "type":"petition",
+         "title":"Reinstating \"Protecting the Privacy of Customers of Broadband and Other Telecommunications Services\"",
+         "body":"On March 7th, 2017, a repeal for the \"Protecting the Privacy of Customers of Broadband and Other Communication Services\" bill that protects the people from having their information sold from ISPs to paying bidders. On March 23rd, 2017, a joint resolution was made and the bill was repealed by our senators who had received generous donations from Internet Service Providers (ISPs) such as AT&amp;T and Comcast.\n\nWe the people, by signing this petition, demand that Congress reinstates this bill to protect the American people from having their information released by our ISPs.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":22139,
+         "signaturesNeeded":77861,
+         "url":"https://petitions.whitehouse.gov/petition/reinstating-protecting-privacy-customers-broadband-and-other-telecommunications-services",
+         "deadline":1493049662,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1490457662,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1490485610
+      },
+      {
+         "id":"2528026",
+         "type":"petition",
+         "title":"Puerto Rico's Debt Shall be Audited",
+         "body":"The people of Puerto Rico demand for the politicians, bankers and government agencies responsible for the debt to be held liable for their corruption. We demand a financial oversight and management board with no personal interests in the debt, with a fixed salary attune with our financial reality, and working to benefit our economy.  \nWe are being extorted and we are being enslaved. The people of Puerto Rico refuse to pay a debt that is not ours. We will not choose between education or healthcare. Our elders will not have their pensions reduced. We demand immediate action.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":18,
+               "name":"Education"
+            },
+            {
+               "id":25,
+               "name":"Health Care"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":16715,
+         "signaturesNeeded":83285,
+         "url":"https://petitions.whitehouse.gov/petition/puerto-ricos-debt-shall-be-audited",
+         "deadline":1493312686,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1490720686,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1490892002
+      },
+      {
+         "id":"2531121",
+         "type":"petition",
+         "title":"Urge  Xi Jinping to end forced organ harvesting of Falun Gong practitioners and other prisoners of conscience in China.",
+         "body":"Irrefutable evidence shows that former Chinese President, Jiang Zemin, not only started a brutal persecution against Falun Gong in 1999, but also initiated the abominable and deadly forced organ harvesting practice against this peaceful groupxa practice that is intolerable in the 21st century. The civilized world must stand up against these atrocities and demand an end to one of the greatest human rights violations of our time.\n\nMr. President, AMERICA FIRST signifies core American values. The defense of human rights is one of our greatest virtues and the foundation of our nation. You have a chance to show the world that the United States remains the leader in defending human rights and will not remain silent in the face of these crimes against humanity.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":78816,
+         "signaturesNeeded":21184,
+         "url":"https://petitions.whitehouse.gov/petition/urge-xi-jinping-end-forced-organ-harvesting-falun-gong-practitioners-and-other-prisoners-conscience-china",
+         "deadline":1494024419,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1491432419,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1491446600
+      },
+      {
+         "id":"2531666",
+         "type":"petition",
+         "title":"9-1-1 Professionals Should be Recognized for Protecting and Saving Lives",
+         "body":"In the United States, children are taught to call 9-1-1 because the public trusts 9-1-1 professionals will be there to take appropriate action to protect them. The federal governmentxs classification system describing occupations in the United States  must be updated to recognize these professionals for their dedication and the lifesaving nature of their work. Sign this petition to ensure 9-1-1 professionals receive the recognition and respect they deserve for the work they do. Learn more about this issue at www.apcointl.org/soc.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":59276,
+         "signaturesNeeded":40724,
+         "url":"https://petitions.whitehouse.gov/petition/9-1-1-professionals-should-be-recognized-protecting-and-saving-lives",
+         "deadline":1494161239,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1491569239,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1491584120
+      },
+      {
+         "id":"2532791",
+         "type":"petition",
+         "title":"#ChineseLivesMatters Calling a federal investigation into the United Airlines incident on 10th April 2017",
+         "body":"On 11th April 2017, a passenger was forcefully removed from the plane because he refused to give up his seat. He was dragged off brutally and violently. Blood is visible on his face and body. The flight was departing O&#039;Hare Interntaional Airport in Chicago for Louisville, Kentucky.\r\n\r\nThe passenger explained that he is a doctor and he is on his way to see his patients thus he cannot reschedule his flight. This resulted in him being forcefully dragged off the plane and the force deployed caused him to bleed. \r\n\r\nThe passenger was shouting that he was chosen to leave the flight only because he is Chinese, according to the news report by the New York Times. \r\n\r\n\r\nWe are calling the federal government to launch an investigation into this incident. \r\n\r\n#ChineseLivesMatters",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":214151,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/chineselivesmatters-calling-federal-investigation-united-airlines-incident-10th-april-2017",
+         "deadline":1494476130,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1491884130,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1491885900
+      },
+      {
+         "id":"2534441",
+         "type":"petition",
+         "title":"To save kulbhushan Jhadav from death sentence awarded by Pakistan millitry.",
+         "body":"This petition seeks justice for Mr Kulbhushan Jadhav an Indian citizen and ex-naval officer aged about 46 years who was abducted from Iran and taken to Pakistan. \nThe said Mr Kulbhushan Jadhav is awarded death sentence over charges of terrorism and spying for India's Research and Analysis Wing, which is totally false and baseless.\nThe fact that India isn't given consular access to Kulbhushan Jadhav clearly proves the point that the charges over which death sentence is awarded to Kulbhushan Jadhav are false and fabricated. \nIn view of above, I humbly request appropriate and capable authorities to intervene in the matter and make sure that Mr Kulbhushan Jadhav doesn't get punished for the act which which he never committed. I also united nation to look in to this matter thank you.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":71076,
+         "signaturesNeeded":28924,
+         "url":"https://petitions.whitehouse.gov/petition/save-kulbhushan-jhadav-death-sentence-awarded-pakistan-millitry",
+         "deadline":1494767276,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1492175276,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1492284482
+      },
+      {
+         "id":"2537026",
+         "type":"petition",
+         "title":"We ask President Trump sanction the Maduro Regime and urge the world community to allow the  Venezuelan opposition",
+         "body":"The people of Venezuela have been kidnapped into a socialist dictatorship spawned by the Castro regime. Venezuela, once the most prosperous country of Latin America is now languishing in violence, sickness and hunger. Venezuelans are dying of simple infection for lack of the most basic antibiotics. Their currency is worthless and their stores are empty. Dictator Nicolas Maduro, his family and cohorts, are living like royalty in the fashion of Assad, Qaddafi, and similar despots; while their countrymen are literally starving and beaten into submission. The Maduro regime provides passports for terrorists. Venezuela has the largest oil deposit in the world. We urge President to take action in rescuing Venezuela for the good of the Venezuela people and the energy interests of the United States",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":54253,
+         "signaturesNeeded":45747,
+         "url":"https://petitions.whitehouse.gov/petition/we-ask-president-trump-sanction-maduro-regime-and-urge-world-community-allow-venezuelan-opposition",
+         "deadline":1495507022,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1492915022,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1493051963
+      },
+      {
+         "id":"2539876",
+         "type":"petition",
+         "title":"Audit Puerto Rico's debt",
+         "body":"The unelected Fiscal Supervision Board imposed onto Puerto Rico pretends to implement the PROMESA law. Its main purpose is the full payment of a staggering $78 billion debt. It plans to impose extreme auterity measures that would plunge the island  into an unprecedented depression.\n\nThe people of Puerto Rico are only willing to pay back what was rightfully used, and refuse to pay the illegal use of funds. We demand the debt be audited by an external entity with no personal interest on the debt.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":306,
+               "name":"Budget &amp; Taxes"
+            },
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            },
+            {
+               "id":18,
+               "name":"Education"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":54856,
+         "signaturesNeeded":45144,
+         "url":"https://petitions.whitehouse.gov/petition/audit-puerto-ricos-debt",
+         "deadline":1496323211,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1493731211,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1493744941
+      },
+      {
+         "id":"2542201",
+         "type":"petition",
+         "title":"WE DEMAND THAT CONGRESS APPOINT A SPECIAL INDEPENDENT COUNSEL TO INVESTIGATE THE TRUMP ADMINISTRATION'S RUSSIA TIES",
+         "body":"The President has fired the person investigating him for his campaign's ties to Russia. This is an assault on the rule of law. The Congress must, as a coequal branch of government, appoint a special independent counsel, with subpoena power, to continue this investigation.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":10169,
+         "signaturesNeeded":89831,
+         "url":"https://petitions.whitehouse.gov/petition/we-demand-congress-appoint-special-independent-counsel-investigate-trump-administrations-russia-ties",
+         "deadline":1496963050,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1494371050,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1494382934
+      },
+      {
+         "id":"2542561",
+         "type":"petition",
+         "title":"To the President of the United States of America Donald Trump",
+         "body":"According to The Foreign Policy the assistance to developing countries through USAID would reduce more than a third. We cast out vote for Trump and believed the slogan \"Let's make America great again\". But we Americans donxt want in a few years to kneel before the aggressor countries that donxt know what democracy is. Ukraine needs Americaxs financial assistance.  Itxs necessary to encourage movement towards European institutions there. Russia, where the upcoming presidential election will run Navalny needs it. Syria and Iraq where itxs necessary to increase the support of local forces need the assistance. Who else will lead the fight, if we wonxt? \nOn behalf of all the citizens of USA we ask to review the policy course through USAID and keep the funding of the assistance programs in full.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":10806,
+         "signaturesNeeded":89194,
+         "url":"https://petitions.whitehouse.gov/petition/president-united-states-america-donald-trump",
+         "deadline":1497013593,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1494421593,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1494424176
+      },
+      {
+         "id":"2543221",
+         "type":"petition",
+         "title":"Help For Children Stuck in the Ethiopian Adoption Process",
+         "body":"On April 21st, the Prime Minister of Ethiopia instituted an indefinite suspension to inter-country adoptions from Ethiopia. The Prime Minister did not state the reason for nor the length of this suspension. This has affected over 200 American families who are in process of adopting from Ethiopia. \n\nMost urgently, we are requesting help for the more than twenty families who have completed court in Ethiopia and have become the legal adoptive parents to their children. They have met their children and bonded with them, and now these families are unable to bring their children home. We are requesting congressional action, as well as help from the State Department to help bring a swift end to this crisis.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":13379,
+         "signaturesNeeded":86621,
+         "url":"https://petitions.whitehouse.gov/petition/help-children-stuck-ethiopian-adoption-process",
+         "deadline":1497125353,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1494533353,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1494537788
+      },
+      {
+         "id":"2545476",
+         "type":"petition",
+         "title":"Help and protect Chinese whisle blower and exile Guo Wen Gui",
+         "body":"Chinese billionaire Guo Wen Gui is hunted by Chinese communist party by all means, he is exposing the massive corruption on highest level of Communist party and launching a campaign to push for Chinese Constitutional reform. Now CCP has bribed and used Interpol to issue a red notice on him, CCP has also issued an extremely high assassination bounty reward for Guo and his family.  According to Guo's words, CCP has bribed, threatened several countries government and companies to work for them in order to get Guo, illegally confiscate Guo's asset and tarnish Guo's reputation worldwide. They are also trying all means to bribe American congressmen and judge to make them arrest Guo and send him back to China according to Guo's words.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":31060,
+         "signaturesNeeded":68940,
+         "url":"https://petitions.whitehouse.gov/petition/help-and-protect-chinese-whisle-blower-and-exile-guo-wen-gui",
+         "deadline":1497707613,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1495115613,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1495125234
+      },
+      {
+         "id":"2545981",
+         "type":"petition",
+         "title":"Appoint a Special Prosecutor to investigate the murder of Seth Rich, the alleged Wikileaks email leaker",
+         "body":"On July 10, 2016, Seth Rich was shot twice in the early morning as he walked back to his house in Washington D.C. Immediately after the crime, the death was called an armed robbery... but none of Seth Rich's belongings were taken from him. \n\nRod Wheeler, a private investigator hired by the family, said that there was evidence Seth Rich had contacted WikiLeaks and that law enforcement were covering this up. MSM is not covering this murder, instead pushing  it to the side, so it is now up to us.\n\nThe facts do not add up, law enforcement stopped covering the crime, and now it is time for us to fight for justice. Seth Rich deserves this.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":331,
+               "name":"Gun Violence"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":68884,
+         "signaturesNeeded":31116,
+         "url":"https://petitions.whitehouse.gov/petition/appoint-special-prosecutor-investigate-murder-seth-rich-alleged-wikileaks-email-leaker",
+         "deadline":1497810971,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1495218971,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1495298706
+      },
+      {
+         "id":"2549346",
+         "type":"petition",
+         "title":"Remain in the Paris Climate Agreement",
+         "body":"Mr. President, please remain committed to the Paris climate agreement. You have talked to many of the best scientists and advocates who know that human-caused carbon dioxide release into the atmosphere is causing the climate to warm. Global warming is predicted to have dangerous effects on the earth. It will drastically change the way we live and can live. Farms will dry up. Coastal land will flood. This will force millions and billions to move, and create major food shortages and conflicts, killing and hurting many people.\n\nMany surprising leaders in your own government including Sec. Rex Tillerson and Sec. Rick Perry are urging you to remain in and participate in the Paris Climate agreement. We the People also urge you to take action. Remain in the Paris climate agreement.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            },
+            {
+               "id":296,
+               "name":"Energy &amp; Environment"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":34863,
+         "signaturesNeeded":65137,
+         "url":"https://petitions.whitehouse.gov/petition/remain-paris-climate-agreement",
+         "deadline":1498836849,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1496244849,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1496248965
+      },
+      {
+         "id":"2551026",
+         "type":"petition",
+         "title":"Revoke CNN's Press Pass",
+         "body":"CNN has continuely proven itself to provide false information to the American people , stage various interviews and events, and is not truthful with the information it is presenting to the public and the way in which they are doing it. \r\n\r\nInstead of focusing on pressing issues, they continue to harp on conspiracy theories, provide false information, and twist the truth in order to fit their narrative. \r\n\r\nThe people deserve better than CNN and should not have a fake news network feeding them false information. The staging of events, using their own employees as actors, and telling people what to do behind the scenes while presenting it all as true has to stop.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":11857,
+         "signaturesNeeded":88143,
+         "url":"https://petitions.whitehouse.gov/petition/revoke-cnns-press-pass-0",
+         "deadline":1499285922,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1496693922,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1496695253
+      },
+      {
+         "id":"2552631",
+         "type":"petition",
+         "title":"Free Russian political prisoners",
+         "body":"As you may be aware, peaceful mass demonstrations were held in Moscow as well as in most regions of Russia this year on the 26th of March. They protested the corruption in the highest levels of state power, including that of the Russian Prime Minister, Dmitry Medvedev. As a result of these demonstrations, the Russian authorities conducted a literal \"witch hunt\" which resulted in the mass arrests of the citizens involved in these protests. Hundreds of people have already been arrested or convicted by the courts for various degrees of incarceration. In anticipation of your meeting with the President  V. V. Putin, we ask that one of the prerequisites of this meeting to be the immediate release of Alexey Politikov as well as all those arrested and convicted for the March 26th rallies.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":18787,
+         "signaturesNeeded":81213,
+         "url":"https://petitions.whitehouse.gov/petition/free-russian-political-prisoners",
+         "deadline":1499811811,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1497219811,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1497254951
+      },
+      {
+         "id":"2552876",
+         "type":"petition",
+         "title":"halting ALL deportation orders involving Chaldeans (Iraqi Christians) getting sent to Iraq, where they'll be persecuted!",
+         "body":"President Donald Trump promised to protect middle eastern Christians and prioritize Christian immigrant refugees. On June 11th 2017, up to 100 Chaldeans were rounded up in ICE trucks and buses with orders to be sent back to ISIS on a silver platter, where most will surely be persecuted for their religious beliefs. Many of those deported have Christian tattoos and don't even remember how to speak the  language of the land they are being sent back to. We hope this is an accidental oversight by the Trump administration, especially considering that the Chaldean population was a deciding factor in helping President Trump win the state of Michigan by such a narrow margin!",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":15088,
+         "signaturesNeeded":84912,
+         "url":"https://petitions.whitehouse.gov/petition/halting-all-deportation-orders-involving-chaldeans-iraqi-christians-getting-sent-iraq-where-theyll-be-persecuted",
+         "deadline":1499892233,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1497300233,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1497308316
+      },
+      {
+         "id":"2552901",
+         "type":"petition",
+         "title":"We are looking for Yingying Zhang. Please help us.",
+         "body":"We are looking for Yingying Zhang, a 26-year-old visiting scholar from China at the University of Illinois at Urbana-Champaign and a resident of Urbana. She was last heard from at 1:30 p.m. Friday, June 9, and attempts to contact her since then have been unsuccessful.  We sincerely hope that U.S. government can pay more attention to help us to find her.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":331,
+               "name":"Gun Violence"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":60914,
+         "signaturesNeeded":39086,
+         "url":"https://petitions.whitehouse.gov/petition/we-are-looking-yingying-zhang-please-help-us",
+         "deadline":1499900737,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1497308737,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1497325330
+      },
+      {
+         "id":"2555251",
+         "type":"petition",
+         "title":"Extradite Fethullah Gxlen back to Turkey",
+         "body":"We (Americans) do not need a foreign military coup plotter residing on our soil. Please extradite Fethullah Gxlen for allegedly plotting a military coup in Turkey. The American government should not approve of such actions. If extradition is not considered, this can worsen ties with Erdoxan and the Turkish Republic. Please support this important petition.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":175,
+               "name":"Urban Policy"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":17319,
+         "signaturesNeeded":82681,
+         "url":"https://petitions.whitehouse.gov/petition/extradite-fethullah-gulen-back-turkey",
+         "deadline":1500646505,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1498054505,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1498057743
+      },
+      {
+         "id":"2560741",
+         "type":"petition",
+         "title":"National Reciprocity for the Nation's 17 Million Concealed Handgun Permit Holders!",
+         "body":"Mr. President, you have said many times that you would sign a national concealed carry reciprocity bill.  Please urge Congress to pass H.R. 38 as soon as possible!\r\n\r\nH.R. 38 will allow America's 17 million concealed handgun permit holders to carry in every state in the Union as they go about their lives.  As the recent shooting in Alexandria shows, crime and terrorism have no borders.  Neither should self-defense!\r\n\r\nNo other group is as law-abiding as concealed handgun permit holders, regardless of which state they are from. \r\n\r\nCurrently over 20 states, such as Virginia, North Carolina, and Arizona, already honor permits from all other states, without issue.  H.R. 38 will simply make such recognition uniform across the nation and will save many innocent American lives!",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":22593,
+         "signaturesNeeded":77407,
+         "url":"https://petitions.whitehouse.gov/petition/national-reciprocity-nations-17-million-concealed-handgun-permit-holders",
+         "deadline":1503001507,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1500409507,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1500411185
+      },
+      {
+         "id":"2560931",
+         "type":"petition",
+         "title":"Force Congress to Use Obamacare",
+         "body":"If we the people are forced to use crappy Obamacare, the lawmakers who created it, fund it and refuse to repeal it should have to use it too.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":25,
+               "name":"Health Care"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":12702,
+         "signaturesNeeded":87298,
+         "url":"https://petitions.whitehouse.gov/petition/force-congress-use-obamacare",
+         "deadline":1503060831,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1500468831,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1500475442
+      },
+      {
+         "id":"2562786",
+         "type":"petition",
+         "title":"Full Pardon for Pardon Amiri King",
+         "body":"Amiri King, 38, was tried as an adult at age 16 for robbery. Nobody was hurt and the robbery consisted of $10. Nevertheless, there is no minimizing the charges. They are just, and Mr. King served his time without incident. \r\n\r\nHe was released from prison at age 21, and has since become an active advocate for law enforcement and our veteran community. \r\n\r\nAmiri King has a huge global platform, where he is followed by over 3 million people on facebook alone. \r\n\r\nAll that he is asking, is for a full presidential pardon and to move forward with his life.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":16927,
+         "signaturesNeeded":83073,
+         "url":"https://petitions.whitehouse.gov/petition/full-pardon-pardon-amiri-king",
+         "deadline":1503771108,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1501179108,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1501179624
+      },
+      {
+         "id":"2563266",
+         "type":"petition",
+         "title":"TEMPORARY PROTECTED STATUS (TPS) FOR VENEZUELA",
+         "body":"THE VENEZUELAN AMERICAN NATIONAL BAR ASSOCIATION (VENAMBAR) URGES YOU TO CALL UPON PRESIDENT DONALD TRUMP AND THE SECRETARY OF HOMELAND SECURITY TO RECOMMEND THAT VENEZUELA BE DESIGNATED FOR TEMPORARY PROTECTED STATUS (TPS) PURSUANT TO \u00a7244(B)(1) OF THE IMMIGRATION AND NATIONALITY ACT.\r\n\r\nFOR MORE INFORMATION CLICK http://www.venambar.com/tps-for-venezuela.html\r\n\r\nThis humanitarian request would allow eligible nationals of Venezuela (who are currently in the United States) to obtain lawful temporary U.S. immigration status,[1] during the designated period, consistent with the immigration laws of the United States, while they are prevented from returning safely to Venezuela due to the current chaos, social unrest, violent crime, pervasive food and medicine shortage, and a non-responsive governm",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":127046,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/temporary-protected-status-tps-venezuela-0",
+         "deadline":1503883232,
+         "status":"responded",
+         "response":{
+            "id":2630360,
+            "url":"https://petitions.whitehouse.gov/response/response-your-petition-2",
+            "associationTime":1519418049
+         },
+         "created":1501291232,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1501333124
+      },
+      {
+         "id":"2563841",
+         "type":"petition",
+         "title":"The US should lead a Military Intervention to DEPOSE THE NARCO REGIME and RECUE VENEZUELA from famine and genocide.",
+         "body":"The Narco Estate Venezuela has evolved into is not only an Anti American Terrorist enabler and financing government but has begun a genocide. Not only is famine killing Venezuelans, is the armed forces of the government actively killing young innocent peaceful protestors. The geopolitical implications of a Cuba/Russian /Iran/North Korean ally (or rather partner in crime) in the region are vast and profound. The anti-American rethoric of the Narco Dictator Nicolxs Maduro leaves no margin of doubt. The situation is URGENT! The European Union, Mexico, Canada, Perx, Argentina, England and even neutral Switzerland have announced not recognizing any more the legitimacy of the Venezuelan regime. The US has taken a strong stance against this tyranny, its time for bold action. #TrumpInvadeVenezuela",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":26076,
+         "signaturesNeeded":73924,
+         "url":"https://petitions.whitehouse.gov/petition/us-should-lead-military-intervention-depose-narco-regime-and-recue-venezuela-famine-and-genocide",
+         "deadline":1504110111,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1501518111,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1501525535
+      },
+      {
+         "id":"2566636",
+         "type":"petition",
+         "title":"Publish Climate Science Report without Political Interference and Censorship",
+         "body":"The xClimate Science Special Reportx provides xan updated detailed analysis of the findings of how climate change is affecting weather and climate across the United States.x The public has a right to the uncensored scientific information from federal agencies. Climate science updates are mandated by Congress, and a draft of this Special Report was open for public comment earlier this year. According to the New York Times, the report has been finalized by government agencies and approved by the National Academy of Sciences, but scientists are fearful that Trump will politically interfere with the reportxs peer-reviewed scientific conclusions before officially releasing the report.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":296,
+               "name":"Energy &amp; Environment"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":34841,
+         "signaturesNeeded":65159,
+         "url":"https://petitions.whitehouse.gov/petition/publish-climate-science-report-without-political-interference-and-censorship",
+         "deadline":1504805661,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1502213661,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1502227562
+      },
+      {
+         "id":"2568621",
+         "type":"petition",
+         "title":"Use Antiquities Act to Designate All Civil War-Related Monuments as National Monuments",
+         "body":"WHEREAS the monuments and statuary arising out of the American Civil War are an irreplaceable homage to our American history and heritage, and,\r\n\r\nWHEREAS there are those who wish, from selfish motives, to destroy forever these memorials to brave and proud Americans on both sides of the conflict,\r\n\r\nTHEREFORE, we the undersigned, as the People of the United States, do hereby beseech the President to utilize his powers under the Antiquities Act to designate every such monument, memorial, and statue as NATIONAL MONUMENTS in order to preserve our priceless and irreplaceable history.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":18,
+               "name":"Education"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":20623,
+         "signaturesNeeded":79377,
+         "url":"https://petitions.whitehouse.gov/petition/use-antiquities-act-designate-all-civil-war-related-monuments-national-monuments",
+         "deadline":1505336728,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1502744728,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1502859726
+      },
+      {
+         "id":"2570331",
+         "type":"petition",
+         "title":"Formally recognize AntiFa as a terrorist organization",
+         "body":"Terrorism is defined as xthe use of violence and intimidation in pursuit of political aimsx. This definition is the same definition used to declare ISIS and other groups, as terrorist organizations. AntiFa has earned this title due to its violent actions in multiple cities and their influence in the killings of multiple police officers throughout the United States. It is time for the pentagon to be consistent in its actions x and just as they rightfully declared ISIS a terror group, they must declare AntiFa a terror group x on the grounds of principle, integrity, morality, and safety.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":368423,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/formally-recognize-antifa-terrorist-organization-0",
+         "deadline":1505608770,
+         "status":"responded",
+         "response":{
+            "id":2630339,
+            "url":"https://petitions.whitehouse.gov/response/response-your-petition",
+            "associationTime":1519417611
+         },
+         "created":1503016770,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1503026785
+      },
+      {
+         "id":"2571576",
+         "type":"petition",
+         "title":"Declare George Soros a terrorist and seize all of his related organizations' assets under RICO and NDAA law",
+         "body":"Whereas George Soros has willfully and on an ongoing basis attempted to destabilize and otherwise commit acts of sedition against the United States and its citizens, has created and funded dozens (and probably hundreds) of discrete organizations whose sole purpose is to apply Alinsky model terrorist tactics to facilitate the collapse of the systems and Constitutional government of the United State, and has developed unhealthy and undue influence over the entire Democrat Party and a large portion of the US Federal government, the DOJ should immediately declare George Soros and all of his organizations and staff members to be domestic terrorists, and have all of his personal an organizational wealth  and assets seized under Civil Asset Forfeiture law.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":188707,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/declare-george-soros-terrorist-and-seize-all-his-related-organizations-assets-under-rico-and-ndaa-law",
+         "deadline":1505842273,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1503250273,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1503299394
+      },
+      {
+         "id":"2573131",
+         "type":"petition",
+         "title":"Formally recognize Black Lives Matter as a domestic terrorist organization",
+         "body":"BLM has been consistently present at rallies and protests across the USA and even the world in which they have been attacking police and citizens. They are known to use weapons and are commonly seen in rank with ANTIFA. WE THE PEOPLE are tired of their intimidation and scare tactics and are genuinely afraid. Our first amendment rights are being squashed by groups such as this. We should not be in fear of our lives to practice free speech. And we should not be afraid to encounter them because of their racist views.  And neither should our law enforcement officials. We the people petition congress to act and formally declare BLM domestic terrorists and stop their reign of terror.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":175,
+               "name":"Urban Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":15239,
+         "signaturesNeeded":84761,
+         "url":"https://petitions.whitehouse.gov/petition/formally-recognize-black-lives-matter-domestic-terrorist-organization-0",
+         "deadline":1505930422,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1503338422,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1503356201
+      },
+      {
+         "id":"2579221",
+         "type":"petition",
+         "title":"Release FBI Documents Withheld Due to \"Lack of Public Interest\"",
+         "body":"FBI records management section chief David M. Hardy has rejected a FOIA request to release records held by the FBI on Hillary Clinton.\r\n\r\n\"xYou have not sufficiently demonstrated that the publicxs interest in disclosure outweighs personal privacy interests of the subject...It is incumbent upon the requester to provide documentation regarding the publicxs interest in the operations and activities of the government before records can be processed pursuant to the FOIA,.\r\n\r\nThe assumption made by Mr. Hardy that such a release is not in the public interest is invalid and the FBI should immediately release these documents.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":17744,
+         "signaturesNeeded":82256,
+         "url":"https://petitions.whitehouse.gov/petition/release-fbi-documents-withheld-due-lack-public-interest",
+         "deadline":1506625595,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1504033595,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1504048067
+      },
+      {
+         "id":"2579531",
+         "type":"petition",
+         "title":"Compel The F.B.I. To Release All Records Pertaining To Hillary Clinton's Personal  Secret Server Email Investigation",
+         "body":"FBI records section chief David M. Hardy told investigator Ty Clevenger that he did sufficiently demonstrate that the public's interest in disclosing (Hillary's FBI records relating to her personal secret server email investigation) outweighed her personal privacy interests. This petition will show the Executive branch that there is sufficient public interest in releasing all FBI records pertaining to this case. Hillary Clinton was shielded by former Attorney General Loretta Lynch and FBI Director James Comey during the email \"investigation\". Hillary has continued to echo Russian interference in the 2016 election and releasing these records should help clear the air on this matter. President Trump should compel the FBI to release to the public all records  related to this investigation.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":60135,
+         "signaturesNeeded":39865,
+         "url":"https://petitions.whitehouse.gov/petition/compel-fbi-release-all-records-pertaining-hillary-clintons-personal-secret-server-email-investigation",
+         "deadline":1506655249,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1504063249,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1504064441
+      },
+      {
+         "id":"2585301",
+         "type":"petition",
+         "title":"Saivian LLc. USA and Saivian International Inc Scam",
+         "body":"Saivian LLC. USA and Saivian International Inc. Hong Kong, started from last year February 2016, is suspected of being involved in scam, money laundering, and tax evasion. Cash amount involved is over 1 billion, and members involved over 2 million worldwide. We are here to file a petition to ask congress to take action on investigating Savian LLC, Saivian LLC. USA and Saivian international Inc. Hong Kong, and the owner of both companies, Eric J Dalius.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":306,
+               "name":"Budget &amp; Taxes"
+            },
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":107745,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/saivian-llc-usa-and-saivian-international-inc-scam",
+         "deadline":1507527076,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1504935076,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1504954625
+      },
+      {
+         "id":"2587576",
+         "type":"petition",
+         "title":"Eliminate the FMCSA Electronic Log Mandate",
+         "body":"Transportation Industry--The electronic logging device (ELD) rule x congressionally mandated as a part of MAP-21xwas SUPPOSEDLY intended to help create a safer work environment for drivers.  However, this rule will impact the trucking industry in many ways, not to mention the trickle down affect it will have on our economy.  The implementation of ELDs not only will greatly affect trucking companies' expenses, it will affect consumer prices due to higher transportation rates demanded by truck drivers.  Additionally, the delayed loading of products, as well as delayed deliveries to get the  products to the distribution centers and stores, not to mention causing truck companies out of business due to the added expense and the limitation of weekly miles run.  There is already a truck shortage!",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":346,
+               "name":"Transportation &amp; Infrastructure"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":14486,
+         "signaturesNeeded":85514,
+         "url":"https://petitions.whitehouse.gov/petition/eliminate-fmcsa-electronic-log-mandate",
+         "deadline":1508090853,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1505498853,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1505615240
+      },
+      {
+         "id":"2590331",
+         "type":"petition",
+         "title":"END ALL TAXPAYER FUNDED SUBSIDIES TO THE NFL AND NBA",
+         "body":"The NFL and NBA do not respect our Great Nation, It's Flag, it's National Anthem, it's Armed Forces or It's People, therefore we no longer will be forced to support these Organizations",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":306,
+               "name":"Budget &amp; Taxes"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":11639,
+         "signaturesNeeded":88361,
+         "url":"https://petitions.whitehouse.gov/petition/end-all-taxpayer-funded-subsidies-nfl-and-nba",
+         "deadline":1508864173,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1506272173,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1506285675
+      },
+      {
+         "id":"2599936",
+         "type":"petition",
+         "title":"Prevent H.R. 3999 from being signed into law.",
+         "body":"Prevent law-abiding firearm owners from having their constitutional rights taken away. Prevent HR3999 from being signed into law and subsequently give law-abiding firearm owners their constitutional rights back, including a repeal of the NFA. Protect the second amendment and prevent it from being infringed upon as our founding fathers clearly stated. Punish those who violate any part of the constitution with the full extent of the law, including political figures.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":331,
+               "name":"Gun Violence"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":25151,
+         "signaturesNeeded":74849,
+         "url":"https://petitions.whitehouse.gov/petition/prevent-hr-3999-being-signed-law",
+         "deadline":1510370028,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1507774428,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1507777577
+      },
+      {
+         "id":"2600131",
+         "type":"petition",
+         "title":"Do not pass H.R.3999",
+         "body":"We must not allow the 2nd amendment to be infringed based on a bill that has been proposed to do exactly that. This bill would not specifically include the infamous \"bump stock\" used in the Las Vegas shooting. \r\n1. The language in question can be misconstrued to include many parts of a semi-auto firearm, such as binary triggers, match grade triggers, tuned triggers, heavy recoil springs or buffers.\r\n2. Criminals do not follow laws. \r\n3. The shooter is the only true determination of the rate of fire in a semi-auto. Even with a bump stock, you are not guaranteed a faster rate of fire, as it is shooter dependent, and still one shot per pull of the trigger. \r\n4. This is an ambiguous infringement on the 2nd amendment.\r\nFrom: https://www.congress.gov/bill/115th-congress/house-bill/3999",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":53352,
+         "signaturesNeeded":46648,
+         "url":"https://petitions.whitehouse.gov/petition/do-not-pass-hr3999",
+         "deadline":1510418205,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1507822605,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1507833744
+      },
+      {
+         "id":"2604721",
+         "type":"petition",
+         "title":"CONDEMN India's Denial of Justice to the Victims of November 1984 Sikh Genocide",
+         "body":"November 2017 marks the 33rd year of anti-Sikh violence throughout India carried out by Gandhi's Congress party in which more than 30,000 Sikhs were killed, thousands of women raped and hundreds of Sikh Gurdwaras burnt.\r\n\r\nhttp://time.com/3545867/india-1984-sikh-genocide-anniversary/\r\n\r\nSince 1984, successive Indian governments have continuously shielded the political leaders like Kamal Nath, Jagdish Tytler, Sajjan Kumar and Amitabh Bachchan who participated in 1984 genocidal violence against Sikhs. \r\n\r\nIn 33 years, despite ample evidence and witnesses, India has not convicted any political leader who incited violence against Sikhs and has denied justice to the victims.\r\n\r\nWe urge the President to CONDEMN India's Denial of Justice to the victims of November 1984 Sikh Genocide.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":124658,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/condemn-indias-denial-justice-victims-november-1984-sikh-genocide",
+         "deadline":1511709345,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1509113745,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1509121696
+      },
+      {
+         "id":"2604211",
+         "type":"petition",
+         "title":"America is an asylum for victims, but not for sex abuser Guo Wengui!",
+         "body":"Guo Wengui, also known as Kwok Miles, now is being accused as rapper and sex abuser by several Chinese well-known women, including Ms. Hu Shuli, a Chinese journalist, Ms. Xu Qing and Ms. Fan Bingbing, both are Chinese A-list movie stars, as well as Ms. Ma Rui and Ms. Qu Guojiao, both are ex-employees of Guo Wengui.\r\n\r\nInstead of expressing apologies, Guo Wengui post tweets and videos on internet to further abuse these Chinese female victims on daily basis. Right after being complained for sex abuses, Guo Wengui is trying to apply political asylum in USA!\r\n\r\nGuo Wengui and Harvey Weinstein are close friends, and both of these tycoons are represented by uber-lawyer David Boies. \r\n\r\nTo prevent further sex abuses, we petite President Trump, FBI and USCIS investigate this case and deport Guo Wengui!",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":32929,
+         "signaturesNeeded":67071,
+         "url":"https://petitions.whitehouse.gov/petition/america-asylum-victims-not-sex-abuser-guo-wengui",
+         "deadline":1511579392,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1508983792,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1509154078
+      },
+      {
+         "id":"2604956",
+         "type":"petition",
+         "title":"American people, say NO loudly to sexual assault!",
+         "body":"In the US, do influence and power give one the right to commit acts of sexual assault and insult to women? Why does the department of justice turn a blind eye to these acts of sexual assault and insult? Harvey Weinstein and Chinese fugitive billionaire Guo Wengui namely Kwok Miles. American people, say NO loudly to sexual assault! Demand the department of justice to exercise its legally entrusted functions, and accordingly penalise those criminals who have committed acts of sexual assault!",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":108504,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/american-people-say-no-loudly-sexual-assault",
+         "deadline":1511767951,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1509172351,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1509181338
+      },
+      {
+         "id":"2604346",
+         "type":"petition",
+         "title":"Assist South Africans to reduce violent crime and farm attacks in their communities",
+         "body":"This is an important issue that affects U.S. taxpayers and South African citizens. The South African government has not been able to reduce crime and protect its citizens. Violent crime is increasing in South Africa. This affects the economy and the reverberations have harmful affects on other aspects of society. This then will require U.S. tax dollars to help support South Africa to cope in troublesome areas of society. We have seen this with other issues within health and education. \r\n\r\nLetxs get congress to address this issue and take preventative action to help support and assist South Africans to protect their own communities through neighborhood watch groups and other means.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":306,
+               "name":"Budget &amp; Taxes"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":69027,
+         "signaturesNeeded":30973,
+         "url":"https://petitions.whitehouse.gov/petition/assist-south-africans-reduce-violent-crime-and-farm-attacks-their-communities",
+         "deadline":1511630217,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1509034617,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1509217923
+      },
+      {
+         "id":"2606246",
+         "type":"petition",
+         "title":"Opposition to taxation of graduate student tuition waivers and remissions.",
+         "body":"The current tax code reform will increase graduate student tax liability to include tuition waivers and remissions. Tuition waivers are not direct income for students. Students will see their tax burden increase by 100-1000%. This is a significant stress on students who are already facing severe financial pressure. This reform will eliminate tax deductions for interest paid on student loans and remove the Lifetime Learning Credit, adding additional strains on students. This action will discourage high achieving individuals from perusing a graduate education.\r\nExamples of how this will destructively increase graduate student economic burden can be found: http://cgsnet.org/ckfinder/userfiles/files/CGS_Tax_Reform_Scenarios%281%29.pdf\r\nMore information can be found: http://cgsnet.org/node/2031",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":306,
+               "name":"Budget &amp; Taxes"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":26413,
+         "signaturesNeeded":73587,
+         "url":"https://petitions.whitehouse.gov/petition/opposition-taxation-graduate-student-tuition-waivers-and-remissions",
+         "deadline":1512167271,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1509571671,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1510205256
+      },
+      {
+         "id":"2610281",
+         "type":"petition",
+         "title":"Keep Kratom Legal and Access Available to all Responsible Citizens and Residents",
+         "body":"Millions of people take the herbal supplement, Kratom, to assist with better wellbeing.  Doctors, Lawyers, Veterans, School Teachers and every part of communities in this country have access to this plant.\r\n\r\nPlease keep this plant legal, do not allow the DEA, DOJ or FDA to add it to the Federal Controlled Substances List .\r\n\r\nFind ways to work with the public to increase safety of the market but leave it accessavle to all Rlresponsible citizens and residents of the US.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":17737,
+         "signaturesNeeded":82263,
+         "url":"https://petitions.whitehouse.gov/petition/keep-kratom-legal-and-access-available-all-responsible-citizens-and-residents",
+         "deadline":1513363540,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1510771540,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1510775616
+      },
+      {
+         "id":"2610561",
+         "type":"petition",
+         "title":"Reinstate the ban on importing trophies from Elephants, one of the world's most intelligent and caring animals.",
+         "body":"The White House announced that the remains of elephants hunted in Zimbabwe and Zambia can now be imported to the United States as trophies.  Elephant trophies are banned in other countries to stop poachers from killing this endangered species.  \r\n\r\nWe cannot allow the ivory trade to continue.  While killing these animals is legal in some circumstances, it is nevertheless morally wrong.  \r\n\r\nElephants are in a unique category of five species with minds capable of self-reflection.  They exhibit a variety of behaviors including grief, learning, mimicry, play, altruism, use of tools, compassion, cooperation, self-awareness, memory and communications.  Elephants cry.\r\n\r\nTo kill one of these magnificent creatures is morally wrong and their extinction would be Earth's greatest tragedy thus far.",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":32688,
+         "signaturesNeeded":67312,
+         "url":"https://petitions.whitehouse.gov/petition/reinstate-ban-importing-trophies-elephants-one-worlds-most-intelligent-and-caring-animals",
+         "deadline":1513438005,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1510846005,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1510859507
+      },
+      {
+         "id":"2609476",
+         "type":"petition",
+         "title":"Corey's Law",
+         "body":"We, The People of the United States, petition Federal legislators to create and enact legislation to extend the Statute of Limitations for crimes of a sexual nature perpetrated against minors under the age of 18 in the United States indefinitely. No longer can we, as a nation, allow pedophiles to threaten and harass their victims into silence just long enough to avoid prosecution.\r\n\r\nWe must, as a nation, protect our children with the utmost vigilance. They are the future of our country.\r\n\r\nThis proposal is so named for child actor Corey Feldman, who had the courage to come forward in an attempt to expose long term,  systemic child abuse.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":11511,
+         "signaturesNeeded":88489,
+         "url":"https://petitions.whitehouse.gov/petition/coreys-law",
+         "deadline":1513057963,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1510465963,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1510916544
+      },
+      {
+         "id":"2611586",
+         "type":"petition",
+         "title":"She killed my mommy, cheated the police and only sentenced one year in County Jail",
+         "body":"Where is the justice in the United States! \r\nOn Sunday, June 5, 2016,my mum and I were walking hand-in-hand to the grocery store as usual,then we were ran over by a truck,I saw the wheels crushed my mum's pelvis and my mummy passed out. Then the driver grabbed my mother by her wrists, and dragged her from behind the wheels of the truck and dropped her on the side of the road.  She walked back to her truck, got in, and backed the truck up to make it appear that she did not run us over. Below are the detailed reports about this unfairness judgement.\r\nhttp://beta.latimes.com/local/lanow/la-me-chinese-daughter-mother-crash-20171029-story.html\r\nhttp://beta.latimes.com/local/lanow/la-me-ln-deadly-crash-plea-20171116-story.ht",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":59054,
+         "signaturesNeeded":40946,
+         "url":"https://petitions.whitehouse.gov/petition/she-killed-my-mommy-cheated-police-and-only-sentenced-one-year-county-jail",
+         "deadline":1513712695,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1511120695,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1511158739
+      },
+      {
+         "id":"2611901",
+         "type":"petition",
+         "title":"Replace Ajit Pai on FCC, Restore Net Neutrality, Make Last-mile Networking a Public Utility, and Stop Corporate Abuse",
+         "body":"Consolidation of networking vendors and media companies into an oligopoly of a handful of companies must be stopped and their influence over FCC must br blocked . It is destroying fundamental principles that drove the original creation of the Internet - free access to information, and free distribution of knowledge. Net neutrality and related principles make it possible for any citizen to give their voice, for others to hear or ignore.\r\n\r\nThe Internet was not created to become yet another vehicle for global media companies to force feed their product, to sell customer information to the highest bidder, and to limit the voice of the common people.\r\n\r\nAjit Pai&#039;s egregiously callous steps to reverse previous FCC decisions must be prevented.\r\n\r\nMake the last mile a regulated public utility",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":20438,
+         "signaturesNeeded":79562,
+         "url":"https://petitions.whitehouse.gov/petition/replace-ajit-pai-fcc-restore-net-neutrality-make-last-mile-networking-public-utility-and-stop-corporate-abuse-0",
+         "deadline":1513843544,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1511251544,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1511275715
+      },
+      {
+         "id":"2612301",
+         "type":"petition",
+         "title":"Do Not Repeal Net Neutrality",
+         "body":"Net Neutrality (NN) makes it illegal for ISPs to \"throttle\" your internet content. Throttling allows them to choose how fast, and even if, you can have functional access to certain websites. This paves the way for having different plans for different speeds you can visit websites. Currently you can use the internet at full speed for all websites. With Net Neutrality repealed not only would you pay for the internet service but you would pay for one of their plans to allow faster internet.\r\n\r\nIn 2016, the public and United States Appeals Court disapproved of an effort to repeal NN. We are aware that repealing NN will only benefit the monopolized internet service providers.  The public overwhelming has its best interests in NN as it protects the consumer, and thus we stand to keep NN in effect.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":280676,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/do-not-repeal-net-neutrality",
+         "deadline":1513920218,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1511328218,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1511333475
+      },
+      {
+         "id":"2612791",
+         "type":"petition",
+         "title":"We The People Call for The Resignation of FCC Chairman Ajit Varadaraj Pai",
+         "body":"We the people have identified FCC Chairman Ajit Varadaraj Pai as a threat to our freedoms due to his call to repeal Net Neutrality. We passionately call upon the white house for the immediate removal of FCC Chairman Ajit Varadaraj Pai from office for his actions.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":119399,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/we-people-call-resignation-fcc-chairman-ajit-varadaraj-pai",
+         "deadline":1514048989,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1511456989,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1511468694
+      },
+      {
+         "id":"2623188",
+         "type":"petition",
+         "title":"IMMEDIATELY ASSIGN A SPECIAL PROSECUTOR TO INVESTIGATE HILLARY CLINTONxS DELETION OF 33,000 EMAILS; LYING TO THE FBI",
+         "body":"President Trump has made and kept an unprecedented amount of his campaign promises. But there is one more promise he made, perhaps the most important promise of them all, that we the people want fulfilled.\r\n\r\nOn October 9th, 2016, during the second presidential debate Donald J Trump made this campaign promise:\r\n\r\nHe said to Hillary Clinton, xIxm going to instruct my attorney general to get a special prosecutor to look into your situationx Peoplexs lives have been destroyed for doing 1/5th of what youxve done.x\r\n\r\nFor too long our high officials have not been held accountable. Enough is enough. We the people are sick of it and we want Hillary Clinton investigated once and for all.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":12420,
+         "signaturesNeeded":87580,
+         "url":"https://petitions.whitehouse.gov/petition/immediately-assign-special-prosecutor-investigate-hillary-clintons-deletion-33000-emails-lying-fbi",
+         "deadline":1520797247,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1518208847,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1518226112
+      },
+      {
+         "id":"2625715",
+         "type":"petition",
+         "title":"Allow for Cadet Peter Wang to receive a Full Honors Military Burial",
+         "body":"Peter Wang, 15, was one of the students killed in Florida this past week. He was a Jrotc Cadet who was last seen, in uniform, holding doors open and thus allowing other students, teachers, and staff to flee to safety. Wang was killed in the process. His selfless and heroic actions have led to the survival of dozens in the area. Wang died a hero, and deserves to be treated as such, and deserves a full honors military burial.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":144684,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/allow-cadet-peter-wang-receive-full-honors-military-burial",
+         "deadline":1521397179,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1518808779,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1518820295
+      },
+      {
+         "id":"2632062",
+         "type":"petition",
+         "title":"Immigration Priority to South African Farmers facing Systematic Land Confiscations and Murder.",
+         "body":"We the People call upon Congress to apply immigration priority to the South African Farmers facing systematic land confiscation and murder by their own government. These government sanctioned land confiscations / murders are race related (See here - https://tinyurl.com/y7mfmhco ) and our governments responsibility to act by UN law ( See here - https://tinyurl.com/ya5fn63p ) Must not be ignored.\r\n\r\nWhite South African Farmers facing genocide in their home land should be given priority as they not only face extinction in their homelands but also stand as a primary example of the kind of immigrants we would want here in our own country as they speak English and share a common ancestry and way of life as our own.\r\n\r\nPlease give precedent to this issue and save the South Africans from this atrocity",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":21902,
+         "signaturesNeeded":78098,
+         "url":"https://petitions.whitehouse.gov/petition/immigration-priority-south-african-farmers-facing-systematic-land-confiscations-and-murder",
+         "deadline":1522438171,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1519849771,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1519858927
+      },
+      {
+         "id":"2632972",
+         "type":"petition",
+         "title":"STOP H.R.5087  \"STOP THE GUN BAN\"",
+         "body":"This bill begins the slow but sure erosion of our republic! It cannot pass! Stand together and demand that President Trump protect the Second Amendment rights of the citizens of the United States of America. Sign this petition now and let your congressmen know you will not accept or tolerate the removal of our Constitutional Rights. Stand together and vote those who support H.R. 5087out of office.\r\n#STOP HR 5087",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":16077,
+         "signaturesNeeded":83923,
+         "url":"https://petitions.whitehouse.gov/petition/stop-hr5087-stop-gun-ban",
+         "deadline":1522705283,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1520116883,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1520166424
+      },
+      {
+         "id":"2633357",
+         "type":"petition",
+         "title":"Internet Bill of Rights",
+         "body":"Internet forums and social networks which provide free access to the public are a digital place of assembly, and individuals using such methods for public communication should not be subjected to censorship due to political beliefs or differing ideas. Conservative voices on many large public website platforms are being censored, based solely on a differing opinion. Some of these platforms further employ tracking mechanisms for monitoring an individual's digital history, which can be used to censor the individual's public communication through various censorship practices, sometimes without knowledge or awareness. These actions directly violate personal liberty and stand at contrast with the bill of rights.\r\n\r\nWe the people demand action to bring our digital future into the light.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":32874,
+         "signaturesNeeded":67126,
+         "url":"https://petitions.whitehouse.gov/petition/internet-bill-rights-2",
+         "deadline":1522799345,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1520210945,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1520284938
+      },
+      {
+         "id":"2633651",
+         "type":"petition",
+         "title":"Protect Neringa Venckiene from Political Persecution and Extradition",
+         "body":"In 2008, 4-year-old Deimante Kedyte described her sexual assault by high-level Lithuanian officials. Her testimony was later verified as true by 4 separate commissions. She never had her day in court. Her father pursued justice, but was murdered in 2010. Deimantexs aunt, Neringa Venckiene, was awarded custody of the girl and provided a loving home. When Neringa started The Way of Courage Party to fight corruption in Lithuania, she, her family, and supporters were persecuted by the government. In May of 2012, a terrified Deimante was abducted from Neringaxs home by 240 government agents. Neringa feared for her life and fled Lithuania with her son in 2013. Today, the Lithuanian government continues to persecute Neringa by attempting to get the U.S. to extradite her back to Lithuania.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":39957,
+         "signaturesNeeded":60043,
+         "url":"https://petitions.whitehouse.gov/petition/protect-neringa-venckiene-political-persecution-and-extradition",
+         "deadline":1522877867,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1520289467,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1520350436
+      },
+      {
+         "id":"2633903",
+         "type":"petition",
+         "title":"Civilian Casualties increasing in Afrin (Northern Syria, Rojava)",
+         "body":"We the undersigned call on the U.S. Congress to adopt this resolution to protect the civilians of Afrin from Turkish attacks. Whereas, as part of xOperation Olive Branchx, Turkish military forces have targeted civilian towns and infrastructure in Afrin city and other areas in the northern and western countryside of Afrin, leading to over 200 civilian casualties, and displacing over 5000 people; Resolved, that it is the sense of the Congress that-\r\n1) The United States  will condemn Turkish military actions in Afrin; \r\n2) The United States will stop all weapons sales to Turkey until Turkey stops the illegal targeting of civilians;\r\n3) The United States will work with all other states who are willing to set up and maintain a no-fly zone in Afrin to protect civilians.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":15331,
+         "signaturesNeeded":84669,
+         "url":"https://petitions.whitehouse.gov/petition/civilian-casualties-increasing-afrin-northern-syria-rojava",
+         "deadline":1522942009,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1520353609,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1520360708
+      },
+      {
+         "id":"2637242",
+         "type":"petition",
+         "title":"Over 1.5 Million American jobs in jeopardy upon the change of the EB-5 rule x Must re-define the limitations of the visa",
+         "body":"EB-5 is the only immigration program taking advantage of the foreign direct investment to create US jobs. Due to the limited availability of the visas, currently there are over 150,000 investorsx families having to wait over 10 years to set their feet on the land of the US. The EB-5 Reform Act under review in congress has not proposed to improve this terrible situation. Instead, it will increase the waiting period to 15-20 years and kill the hope of these families that already helped boost US economy. The passage of the law will cause withdrawals of these investments and jeopardize more than 1.5 million American jobs being created nationwide. \r\n \r\nSolution? Add this: The numerical limitations of the visas shall ONLY apply to principal aliens and not to the spouses or children of such aliens.",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":122974,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/over-15-million-american-jobs-jeopardy-upon-change-eb-5-rule-must-re-define-limitations-visa",
+         "deadline":1523697555,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1521105555,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1521115796
+      },
+      {
+         "id":"2637291",
+         "type":"petition",
+         "title":"A Peace Treaty on the Korean Peninsula",
+         "body":"Title: We petition for a comprehensive and permanent peace treaty on the Korean peninsula. \r\n\r\nPresident Donald Trump has the heartfelt thanks and congratulations for his courage on behalf of peace in Korea in agreeing to meet with Chairman Kim Jong-un of North Korea. We understand that much work remains, and a nuclear freeze can be the first and critical step toward denuclearization. Moving forward, a permanent peace treaty that finally ends the Korean War after 65 years, through normalization of relations between the U.S. and North Korea, would be a bold move for peace that will be remembered for ages. We urge the President to exercise leadership for peace and work towards a comprehensive and permanent peace solution in the Korean peninsula.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":111992,
+         "signaturesNeeded":0,
+         "url":"https://petitions.whitehouse.gov/petition/peace-treaty-korean-peninsula",
+         "deadline":1523716546,
+         "status":"pending response",
+         "response":[
+
+         ],
+         "created":1521124546,
+         "isSignable":true,
+         "isPublic":true,
+         "reachedPublic":1521180443
+      },
+      {
+         "id":"2638663",
+         "type":"petition",
+         "title":"Save Adoptions. Reverse the 80% Decline in Intercountry Adoptions and Solve the U.S. International Adoption Crisis.",
+         "body":"We the People, recognizing a childxs right to a family when one is not available in his/her birth country and the loving character of American families, ask President Trump to investigate the causes of the 80% decline in intercountry adoptions since 2004 and to solve the U.S. international adoption crisis. The leadership of the Office of Childrenxs Issues has been unresponsive to collaborating with the adoption community to solve problems and continues to reinterpret regulations in ways unintended by Congress in the Hague Intercountry Adoption Act.  We need pro-adoption leadership who will increase the number of ethical adoptions. The adoption community stands ready to work with the Administration to implement various achievable solutions to help orphans find loving, permanent families.",
+         "petition_type":[
+            {
+               "id":286,
+               "name":"Propose a new Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":29,
+               "name":"Immigration"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":32645,
+         "signaturesNeeded":67355,
+         "url":"https://petitions.whitehouse.gov/petition/save-adoptions-reverse-80-decline-intercountry-adoptions-and-solve-us-international-adoption-crisis",
+         "deadline":1523910814,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1521318814,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1521371063
+      },
+      {
+         "id":"2641120",
+         "type":"petition",
+         "title":"Repeal/stop FOSTA NOW!!!",
+         "body":"Repeal FOSTA or STOP the singing of FOSTA immediately, the internet NEEDS to be open. This law completely undermines the importance of an open internet and what the entire internet was built on. It inconsequentially violates the 1st amendment simply by making sites liable for their user's actions. This prevents expression and restricts what a site can do overall. Forums will shut down, marketplaces will shut down. Making these sites like Twitter, Facebook and Craigslist liable for the actions of their users is completely mad. They are public forums and marketplaces, you wouldn't hold a shopping center or hotel criminally liable for a prostitute on the corner, would you?",
+         "petition_type":[
+            {
+               "id":291,
+               "name":"Call on Congress to act on an issue"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":341,
+               "name":"Technology &amp; Innovation"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":49796,
+         "signaturesNeeded":50204,
+         "url":"https://petitions.whitehouse.gov/petition/repealstop-fosta-now",
+         "deadline":1524758400,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1522166400,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1522259100
+      },
+      {
+         "id":"2644466",
+         "type":"petition",
+         "title":"Do not enter into a peace agreement related to the withdrawal of US forces until the end of north korean dictatorship.",
+         "body":"Those who instigate a peace treaty do not know the danger. It is very dangerous when a peace treaty is signed with the dictatorship of North Korea left. If there is a DPRK dictatorship, a peace treaty with North Korea will lead to the withdrawal of the USFK and Korea will have a very tragic history of catastrophe like Vietnam's defeat, and the price of great pain will follow.   ( Please see YouTube video: https://www.youtube.com/watch?v=Bv5wT9FU8ko )US must ignore the petition of North Korean partners who instigate a peace treaty. The United States should not engage in a peace treaty, but must fully deal with North Korea's complete denuclearization and North Korean human rights issues.When Kim Jong-un does not accept these requirements, he /she should give all responsibility to Kim Jung un",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":19491,
+         "signaturesNeeded":80509,
+         "url":"https://petitions.whitehouse.gov/petition/do-not-enter-peace-agreement-related-withdrawal-us-forces-until-end-north-korean-dictatorship",
+         "deadline":1525953645,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1523361645,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1523419215
+      },
+      {
+         "id":"2645068",
+         "type":"petition",
+         "title":"A plea to President of USA to Mr Trump: stop your insanity, do not stir up a war through your Twitter",
+         "body":"A lot of contradictory information about the current situation in Syria have been published by you on Twitter and brought forward unsubstantiated accusations. I beg you to stop this madness and to prevent a new war, please do not degrade the relationships in international politics.\r\n\r\nPlease do let our children to live in a peaceful world, where no one is afraid of war, do not let the Second World War happen again!\r\n\r\nPlease, do not enhance the international hysteria, do not bring our country and others to a disaster!",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            },
+            {
+               "id":351,
+               "name":"Veterans &amp; Military"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":10413,
+         "signaturesNeeded":89587,
+         "url":"https://petitions.whitehouse.gov/petition/plea-president-usa-mr-trump-stop-your-insanity-do-not-stir-war-through-your-twitter",
+         "deadline":1526121785,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1523529785,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1523536384
+      },
+      {
+         "id":"2645740",
+         "type":"petition",
+         "title":"Pardon Dinesh D'Souza",
+         "body":"Dinesh D'Souza is an American patriot whose prosecution was politically motivated, targeted under the Obama admin for \"exceeding campaign contributions\". Tried &amp; convicted under the campaign finance law by the sum of $20K, in a case involving no corruption, he was sentenced to 8 monthsx overnight confinement, a substantial fine, mandatory psychological counseling and 5 years of probation and community service. No American has ever been prosecuted, let alone sentenced, for a crime of this nature involving no quid pro quo. Without a pardon, Dinesh is unable to exercise his right to vote or to legally purchase a firearm. \r\n\r\nDinesh's books &amp; films exposed the corruption in Obama admin and showed how USA would have faired under Hillary Clinton's leadership. For his bravery he should be pardoned.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":321,
+               "name":"Criminal Justice Reform"
+            },
+            {
+               "id":326,
+               "name":"Homeland Security &amp; Defense"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":12145,
+         "signaturesNeeded":87855,
+         "url":"https://petitions.whitehouse.gov/petition/pardon-dinesh-dsouza-7",
+         "deadline":1526312649,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1523720649,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1523727027
+      },
+      {
+         "id":"2646958",
+         "type":"petition",
+         "title":"Human Rights Violations in Nicaragua due to the oppression and rule of Dictatorship Daniel Ortega and Rosario Murillo",
+         "body":"The people of Nicaragua are being denied freedom. The Constitution of the country has been rewritten to force dictatorship in the land and the citizens are subject to repeated abuse from government officials. Laws do not protect the safety of its citizens the right to freedom of speech or press. The people of Nicaragua are being attacked by rebels that are sent by the Ortegaxs. Censorship has occurred simply because Nicaraguans want transperancy.",
+         "petition_type":[
+
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":27125,
+         "signaturesNeeded":72875,
+         "url":"https://petitions.whitehouse.gov/petition/human-rights-violations-nicaragua-due-oppression-and-rule-dictatorship-daniel-ortega-and-rosario-murillo",
+         "deadline":1526789715,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1524197715,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1524265200
+      },
+      {
+         "id":"2645544",
+         "type":"petition",
+         "title":"Petition to Donald Trump calling a international investigation into Smolensk Plane Crash, April 10th 2010",
+         "body":"We the Free Poles wish to make a plea to you, Mr. President, as the leader of the Free World, in the face of our country`s helplessness, to initiate an international investigation into the 2010 plane crash in Smolensk, Russia, which killed the Polish President, along with 95 representatives of Poland. Those on board were on their way to the 70th commemoration of the Katyn massacre of Polish intellectuals, politicians and military officers by the Russians in the Second World War.\r\n\r\nFull reasoning of request, and Polish version on ruch11listopada.pl\r\n\r\nMarian Kowalski,\r\nPastor Pawel Chojecki,\r\nAttorney Andrzej Turczyn,\r\nLeaders of the November 11 Movement, the only anti-Communist and Biblical party in Poland`s history.\r\n",
+         "petition_type":[
+
+         ],
+         "issues":[
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":99008,
+         "signaturesNeeded":992,
+         "url":"https://petitions.whitehouse.gov/petition/petition-donald-trump-calling-international-investigation-smolensk-plane-crash-april-10th-2010",
+         "deadline":1526266800,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1523674800,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1524521700
+      },
+      {
+         "id":"2647896",
+         "type":"petition",
+         "title":"POTUS Donald Trump: Please do not sign incoming 447 - Justice for Uncompensated Survivors Today (JUST) Act of 2017.",
+         "body":"Justice for Uncompensated Survivors Today (JUST) Act of 2017 includes \"article three\" which states: the restitution of heirless property to assist needy Holocaust survivors. \"Restitution of heirless property\" based on tribe-ethnical background is unprecedented in the law history and will lead to havoc in many areas. In particular this act is aimed against Poland which gave shelter to so many polish citizens of jewish origin in the past.  \"Holocaust Organisations\" claim from Poland at least sixty five billion $ of heirless property. It is unjust &amp; unfair.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":306,
+               "name":"Budget &amp; Taxes"
+            },
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":35993,
+         "signaturesNeeded":64007,
+         "url":"https://petitions.whitehouse.gov/petition/potus-donald-trump-please-do-not-sign-incoming-447-justice-uncompensated-survivors-today-just-act-2017",
+         "deadline":1526979896,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1524387896,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1524598932
+      },
+      {
+         "id":"2650262",
+         "type":"petition",
+         "title":"Calling President Donald Trump to initiate an international investigation into Smolensk Plane Crash on April 10th 2010",
+         "body":"We the Free Poles wish to make a plea to you, Mr. President, as the leader of the Free World, to initiate an international investigation into the 2010 plane crash in Smolensk, Russia, which killed the President of Poland, along with 95 representatives of Poland. Those on board were on their way to the 70th commemoration of the Katyn massacre of Polish intellectuals, politicians and military officers by the Soviet Russians during the Second World War.\r\n\r\n\r\nJanusz Korwin-Mikke\r\nStanisxaw Michalkiewicz\r\nTadeusz Pxuxaxski\r\nLeszek xebrowski\r\nTomasz Sommer\r\nJerzy Robert Nowak\r\nRafax Ziemkiewicz\r\nKrzysztof Karox\r\nGrzegorz Braun\r\nWojciech Cejrowski\r\nMax Kolonko\r\nWojciech Sumlixski\r\nWitold Gadowski\r\nMarcin Rola\r\nAleksander Jabxonowski\r\n\r\nLeaders of anti-communist and pro-liberty movement in Poland.",
+         "petition_type":[
+            {
+               "id":271,
+               "name":"Take or explain a position on an issue or policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":24,
+               "name":"Foreign Policy"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":11532,
+         "signaturesNeeded":88468,
+         "url":"https://petitions.whitehouse.gov/petition/calling-president-donald-trump-initiate-international-investigation-smolensk-plane-crash-april-10th-2010",
+         "deadline":1527294446,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1524702446,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1524738090
+      },
+      {
+         "id":"2650696",
+         "type":"petition",
+         "title":"Repeal SESTA and FOSTA!",
+         "body":"Repeal SESTA and FOSTA; the internet NEEDS to remain open! This law completely undermines the importance of having an open internet &amp; what the entire internet was built on. It violates the 1st Amendment by making sites liable for their users' actions. This prevents expression &amp; restricts what a site can do overall. Forums have been shut down, marketplaces have been shut down, and service options continue to experience limitations. As a result, legal workers had their businesses majorly affected &amp; threatened to be shut down as a result of these new policies, and the illegal workers are being pushed further underground and in MORE danger as a result. Punishing law-abiding citizens with hopes that a small number of law-breakers might be caught is wrong. PLEASE SIGN! REPEAL SESTA/FOSTA!",
+         "petition_type":[
+            {
+               "id":281,
+               "name":"Change an existing Administration policy"
+            }
+         ],
+         "issues":[
+            {
+               "id":311,
+               "name":"Civil Rights &amp; Equality"
+            },
+            {
+               "id":316,
+               "name":"Economy &amp; Jobs"
+            },
+            {
+               "id":336,
+               "name":"Government &amp; Regulatory Reform"
+            }
+         ],
+         "signatureThreshold":100000,
+         "signatureCount":13108,
+         "signaturesNeeded":86892,
+         "url":"https://petitions.whitehouse.gov/petition/repeal-sesta-and-fosta",
+         "deadline":1527455077,
+         "status":"closed",
+         "response":[
+
+         ],
+         "created":1524863077,
+         "isSignable":false,
+         "isPublic":true,
+         "reachedPublic":1524924737
+      }
+   ]
+}
