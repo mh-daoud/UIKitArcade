@@ -14,6 +14,7 @@ class HorizontalCollectionView : UIView {
     let collectionView: UICollectionView = {
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.scrollDirection = .horizontal
+ //       flowLayout.itemSize = CGSize(width: 120, height: 80)
         flowLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
         let view = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
         return view
@@ -26,6 +27,7 @@ class HorizontalCollectionView : UIView {
         style()
         setupDataSource()
         layout()
+    
     }
     
     required init?(coder: NSCoder) {
@@ -33,7 +35,7 @@ class HorizontalCollectionView : UIView {
     }
     
     override var intrinsicContentSize: CGSize {
-        return CGSize(width: UIView.noIntrinsicMetric, height: UIView.noIntrinsicMetric)
+        return CGSize(width: UIView.noIntrinsicMetric, height: 100)
     }
 }
 
@@ -44,10 +46,8 @@ extension HorizontalCollectionView {
     
     func style(){
         translatesAutoresizingMaskIntoConstraints = false
-        
+        backgroundColor = .red
         collectionView.translatesAutoresizingMaskIntoConstraints = false
-        collectionView.backgroundColor = .red
-        collectionView.delegate = self
     }
     
     func layout(){
@@ -81,14 +81,4 @@ extension HorizontalCollectionView {
 }
 
 
-extension HorizontalCollectionView : UICollectionViewDelegateFlowLayout {
-     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        BasicCell.size
-    }
-    
-    
-    
-     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        CGFloat(8)
-    }
-}
+

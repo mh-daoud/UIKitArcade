@@ -1,0 +1,1276 @@
+{
+    "entries": [
+        {
+            "template": "landing_hero",
+            "playlistId": "_SVOD-Hero_Levant_content_00",
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "disableAnonymousUsers": true,
+            "_meta": {
+                "id": "641b1537a0e8450017d84f5d",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-04-28T11:02:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Hero - Levant Web & Mob (SVOD)",
+            "requiresAuthentication": false,
+            "type": "show",
+            "items": [],
+            "disableSubscribedUsers": false
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_SVOD-Hero_Levant_content_01",
+            "_meta": {
+                "id": "627535e5a6f5470017da9a29",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-04-28T11:04:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "NEW RELEASES - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "New Releases",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_cw",
+            "_meta": {
+                "id": "641b1b3ca0e8450017ffafc0",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-03-22T15:14:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "CW - Levant (SVOD)",
+            "type": "media",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Continue Watching",
+            "disableAnonymousUsers": true,
+            "action": "continue_watching",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "bundle",
+            "playlistId": "_Home-Page_LEVANT_SVOD_12-years_content_00",
+            "_meta": {
+                "id": "658aa60923eec600165decb1",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-12-26T10:09:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Shahid Throughout the Years - LEV (SVOD) Bundle",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Shahid Throughout the Years",
+            "disableAnonymousUsers": true,
+            "logoTitle": "Shahid Throughout the Years",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Turkish-Series_content_00",
+            "query": "_ar_content_03",
+            "_meta": {
+                "id": "641b1cc029fbc80018c87b09",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-12-22T12:21:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Turkish Series - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Series You Love",
+            "disableAnonymousUsers": true,
+            "logoTitle": "Series You Love",
+            "bundleImage": "http://static.shahid.net/mediaObject/bundles/Cennetin-Gozyaslari_Bundle_New/original/Cennetin-Gozyaslari_Bundle_New.jpg?height={height}&width={width}&croppingPoint={croppingPoint}",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Bollywood-Series_content_00",
+            "_meta": {
+                "id": "641b38a7a0e8450017ffb227",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-18T15:54:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Bollywood Series - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Colour for Every Mood",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Live-Channels_content_03",
+            "_meta": {
+                "id": "623ae06b23eec6001875e230",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-04T11:41:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Live TV - Levant (SVOD)",
+            "type": "live",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Live TV",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "carousel",
+            "_meta": {
+                "id": "642044b629fbc800179c1339",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-03-26T13:13:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "TOP 10 - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Top 10",
+            "disableAnonymousUsers": true,
+            "action": "top10",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Top-Searched_content_00",
+            "_meta": {
+                "id": "655b53aaa0e8450016a9d796",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-11-20T12:41:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Top Searched on Shahid - LEV (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Most Searched on Shahid",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_bowyw",
+            "_meta": {
+                "id": "6400478229fbc80018c7a427",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-04-26T10:34:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Based on What You’ve Watched - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Top Picks for You",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Coming-Soon_Levant_content_05",
+            "_meta": {
+                "id": "623c4028a6f547001ad9764b",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-04-28T11:06:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Coming Soon - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Coming Soon",
+            "disableAnonymousUsers": true,
+            "logoTitle": "Coming Soon",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Fast-Channel_content_02",
+            "_meta": {
+                "id": "6331d8a5a0e84500163e690b",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-10-15T09:22:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Fast Channel - Levant (SVOD)",
+            "type": "live",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Most Watched Channels",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Binge_content_00",
+            "_meta": {
+                "id": "644ba8ff29fbc80018c9df69",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-12-21T11:56:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Binge Watch - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Binge Watch",
+            "disableAnonymousUsers": true,
+            "logoTitle": "Binge Watch",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_attribute_key_value_01",
+            "_meta": {
+                "id": "64d37cf4a6f547001509fdf3",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-09-04T08:33:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "AKV 1 - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": true,
+            "displaytext": "dynamicTitle",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_byw_series_01",
+            "_meta": {
+                "id": "64402a98a6f5470017449580",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-07-05T08:48:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "BYW Series 1 - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Because You've Watched \" {title} \"",
+            "disableAnonymousUsers": true,
+            "action": "because_you_watched",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_attribute_key_value_02",
+            "_meta": {
+                "id": "64d38b72a6f547001509fe64",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-09-04T08:34:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "AKV 2 - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": true,
+            "displaytext": "dynamicTitle",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Anime_content_00",
+            "_meta": {
+                "id": "641b23dca0e8450017d8518f",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-11-01T10:41:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Anime - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Otaku Favourites",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_reco",
+            "_meta": {
+                "id": "64a423f2a6f547001831f488",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-07-04T13:55:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Recommendation - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Something Else to Enjoy",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Svod-Content_SPORT_Live-Sports_content_03",
+            "_meta": {
+                "id": "641b1f62a0e8450017ffb014",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-07-25T13:16:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Live Sport - Levant (SVOD)",
+            "type": "media",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Live Sports",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Premiere_content_00",
+            "query": "_ar_content_03",
+            "_meta": {
+                "id": "641b1d7529fbc80018c87b51",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-03T16:28:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Shahid Premieres - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Shahid Exclusives",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Family-Movies_content_02",
+            "_meta": {
+                "id": "641b2219a0e8450017d85147",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-06-27T19:36:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Family Movies - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Family Movies",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_byw_series_02",
+            "_meta": {
+                "id": "6400478ba0e8450017fec6b1",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-07-05T08:01:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "BYW Series 2 - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Because You've Watched \" {title} \"",
+            "disableAnonymousUsers": true,
+            "action": "because_you_watched",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Western-Romantic-Drama_content_00",
+            "_meta": {
+                "id": "646dd22b29fbc80018ca9cff",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-24T09:02:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Romance Drama Western - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Love Stories That Tug at Your Heartstrings",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_byw_movie_01",
+            "_meta": {
+                "id": "6400478823eec6001948e809",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-11-07T11:43:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "BYW Movies Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Because You've Watched \" {title} \"",
+            "disableAnonymousUsers": true,
+            "action": "because_you_watched",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_person",
+            "_meta": {
+                "id": "641b1c5c29fbc80018c87af6",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-03-22T15:19:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "My List - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "My List",
+            "disableAnonymousUsers": true,
+            "action": "my_list",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Originals_content_00",
+            "query": "_ar_content_03",
+            "_meta": {
+                "id": "641b1d2629fbc800179bdd02",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-03T16:30:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Shahid Originals - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Shahid Originals",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_SVOD_Documentaries_content_00",
+            "_meta": {
+                "id": "641b1fd0a0e8450017ffb03c",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-12-07T11:26:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Documentaries - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Documentaries",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_popular_movie",
+            "_meta": {
+                "id": "64004787a0e8450017fec6a0",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-10-23T06:32:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Popular Movies - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Popular Movies",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_trending_movie",
+            "_meta": {
+                "id": "641b3a1fa0e8450017d852fb",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-03-22T17:28:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Trending Movies - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Trending Movies",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_trending_series",
+            "_meta": {
+                "id": "640053a629fbc80018c7a4e3",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-03-02T07:44:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Trending Series - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Trending Series",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_popular_program",
+            "_meta": {
+                "id": "6441c0e029fbc80018c9a7c1",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-10-23T06:32:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Popular Shows - Levant (SVOD)",
+            "type": "show",
+            "disableSubscribedUsers": false,
+            "disableRegisteredUsers": true,
+            "dynamicTitle": false,
+            "displaytext": "Popular Shows",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "landing_hero",
+            "playlistId": "_AVOD-Hero_AVOD-Levant_content_00",
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "disableAnonymousUsers": false,
+            "_meta": {
+                "id": "641b3b7229fbc800179be098",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-04-28T11:28:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Hero - Levant Web & Mob (AVOD)",
+            "requiresAuthentication": false,
+            "type": "show",
+            "items": [],
+            "disableSubscribedUsers": true
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Free-Series_content_00",
+            "_meta": {
+                "id": "641b3cd4a0e8450017d85506",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-01T13:29:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Free Series - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Series for Free",
+            "disableAnonymousUsers": false,
+            "logoTitle": "Shows Without Subscription",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_cw",
+            "_meta": {
+                "id": "641b406c29fbc800179be37c",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-03-22T17:53:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "CW - Levant (AVOD)",
+            "type": "media",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Continue Watching",
+            "disableAnonymousUsers": true,
+            "action": "continue_watching",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_AVOD-Hero_AVOD-Levant_content_01",
+            "_meta": {
+                "id": "627536b923eec600186a0591",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-04-28T11:30:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "New Releases - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "New Releases",
+            "disableAnonymousUsers": false,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Bollywood-Series_content_00",
+            "_meta": {
+                "id": "641b417ca0e8450017ffb753",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-12-22T12:21:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Bollywood Series - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Colour for Every Mood",
+            "disableAnonymousUsers": false,
+            "logoTitle": "Colour for Every Mood",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "native_ad",
+            "disableRegisteredUsers": false,
+            "disableAnonymousUsers": false,
+            "_meta": {
+                "id": "5f3bc79e29fbc8001d93d6e8",
+                "typeId": "58fdb74c812a4f021960e8ef",
+                "typeTags": [
+                    "container",
+                    "content",
+                    "ad",
+                    "advertisement"
+                ],
+                "typeAlias": "ad-container",
+                "publishedFrom": "2023-03-30T14:31:00Z",
+                "locale": "en"
+            },
+            "userType": "default",
+            "title": "Native-Ad 1 (AVOD)",
+            "divId": "div",
+            "pathPrefix": "/7229/mbcshahed/home",
+            "disableSubscribedUsers": true
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Top-Searched_content_00",
+            "_meta": {
+                "id": "655b53a6a0e8450016a9d784",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-11-20T13:04:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Top Searched on Shahid - LEV (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Most Searched on Shahid",
+            "disableAnonymousUsers": false,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Fast-Channel_content_03",
+            "_meta": {
+                "id": "6441beff29fbc800179d02af",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-10-15T09:21:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Fast Channel - Levant (AVOD)",
+            "type": "live",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Most Watched Channels",
+            "disableAnonymousUsers": false,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "carousel",
+            "_meta": {
+                "id": "642044b8a0e8450017d88779",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-03-26T13:13:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "TOP 10 - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Top 10",
+            "disableAnonymousUsers": false,
+            "action": "top10",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Catchup_content_00",
+            "_meta": {
+                "id": "644bb005a0e84500190546f1",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-10T11:34:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Catchup - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "TV Catch-Up",
+            "disableAnonymousUsers": false,
+            "logoTitle": "TV Catch-Up",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Turkish-Series_content_00",
+            "_meta": {
+                "id": "641b4175a0e8450017ffb742",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-10-26T08:19:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Turkish Series - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Series You Love",
+            "disableAnonymousUsers": false,
+            "logoTitle": "Series You Love",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Coming-Soon_Levant_content_00",
+            "_meta": {
+                "id": "623c41efa6f54700191f98ec",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-04-28T11:33:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Coming Soon - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Coming Soon",
+            "disableAnonymousUsers": false,
+            "logoTitle": "Coming Soon",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_attribute_key_value_01",
+            "_meta": {
+                "id": "64d37e07a6f5470016b053ba",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-09-04T08:34:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "AKV 1 - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": true,
+            "displaytext": "dynamicTitle",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Binge-free_content_00",
+            "_meta": {
+                "id": "645b71c729fbc80018ca271f",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-07-26T10:31:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Free Binge - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Binge-Watch for Free",
+            "disableAnonymousUsers": false,
+            "logoTitle": "Binge-Watch for Free",
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Accedo-WW_content_attribute_key_value_02",
+            "_meta": {
+                "id": "64d38bc023eec600165db68e",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-09-04T08:34:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "AKV 2 - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": true,
+            "displaytext": "dynamicTitle",
+            "disableAnonymousUsers": true,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Svod-Content_SPORT_Live-Sports_content_01",
+            "_meta": {
+                "id": "644034ee1de1c4001899bad1",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-04-19T18:38:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Live Sport - Levant (AVOD)",
+            "type": "media",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Live Sports",
+            "disableAnonymousUsers": false,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Anime_content_00",
+            "_meta": {
+                "id": "641b445729fbc800179be5c7",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-04T12:00:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Anime - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Anime",
+            "disableAnonymousUsers": false,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Premiere_content_00",
+            "query": "_ar_content_03",
+            "_meta": {
+                "id": "641b417a29fbc800179be437",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-03T16:40:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Shahid Premieres - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Shahid Exclusives",
+            "disableAnonymousUsers": false,
+            "requiresAuthentication": false,
+            "items": []
+        },
+        {
+            "template": "default_landscape",
+            "playlistId": "_Home-Page_LEVANT_AVOD_Western-Romantic-Drama_content_00",
+            "_meta": {
+                "id": "646de8ffa0e845001905fde5",
+                "typeId": "5834539e1d406202118c49a0",
+                "typeTags": [
+                    "container",
+                    "content"
+                ],
+                "typeAlias": "container",
+                "publishedFrom": "2023-05-24T10:38:00Z",
+                "locale": "en"
+            },
+            "sortable": false,
+            "title": "Romance Drama Western - Levant (AVOD)",
+            "type": "show",
+            "disableSubscribedUsers": true,
+            "disableRegisteredUsers": false,
+            "dynamicTitle": false,
+            "displaytext": "Love Stories That Tug at Your Heartstrings",
+            "disableAnonymousUsers": false,
+            "requiresAuthentication": false,
+            "items": []
+        }
+    ],
+    "pagination": {
+        "total": 50,
+        "size": 50,
+        "offset": 0
+    }
+}

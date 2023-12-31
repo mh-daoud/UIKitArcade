@@ -23,9 +23,9 @@ class BasicCell : UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override var intrinsicContentSize: CGSize {
-        return BasicCell.size
-    }
+//    override var intrinsicContentSize: CGSize {
+//        return BasicCell.size
+//    }
 }
 
 extension BasicCell {
@@ -47,8 +47,16 @@ extension BasicCell {
         [label].forEach(contentView.addSubview(_:))
         
         NSLayoutConstraint.activate([
-            label.centerXAnchor.constraint(equalTo: centerXAnchor),
-            label.centerYAnchor.constraint(equalTo: centerYAnchor)
+            contentView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            contentView.topAnchor.constraint(equalTo: topAnchor),
+            contentView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            contentView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            contentView.widthAnchor.constraint(equalToConstant: 100)
+        ])
+        
+        NSLayoutConstraint.activate([
+            label.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
+            label.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
         ])
     }
     

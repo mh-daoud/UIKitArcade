@@ -81,7 +81,7 @@ extension CollectionViewFlowLayout {
 
 extension CollectionViewFlowLayout : UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        CGSize(width: (collectionView.bounds.size.width / 2) - 20, height: 40)
+        CGSize(width: 40, height: 40)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         40
