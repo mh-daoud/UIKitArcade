@@ -1,14 +1,13 @@
 //
-//  EditorialItem.swift
+//  Season.swift
 //  UIKitArcade
 //
-//  Created by admin on 30/12/2023.
+//  Created by admin on 31/12/2023.
 //
 
 import Foundation
 
-struct EditorialItem :  Codable, ProductModelSharedDetails {
-   
+struct Season : Codable, ProductModelSharedDetails{
     var id: Int?
     var title: String?
     var description: String?
@@ -21,9 +20,10 @@ struct EditorialItem :  Codable, ProductModelSharedDetails {
     var persons: [Person]?
     var productType: String?
 
-    var numberOfAvodSeasons: Int?
-    var numberOfAvodEpisodeForShow: Int?
-    var avodSeasonNumber: String?
-    var season: Season?
+    var showItem: ShowItem?
+    var seasonNumber: String?
+    var seasonName: String?
+    var tag: String?
+    
+    
 }
-

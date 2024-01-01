@@ -39,7 +39,9 @@ struct APIMock {
             let decoder = JSONDecoder()
             do {
                 let containers = try decoder.decode(ContainersResponse.self, from: jsonData)
-                return containers.entries
+                return containers.entries.filter { container in
+                    !container.disableAnonymousUsers
+                }
             }
             catch {
                 print("APIMOCK error in decoding \(error.localizedDescription)")
@@ -61,7 +63,8 @@ struct APIMock {
         ]
         if let jsonData = try? JSONSerialization.data(withJSONObject: requestParams), let jsonString = String(data: jsonData, encoding: .utf8), let url = URL(string: "https://api2.shahid.net/proxy/v2.1/editorial?request=\(jsonString)&country=JO") {
             
-            let request = URLRequest(url: url)
+            var request = URLRequest(url: url)
+            request.setValue("en", forHTTPHeaderField: "language")
             URLSession.shared.dataTask(with: request) { data, response, error in
                 guard let data, error == nil else {return}
                 do {

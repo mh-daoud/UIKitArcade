@@ -19,11 +19,15 @@ func isTablet() -> Bool {
 func dimensionCalculation(_ iPadDimension: CGFloat, _ iPhoneDimension: CGFloat) -> CGFloat {
     let screenSize = UIScreen.main.bounds
     if isTablet() {
-        return (iPadDimension * screenSize.width) / designBaseSize().width
+        return floor(Double((iPadDimension * screenSize.width) / designBaseSize().width))
     }
     else {
-        return (iPhoneDimension * screenSize.width) / designBaseSize().width
+        return floor(Double((iPhoneDimension * screenSize.width) / designBaseSize().width))
     }
+}
+
+func getScreenSize() -> CGSize {
+    return UIScreen.main.bounds.size
 }
 
 struct CommonSizes {
@@ -34,7 +38,11 @@ struct CommonSizes {
     }
     
     var logoTitle : CGSize {
-        return CGSize(width: dimensionCalculation(216, 246), height: dimensionCalculation(86, 98))
+        return CGSize(width: dimensionCalculation(216, 246), height: dimensionCalculation(96, 88))
+    }
+    
+    var heroImageSize : CGSize {
+        return CGSize(width: getScreenSize().width, height: dimensionCalculation(320, 474))
     }
     
     private init(){}

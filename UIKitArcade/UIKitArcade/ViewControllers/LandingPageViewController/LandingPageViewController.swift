@@ -26,15 +26,19 @@ class LandingPageViewController : UIViewController {
         style()
         layout()
     }
+    
+    
+    
 }
 
 
 
 extension LandingPageViewController {
     func setup() {
-        title = "Landing Page"
+        navigationController?.setNavigationBarHidden(true, animated: false)
         tableView.register(LandscapeCarouselTableViewCell.self, forCellReuseIdentifier: LandscapeCarouselTableViewCell.reusableId)
-
+        tableView.register(HeroSliderTableViewCell.self, forCellReuseIdentifier: HeroSliderTableViewCell.reusableId)
+        
         if let containers = APIMock.shared.getContainers() {
             self.containers = containers
             tableView.reloadData()
@@ -42,10 +46,11 @@ extension LandingPageViewController {
     }
     
     func style() {
-        //view.backgroundColor = .systemBackground
+        view.backgroundColor = .red
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.backgroundColor = ThemeColor.nero
+        tableView.contentInsetAdjustmentBehavior = .never
         
     }
     
@@ -53,7 +58,7 @@ extension LandingPageViewController {
         [tableView].forEach(view.addSubview(_:))
         
         NSLayoutConstraint.activate([
-            tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            tableView.topAnchor.constraint(equalTo: view.topAnchor),
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
@@ -73,11 +78,35 @@ extension LandingPageViewController : UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: LandscapeCarouselTableViewCell.reusableId, for: indexPath) as? LandscapeCarouselTableViewCell  {
-            cell.configure(container: containers[indexPath.item])
+        let container = containers[indexPath.item]
+        
+        if let cell = getTemplateCell(tableView, container: container, indexPath: indexPath)  {
             return cell
         }
         
         return UITableViewCell()
+    }
+}
+
+
+
+extension LandingPageViewController {
+    func getTemplateCell(_ tableView: UITableView, container: AccedoContainer, indexPath: IndexPath) -> UITableViewCell? {
+        guard let template = container.template else {return nil}
+        switch template {
+        case ContainerTemplate.LANDING_HERO.rawValue:
+            if let cell = tableView.dequeueReusableCell(withIdentifier: HeroSliderTableViewCell.reusableId, for: indexPath) as? HeroSliderTableViewCell {
+                cell.configure(container: container)
+                return cell
+            }
+        case ContainerTemplate.DEFAULT_LANDSCAPE.rawValue:
+            fallthrough
+        default:
+            if let cell =  tableView.dequeueReusableCell(withIdentifier: LandscapeCarouselTableViewCell.reusableId, for: indexPath) as? LandscapeCarouselTableViewCell {
+                cell.configure(container: container)
+                return cell
+            }
+        }
+        return nil
     }
 }

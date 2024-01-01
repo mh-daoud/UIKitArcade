@@ -56,7 +56,7 @@ extension LandscapeCarouselTableViewCell {
     
     private func fetchEditorials() {
         if let container, let playlistId = container.playlistId {
-            APIMock.shared.getContainerItems(playlistId: playlistId, pageNumber: 0, pageSize: 15) { [weak self ] response in
+            APIMock.shared.getContainerItems(playlistId: playlistId, pageNumber: 0, pageSize: Config.pageSize) { [weak self ] response in
                 guard let self, let editorialItems = response.editorialItems?.compactMap({ (itemWithType: EditorialItemWithType) in
                     itemWithType.item
                 }) else { return }

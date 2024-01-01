@@ -37,7 +37,7 @@ class PortraitCard : UIView {
 extension PortraitCard {
     
     func setup() {
-        if let posterUrl = EditorialItemUtil.getPosterImage(item: item).getUrlWithDimension(size: CommonSizes.shared.portraitShowCard) {
+        if let posterUrl = ProductModelUtil.getPosterImage(item: item).getUrlWithDimension(size: CommonSizes.shared.portraitShowCard) {
             imageView.load(url: posterUrl)
         }
     }

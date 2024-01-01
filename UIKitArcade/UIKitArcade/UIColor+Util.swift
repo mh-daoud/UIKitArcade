@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    public convenience init?(hex: String) {
+    public convenience init?(hex: String, alpha: CGFloat = 1) {
         let r, g, b: CGFloat
 
         if hex.hasPrefix("#") {
@@ -25,7 +25,7 @@ extension UIColor {
                     g = CGFloat((hexNumber & 0x00ff00) >> 8) / 255
                     b = CGFloat((hexNumber & 0x0000ff) >> 0) / 255
 
-                    self.init(red: r, green: g, blue: b, alpha: 1)
+                    self.init(red: r, green: g, blue: b, alpha: alpha)
                     return
                 }
             }

@@ -9,4 +9,9 @@ import Foundation
 struct Config {
     static let pageSize = 15
     
+    
+    
+    private init() {
+        
+    }
 }

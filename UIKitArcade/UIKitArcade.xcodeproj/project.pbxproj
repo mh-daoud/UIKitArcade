@@ -30,12 +30,23 @@
 		8496BA852B3FE07700D63FEA /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA842B3FE07700D63FEA /* Helpers.swift */; };
 		8496BA882B3FE5AF00D63FEA /* EditorialItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA872B3FE5AF00D63FEA /* EditorialItem.swift */; };
 		8496BA8A2B3FE5C600D63FEA /* SizedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA892B3FE5C600D63FEA /* SizedImage.swift */; };
-		8496BA8C2B3FE61400D63FEA /* EditorialItemUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA8B2B3FE61400D63FEA /* EditorialItemUtil.swift */; };
+		8496BA8C2B3FE61400D63FEA /* ProductModelUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA8B2B3FE61400D63FEA /* ProductModelUtil.swift */; };
 		8496BA8E2B3FEAA900D63FEA /* SplashServiceUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA8D2B3FEAA900D63FEA /* SplashServiceUrl.swift */; };
 		8496BA912B41531000D63FEA /* HeroSliderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA902B41531000D63FEA /* HeroSliderScrollView.swift */; };
 		8496BA932B41541700D63FEA /* PortraitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA922B41541700D63FEA /* PortraitCard.swift */; };
 		8496BA962B4158B500D63FEA /* HeroSliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA952B4158B500D63FEA /* HeroSliderTableViewCell.swift */; };
 		8496BA982B41599400D63FEA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA972B41599400D63FEA /* Config.swift */; };
+		8496BA9A2B415BD600D63FEA /* HeroSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA992B415BD600D63FEA /* HeroSlideView.swift */; };
+		8496BA9C2B4186AF00D63FEA /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA9B2B4186AF00D63FEA /* BasicButton.swift */; };
+		8496BA9E2B418FE100D63FEA /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA9D2B418FE100D63FEA /* UIView+Utils.swift */; };
+		8496BAA02B41A2B400D63FEA /* SeasonAndGenraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA9F2B41A2B400D63FEA /* SeasonAndGenraView.swift */; };
+		8496BAA22B41A3CB00D63FEA /* Genra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAA12B41A3CB00D63FEA /* Genra.swift */; };
+		8496BAA42B41A41500D63FEA /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAA32B41A41500D63FEA /* Season.swift */; };
+		8496BAA62B41A58000D63FEA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAA52B41A58000D63FEA /* Person.swift */; };
+		8496BAA82B41A60C00D63FEA /* ShowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAA72B41A60C00D63FEA /* ShowItem.swift */; };
+		8496BAAA2B41A6D700D63FEA /* ProductModelSharedDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAA92B41A6D700D63FEA /* ProductModelSharedDetails.swift */; };
+		8496BAAC2B41AC9600D63FEA /* GreenCricle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAAB2B41AC9600D63FEA /* GreenCricle.swift */; };
+		8496BAAE2B41B66600D63FEA /* TopTenAndSeasonTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAAD2B41B66600D63FEA /* TopTenAndSeasonTag.swift */; };
 		84C9FA142B22FC3D0054E90E /* PasswordCriteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */; };
 		84C9FA162B243BEC0054E90E /* PasswordStatusViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */; };
 		84C9FA182B2443D30054E90E /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA172B2443D30054E90E /* ViewControllerTests.swift */; };
@@ -89,12 +100,23 @@
 		8496BA842B3FE07700D63FEA /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		8496BA872B3FE5AF00D63FEA /* EditorialItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorialItem.swift; sourceTree = "<group>"; };
 		8496BA892B3FE5C600D63FEA /* SizedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizedImage.swift; sourceTree = "<group>"; };
-		8496BA8B2B3FE61400D63FEA /* EditorialItemUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorialItemUtil.swift; sourceTree = "<group>"; };
+		8496BA8B2B3FE61400D63FEA /* ProductModelUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModelUtil.swift; sourceTree = "<group>"; };
 		8496BA8D2B3FEAA900D63FEA /* SplashServiceUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashServiceUrl.swift; sourceTree = "<group>"; };
 		8496BA902B41531000D63FEA /* HeroSliderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSliderScrollView.swift; sourceTree = "<group>"; };
 		8496BA922B41541700D63FEA /* PortraitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitCard.swift; sourceTree = "<group>"; };
 		8496BA952B4158B500D63FEA /* HeroSliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSliderTableViewCell.swift; sourceTree = "<group>"; };
 		8496BA972B41599400D63FEA /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		8496BA992B415BD600D63FEA /* HeroSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSlideView.swift; sourceTree = "<group>"; };
+		8496BA9B2B4186AF00D63FEA /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
+		8496BA9D2B418FE100D63FEA /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		8496BA9F2B41A2B400D63FEA /* SeasonAndGenraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonAndGenraView.swift; sourceTree = "<group>"; };
+		8496BAA12B41A3CB00D63FEA /* Genra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genra.swift; sourceTree = "<group>"; };
+		8496BAA32B41A41500D63FEA /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		8496BAA52B41A58000D63FEA /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		8496BAA72B41A60C00D63FEA /* ShowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowItem.swift; sourceTree = "<group>"; };
+		8496BAA92B41A6D700D63FEA /* ProductModelSharedDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModelSharedDetails.swift; sourceTree = "<group>"; };
+		8496BAAB2B41AC9600D63FEA /* GreenCricle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCricle.swift; sourceTree = "<group>"; };
+		8496BAAD2B41B66600D63FEA /* TopTenAndSeasonTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenAndSeasonTag.swift; sourceTree = "<group>"; };
 		84C9FA0A2B22FB7B0054E90E /* UIKitArcadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitArcadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaTests.swift; sourceTree = "<group>"; };
 		84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusViewTests.swift; sourceTree = "<group>"; };
@@ -193,6 +215,7 @@
 				8496BA7F2B3D977300D63FEA /* UIColor+Util.swift */,
 				8496BA842B3FE07700D63FEA /* Helpers.swift */,
 				8496BA972B41599400D63FEA /* Config.swift */,
+				8496BA9D2B418FE100D63FEA /* UIView+Utils.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -232,6 +255,11 @@
 				8496BA872B3FE5AF00D63FEA /* EditorialItem.swift */,
 				8496BA892B3FE5C600D63FEA /* SizedImage.swift */,
 				8496BA8D2B3FEAA900D63FEA /* SplashServiceUrl.swift */,
+				8496BAA12B41A3CB00D63FEA /* Genra.swift */,
+				8496BAA32B41A41500D63FEA /* Season.swift */,
+				8496BAA52B41A58000D63FEA /* Person.swift */,
+				8496BAA72B41A60C00D63FEA /* ShowItem.swift */,
+				8496BAA92B41A6D700D63FEA /* ProductModelSharedDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,7 +276,7 @@
 		8496BA862B3FE58B00D63FEA /* ModelUtil */ = {
 			isa = PBXGroup;
 			children = (
-				8496BA8B2B3FE61400D63FEA /* EditorialItemUtil.swift */,
+				8496BA8B2B3FE61400D63FEA /* ProductModelUtil.swift */,
 			);
 			path = ModelUtil;
 			sourceTree = "<group>";
@@ -257,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				8496BA902B41531000D63FEA /* HeroSliderScrollView.swift */,
+				8496BA992B415BD600D63FEA /* HeroSlideView.swift */,
 			);
 			path = HeroSlider;
 			sourceTree = "<group>";
@@ -356,6 +385,10 @@
 			children = (
 				84C9FA452B297E830054E90E /* StateButton.swift */,
 				8496BA922B41541700D63FEA /* PortraitCard.swift */,
+				8496BA9B2B4186AF00D63FEA /* BasicButton.swift */,
+				8496BA9F2B41A2B400D63FEA /* SeasonAndGenraView.swift */,
+				8496BAAB2B41AC9600D63FEA /* GreenCricle.swift */,
+				8496BAAD2B41B66600D63FEA /* TopTenAndSeasonTag.swift */,
 			);
 			path = CommonUI;
 			sourceTree = "<group>";
@@ -467,32 +500,42 @@
 				84C9FA252B2572850054E90E /* UIImageView+Utils.swift in Sources */,
 				843949B62B1EE49000F2C59B /* PasswordResetViewController.swift in Sources */,
 				84C9FA212B24C5FC0054E90E /* HorizontalViewController.swift in Sources */,
+				8496BAAE2B41B66600D63FEA /* TopTenAndSeasonTag.swift in Sources */,
 				8496BA782B3D7B5000D63FEA /* AccedoContainer.swift in Sources */,
 				84C9FA232B2571350054E90E /* CarouselCardView.swift in Sources */,
 				8496BA802B3D977300D63FEA /* UIColor+Util.swift in Sources */,
 				8496BA7C2B3D90F900D63FEA /* LandscapeCarouselTableViewCell.swift in Sources */,
+				8496BAAA2B41A6D700D63FEA /* ProductModelSharedDetails.swift in Sources */,
 				84C9FA3E2B2971C50054E90E /* BadgeCell.swift in Sources */,
 				84C9FA412B29721F0054E90E /* CardModel.swift in Sources */,
 				843949EC2B2194BF00F2C59B /* UIResponder+Utils.swift in Sources */,
 				843949E92B217E3700F2C59B /* PasswordCritieria.swift in Sources */,
+				8496BAA22B41A3CB00D63FEA /* Genra.swift in Sources */,
 				8496BA8A2B3FE5C600D63FEA /* SizedImage.swift in Sources */,
+				8496BAA62B41A58000D63FEA /* Person.swift in Sources */,
 				8496BA932B41541700D63FEA /* PortraitCard.swift in Sources */,
+				8496BAA42B41A41500D63FEA /* Season.swift in Sources */,
 				8496BA8E2B3FEAA900D63FEA /* SplashServiceUrl.swift in Sources */,
+				8496BA9E2B418FE100D63FEA /* UIView+Utils.swift in Sources */,
 				8496BA852B3FE07700D63FEA /* Helpers.swift in Sources */,
 				84C9FA1E2B24C0390054E90E /* MainAppViewController.swift in Sources */,
 				84C9FA482B2981440054E90E /* HeaderCell.swift in Sources */,
+				8496BA9A2B415BD600D63FEA /* HeroSlideView.swift in Sources */,
 				8496BA732B3D7AEE00D63FEA /* APIMock.swift in Sources */,
 				843949B22B1EE49000F2C59B /* AppDelegate.swift in Sources */,
 				84C9FA432B297A350054E90E /* CollectionViewFlowLayout.swift in Sources */,
 				8496BA7E2B3D966B00D63FEA /* CommonUI.swift in Sources */,
 				8496BA982B41599400D63FEA /* Config.swift in Sources */,
+				8496BAA82B41A60C00D63FEA /* ShowItem.swift in Sources */,
+				8496BAAC2B41AC9600D63FEA /* GreenCricle.swift in Sources */,
 				84C9FA392B29709D0054E90E /* CollectionViewCompositionalLayout.swift in Sources */,
+				8496BA9C2B4186AF00D63FEA /* BasicButton.swift in Sources */,
 				84C9FA292B2820540054E90E /* GridViewController.swift in Sources */,
 				84C9FA462B297E830054E90E /* StateButton.swift in Sources */,
 				8496BA912B41531000D63FEA /* HeroSliderScrollView.swift in Sources */,
 				8496BA832B3FDFEA00D63FEA /* PortraitCardCollectionViewCell.swift in Sources */,
 				8496BA882B3FE5AF00D63FEA /* EditorialItem.swift in Sources */,
-				8496BA8C2B3FE61400D63FEA /* EditorialItemUtil.swift in Sources */,
+				8496BA8C2B3FE61400D63FEA /* ProductModelUtil.swift in Sources */,
 				84C9FA3C2B2971630054E90E /* TextCell.swift in Sources */,
 				8496BA962B4158B500D63FEA /* HeroSliderTableViewCell.swift in Sources */,
 				843949DD2B20311100F2C59B /* PasswordCriteriaView.swift in Sources */,
@@ -500,6 +543,7 @@
 				8496BA6E2B3D777D00D63FEA /* LandingPageViewController.swift in Sources */,
 				843949E02B2038BA00F2C59B /* PasswordStatusView.swift in Sources */,
 				843949C72B1EEAC300F2C59B /* PasswordTextField.swift in Sources */,
+				8496BAA02B41A2B400D63FEA /* SeasonAndGenraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

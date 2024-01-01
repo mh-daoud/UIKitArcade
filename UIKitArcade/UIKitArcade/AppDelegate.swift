@@ -17,10 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = ThemeColor.nero
         //let vc = MainAppViewController()
         //window?.rootViewController = UINavigationController(rootViewController: vc)
-        window?.rootViewController = UINavigationController(rootViewController: LandingPageViewController()) 
+        window?.clipsToBounds = true
+        window?.rootViewController = UINavigationController(rootViewController: LandingPageViewController())
         window?.makeKeyAndVisible()
         return true
     }
-    
 }
 
