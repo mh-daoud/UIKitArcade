@@ -43,7 +43,7 @@ extension HeroSlideView {
     override func layoutSubviews() {
         super.layoutSubviews()
         if bottomGradientBG.layer.sublayers == nil {
-            let _ = bottomGradientBG.applyGradient(colours: [ThemeColor.nero!,ThemeColor.transparent.withAlphaComponent(0)], startPoint: CGPoint(x: 0, y: 1), endPoint: CGPoint(x: 0, y: 0))
+            let _ = bottomGradientBG.applyGradient(colours: [ThemeColor.nero,ThemeColor.transparent.withAlphaComponent(0)], startPoint: CGPoint(x: 0, y: 1), endPoint: CGPoint(x: 0, y: 0))
         }
        
     }
@@ -110,7 +110,7 @@ extension HeroSlideView {
         
         //buttons
         NSLayoutConstraint.activate([
-            bottomAnchor.constraint(equalToSystemSpacingBelow: stackView.bottomAnchor, multiplier: 2),
+            bottomAnchor.constraint(equalTo: stackView.bottomAnchor),
             stackView.leadingAnchor.constraint(equalToSystemSpacingAfter: leadingAnchor, multiplier: 1),
             trailingAnchor.constraint(equalToSystemSpacingAfter: stackView.trailingAnchor, multiplier: 1),
         ])

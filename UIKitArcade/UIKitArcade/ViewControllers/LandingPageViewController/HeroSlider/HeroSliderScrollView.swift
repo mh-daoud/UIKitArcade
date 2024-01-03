@@ -9,16 +9,18 @@ import Foundation
 import UIKit
 
 class HeroSliderScrollView : UIScrollView {
-    
-    var slides: [EditorialItem]
-    var containerView = UIView()
-    var heroSlideViews = [HeroSlideView]()
-    var heroSliderDelegate: HeroSliderScrollViewDelegate?
+   
+    private var slides: [EditorialItem]
+    private var containerView = UIView()
+    private var heroSlideViews = [HeroSlideView]()
+    private var heroSliderScrollViewDelegate: HeroSliderScrollViewDelegate?
+
     override init(frame: CGRect) {
         slides = []
         super.init(frame: frame)
         showsHorizontalScrollIndicator = false
         showsVerticalScrollIndicator = false
+        bounces = false
     }
     
     required init?(coder: NSCoder) {
@@ -33,30 +35,33 @@ class HeroSliderScrollView : UIScrollView {
 
 extension HeroSliderScrollView {
     
-    func configure(items: [EditorialItem]) {
+    func configure(items: [EditorialItem], delegate: HeroSliderDelegate? = nil) {
         self.slides = items
-        setup()
+        setup(delegate)
         style()
         layout()
         
     }
     
-    func setup() {
+    private func setup(_ heroSliderDelegate: HeroSliderDelegate? = nil) {
         heroSlideViews.removeAll()
-        print("slides \(slides.count)")
+        
         if slides.count > 1 {
             if let lastSlide = slides.last {
                 addSlideView(lastSlide)
             }
         }
+        
         slides.forEach(addSlideView(_:))
         if let firstSlide = slides.first {
             addSlideView(firstSlide)
         }
-        print("total slides \(heroSlideViews.count)")
-        heroSliderDelegate = HeroSliderScrollViewDelegate(threshold: getScreenSize().width * 0.25,
+        
+        heroSliderScrollViewDelegate = HeroSliderScrollViewDelegate(threshold: getScreenSize().width * 0.25,
                                                           maxPages: heroSlideViews.count)
-        delegate = heroSliderDelegate
+        
+        delegate = heroSliderScrollViewDelegate
+        heroSliderScrollViewDelegate?.delegate = heroSliderDelegate
         setContentOffset(CGPointMake(getScreenSize().width, 0), animated: false)
     }
     
@@ -66,13 +71,13 @@ extension HeroSliderScrollView {
         heroSlideViews.append(slide)
     }
     
-    func style(){
+    private func style(){
         backgroundColor = ThemeColor.transparent
         containerView.translatesAutoresizingMaskIntoConstraints = false
         containerView.backgroundColor = ThemeColor.transparent
     }
     
-    func layout() {
+    private func layout() {
         addSubview(containerView)
         heroSlideViews.forEach(containerView.addSubview(_:))
         
@@ -106,77 +111,12 @@ extension HeroSliderScrollView {
             }
         }
     }
-}
-
-
-
-//MARK: Snap Behivour
-class HeroSliderScrollViewDelegate: NSObject, UIScrollViewDelegate {
-    let threshold: CGFloat
-    var page = 2
-    let maxPages: Int
-    var userDraging = false
-    var oldXOffset: CGFloat = 0
-    //var delegate: BannersCarouselSnapDelegate?
     
-    var scrollSnapWidth : CGFloat {
-        let screenWidth = UIScreen.main.bounds.width
-        return CGFloat(page - 1) * screenWidth
+    func snapToSlide(slideNumber: Int) {
+        heroSliderScrollViewDelegate?.snapToSlide(slideNumber: slideNumber, scrollView: self)
     }
     
-    init(threshold: CGFloat, maxPages: Int) {
-        self.threshold = threshold
-        self.maxPages = maxPages
-    }
-    
-    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
-        if(!userDraging) {
-            oldXOffset = scrollView.contentOffset.x
-        }
-        userDraging = true
-    }
-    
-    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-        setContentOffset(scrollView:scrollView)
-    }
-    
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        if(userDraging) {
-            let moveDelta = oldXOffset - scrollView.contentOffset.x;
-            if (abs(moveDelta) > (threshold)) {
-                oldXOffset = scrollView.contentOffset.x
-                if ( moveDelta < 0 )
-                {
-                    page += 1
-                }
-                else
-                {
-                    page -= 1
-                }
-                scrollView.isScrollEnabled = false
-            }
-        }
-    }
-    
-    func setContentOffset(scrollView: UIScrollView, animated: Bool = true) {
-        userDraging = false
-        scrollView.setContentOffset(CGPointMake(scrollSnapWidth, 0), animated: animated)
-        scrollView.isScrollEnabled = true
-        oldXOffset = scrollSnapWidth
-        //self.delegate?.didSnapToPage(page: page)
-    }
-    
-    func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
-        if page ==  maxPages    {
-            page = 2
-            scrollView.isScrollEnabled = false
-            setContentOffset(scrollView: scrollView, animated: false)
-        }
-        else if page == 1 {
-            page = maxPages - 1
-            scrollView.isScrollEnabled = false
-            setContentOffset(scrollView: scrollView, animated: false)
-        }
-        userDraging = false
+    func snapToNextSlide() {
+        heroSliderScrollViewDelegate?.snapToNextSlide( scrollView: self)
     }
 }

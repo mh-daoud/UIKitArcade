@@ -9,9 +9,10 @@ import Foundation
 import UIKit
 
 class LandingPageViewController : UIViewController {
+    typealias ContainerCache = [ContainersCacheKey: Any?]
+    var containersCache: [String: ContainerCache] = [:]
     
     lazy var tableView : UITableView = {
-        
         let view = UITableView()
         view.dataSource = self
         view.rowHeight = UITableView.automaticDimension
@@ -26,9 +27,6 @@ class LandingPageViewController : UIViewController {
         style()
         layout()
     }
-    
-    
-    
 }
 
 
@@ -79,7 +77,6 @@ extension LandingPageViewController : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let container = containers[indexPath.item]
-        
         if let cell = getTemplateCell(tableView, container: container, indexPath: indexPath)  {
             return cell
         }
@@ -91,6 +88,7 @@ extension LandingPageViewController : UITableViewDataSource {
 
 
 extension LandingPageViewController {
+    
     func getTemplateCell(_ tableView: UITableView, container: AccedoContainer, indexPath: IndexPath) -> UITableViewCell? {
         guard let template = container.template else {return nil}
         switch template {
@@ -109,4 +107,5 @@ extension LandingPageViewController {
         }
         return nil
     }
+    
 }

@@ -8,7 +8,7 @@
 import Foundation
 struct Config {
     static let pageSize = 15
-    
+    static let heroAutoScrollTimeInterval = 5
     
     
     private init() {

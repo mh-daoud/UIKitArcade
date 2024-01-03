@@ -19,12 +19,13 @@ enum FontType {
 
 struct ThemeColor {
     static let white = UIColor.white
-    static let snow = UIColor(hex: "#a3afc2")
-    static let nero = UIColor(hex: "#272e3a")
+    static let snow = UIColor(hex: "#a3afc2")!
+    static let nero = UIColor(hex: "#272e3a")!
     static let jungleGreen = UIColor(hex: "#00cc99")!
     static let darkBlue = UIColor(hex: "#0099ff")!
-    static let nearNero = UIColor(hex: "#181d25")
+    static let nearNero = UIColor(hex: "#181d25")!
     static let transparent = UIColor.clear
+    static let gray1 = UIColor(hex: "#cccccc")!
 }
 
 func makeLabel(text: String, fontType: FontType = .medium,fontColor: UIColor? = ThemeColor.snow) -> UILabel {

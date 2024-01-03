@@ -49,7 +49,7 @@ extension TopTenAndSeasonTag {
     func layout(){
         [separatorView, label].forEach(addSubview(_:))
         NSLayoutConstraint.activate([
-            separatorView.widthAnchor.constraint(equalToConstant: 6),
+            separatorView.widthAnchor.constraint(equalToConstant: dimensionCalculation(4, 4)),
             separatorView.centerYAnchor.constraint(equalTo: centerYAnchor),
             separatorView.heightAnchor.constraint(equalTo: label.heightAnchor, multiplier: 1.2),
             separatorView.leadingAnchor.constraint(equalTo: leadingAnchor),
