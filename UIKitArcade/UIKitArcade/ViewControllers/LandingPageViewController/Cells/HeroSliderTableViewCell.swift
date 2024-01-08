@@ -13,22 +13,31 @@ import UIKit
 class HeroSliderTableViewCell : UITableViewCell {
     
     static let reusableId = "hero_slider_table_view_cell"
-    var container: AccedoContainer!
-    var items: [EditorialItem]? = nil
     
-    var heroSliderScrollView : HeroSliderScrollView!
-    var sliderIndicator: SliderIndicator!
-    var timer: Timer?
-    let autoScrollTimeInterval: Int
+    private var items: [EditorialItem]? = nil
+    private var heroSliderScrollView : HeroSliderScrollView!
+    private var sliderIndicator: SliderIndicator!
+    
+    private var timer: Timer?
+    private let autoScrollTimeInterval: Int
+    
+    private var container: AccedoContainer?
+    private weak var store: LandingPageContainersStore?
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         autoScrollTimeInterval = Config.heroAutoScrollTimeInterval
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        print("init slider cell")
+        
+        heroSliderScrollView = HeroSliderScrollView()
+        sliderIndicator = SliderIndicator()
+        self.style()
+        self.layout()
     }
     
-    func configure(container: AccedoContainer) {
+    func configure(container: AccedoContainer, store: LandingPageContainersStore) {
+        guard  container.playlistId != self.container?.playlistId else { return }
         self.container = container
+        self.store = store
         setup { [weak self] in
             guard let self, let items else {return}
             heroSliderScrollView.configure(items: items, delegate: self)
@@ -36,9 +45,6 @@ class HeroSliderTableViewCell : UITableViewCell {
             heroSliderScrollView.snapToSlide(slideNumber: 1)
             configureAutoScroll(withInterval: autoScrollTimeInterval)
         }
-        style()
-        layout()
-        
     }
     
     required init?(coder: NSCoder) {
@@ -52,13 +58,11 @@ class HeroSliderTableViewCell : UITableViewCell {
 extension HeroSliderTableViewCell {
     
     private func setup(onCompletion: (()-> Void)? = nil) {
-        heroSliderScrollView = HeroSliderScrollView()
-        sliderIndicator = SliderIndicator()
         fetchEditorials(onCompletion: onCompletion)
     }
     
     private func fetchEditorials(onCompletion: (()-> Void)? = nil) {
-        
+        guard let container else {return }
         let block =  {
             if let onCompletion {
                 DispatchQueue.main.async {

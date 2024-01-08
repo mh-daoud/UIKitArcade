@@ -9,18 +9,24 @@ import Foundation
 import UIKit
 
 class HeroSliderScrollView : UIScrollView {
-   
+    
     private var slides: [EditorialItem]
     private var containerView = UIView()
     private var heroSlideViews = [HeroSlideView]()
-    private var heroSliderScrollViewDelegate: HeroSliderScrollViewDelegate?
-
+    private var heroSliderScrollViewDelegate: HeroSliderScrollViewDelegate
+    
     override init(frame: CGRect) {
         slides = []
+        heroSliderScrollViewDelegate = HeroSliderScrollViewDelegate(threshold: getScreenSize().width * 0.25,
+                                                                    maxPages: heroSlideViews.count)
         super.init(frame: frame)
         showsHorizontalScrollIndicator = false
         showsVerticalScrollIndicator = false
         bounces = false
+        
+        style()
+        layout()
+        delegate = heroSliderScrollViewDelegate
     }
     
     required init?(coder: NSCoder) {
@@ -38,37 +44,82 @@ extension HeroSliderScrollView {
     func configure(items: [EditorialItem], delegate: HeroSliderDelegate? = nil) {
         self.slides = items
         setup(delegate)
-        style()
-        layout()
-        
     }
     
     private func setup(_ heroSliderDelegate: HeroSliderDelegate? = nil) {
-        heroSlideViews.removeAll()
+        if slides.count < heroSlideViews.count - 2 {
+            //removeExtraSlideViews()
+        }
         
         if slides.count > 1 {
             if let lastSlide = slides.last {
-                addSlideView(lastSlide)
+                addSlideView(index: 0, slide: lastSlide)
             }
         }
-        
-        slides.forEach(addSlideView(_:))
+        for (index,slide) in slides.enumerated() {
+            addSlideView(index: index + 1, slide: slide)
+        }
         if let firstSlide = slides.first {
-            addSlideView(firstSlide)
+            addSlideView(index: slides.count + 1, slide:firstSlide, isLastSlide: true)
         }
         
-        heroSliderScrollViewDelegate = HeroSliderScrollViewDelegate(threshold: getScreenSize().width * 0.25,
-                                                          maxPages: heroSlideViews.count)
-        
-        delegate = heroSliderScrollViewDelegate
-        heroSliderScrollViewDelegate?.delegate = heroSliderDelegate
-        setContentOffset(CGPointMake(getScreenSize().width, 0), animated: false)
+        heroSliderScrollViewDelegate.setMaxPages(maxPages : heroSlideViews.count)
+        heroSliderScrollViewDelegate.delegate = heroSliderDelegate
     }
     
-    private func addSlideView(_ slideItem: EditorialItem) {
-        let slide = HeroSlideView(item: slideItem)
-        slide.translatesAutoresizingMaskIntoConstraints = false
-        heroSlideViews.append(slide)
+    private func removeExtraSlideViews(){
+        //remove last two slides
+//        let slidesCountToRemove = heroSlideViews.count - 2 - slides.count
+//        var removeCount = 0
+//        
+//        for slideToRemove in heroSlideViews.reversed() {
+//            if removeCount >= slidesCountToRemove {
+//                break;
+//            }
+//            slideToRemove.removeFromSuperview()
+//            heroSlideViews.remove(at: <#T##Int#>)
+//        }
+    }
+    
+    private func addSlideView(index: Int, slide: EditorialItem, isLastSlide: Bool = false) {
+        let slideView : HeroSlideView
+        if index < heroSlideViews.count  {
+            slideView = heroSlideViews[index]
+        }
+        else {
+            slideView = HeroSlideView()
+            slideView.translatesAutoresizingMaskIntoConstraints = false
+            heroSlideViews.append(slideView)
+            containerView.addSubview(slideView)
+            layoutSlide(index: index, isLastSlide: isLastSlide)
+        }
+        slideView.configure(item: slide)
+    }
+    
+    private func layoutSlide(index: Int, isLastSlide: Bool) {
+        let slideView = heroSlideViews[index]
+        let prevSlideView = index > 0 ? heroSlideViews[index - 1] : nil
+        NSLayoutConstraint.activate([
+            slideView.topAnchor.constraint(equalTo: topAnchor),
+            slideView.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
+        
+        if index == 0 {
+            NSLayoutConstraint.activate([
+                slideView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor)
+            ])
+        }
+        else if let prevSlideView {
+            NSLayoutConstraint.activate([
+                slideView.leadingAnchor.constraint(equalTo: prevSlideView.trailingAnchor)
+            ])
+        }
+        
+        if isLastSlide {
+            NSLayoutConstraint.activate([
+                slideView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor)
+            ])
+        }
     }
     
     private func style(){
@@ -79,7 +130,6 @@ extension HeroSliderScrollView {
     
     private func layout() {
         addSubview(containerView)
-        heroSlideViews.forEach(containerView.addSubview(_:))
         
         NSLayoutConstraint.activate([
             containerView.topAnchor.constraint(equalTo: topAnchor),
@@ -87,36 +137,13 @@ extension HeroSliderScrollView {
             containerView.trailingAnchor.constraint(equalTo: trailingAnchor),
             containerView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
-        
-        for (index,slideView) in heroSlideViews.enumerated() {
-            NSLayoutConstraint.activate([
-                slideView.topAnchor.constraint(equalTo: topAnchor),
-                slideView.bottomAnchor.constraint(equalTo: bottomAnchor)
-            ])
-            if index == 0 {
-                NSLayoutConstraint.activate([
-                    slideView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor)
-                ])
-            }
-            else {
-                let prevSlideView = heroSlideViews[index - 1]
-                NSLayoutConstraint.activate([
-                    slideView.leadingAnchor.constraint(equalTo: prevSlideView.trailingAnchor)
-                ])
-            }
-            if index == heroSlideViews.count - 1 {
-                NSLayoutConstraint.activate([
-                    slideView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor)
-                ])
-            }
-        }
     }
     
     func snapToSlide(slideNumber: Int) {
-        heroSliderScrollViewDelegate?.snapToSlide(slideNumber: slideNumber, scrollView: self)
+        heroSliderScrollViewDelegate.snapToSlide(slideNumber: slideNumber, scrollView: self)
     }
     
     func snapToNextSlide() {
-        heroSliderScrollViewDelegate?.snapToNextSlide( scrollView: self)
+        heroSliderScrollViewDelegate.snapToNextSlide( scrollView: self)
     }
 }

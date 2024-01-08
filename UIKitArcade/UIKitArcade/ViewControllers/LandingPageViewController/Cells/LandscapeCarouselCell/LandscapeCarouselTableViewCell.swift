@@ -15,29 +15,37 @@ class LandscapeCarouselTableViewCell : UITableViewCell {
     var label: UILabel
     var collectionView: DynamicCollectionView
     var items: [EditorialItem] = []
+    
     private var container: AccedoContainer?
+    private weak var store: LandingPageContainersStore!
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        
         label = makeLabel(text: "Title", fontType: .medium, fontColor: ThemeColor.white)
+        
         let layout = UICollectionViewFlowLayout()
         layout.itemSize = CommonSizes.shared.portraitShowCard
         layout.estimatedItemSize = CommonSizes.shared.portraitShowCard
         layout.scrollDirection = .horizontal
+        
         collectionView = DynamicCollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.register(PortraitCardCollectionViewCell.self, forCellWithReuseIdentifier: PortraitCardCollectionViewCell.reusableId)
+        collectionView.showsVerticalScrollIndicator = false
+        collectionView.showsHorizontalScrollIndicator = false
+        
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         collectionView.dataSource = self
-        collectionView.register(PortraitCardCollectionViewCell.self, forCellWithReuseIdentifier: PortraitCardCollectionViewCell.reusableId)
         selectionStyle = .none
+        
+        self.style()
+        self.layout()
     }
     
-    func configure(container: AccedoContainer) {
+    func configure(container: AccedoContainer, store: LandingPageContainersStore) {
         self.container = container
+        self.store = store
         setup()
-        style()
-        layout()
     }
-    
-    
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -47,42 +55,52 @@ class LandscapeCarouselTableViewCell : UITableViewCell {
 extension LandscapeCarouselTableViewCell {
     
     func setup() {
-        if let container {
+        if let container, let playlistId = container.playlistId {
             label.text =  container.displaytext ?? container.title  ?? "Title"
-            fetchEditorials()
+            if let storedContainer = store.getContainerFromStore(playlistId: playlistId), let editorialItems = storedContainer.editorials as? [EditorialItem] {
+                setupCarousel(editorialItems: editorialItems)
+            }
+            else {
+                fetchEditorials()
+            }
         }
         
     }
     
     private func fetchEditorials() {
         if let container, let playlistId = container.playlistId {
-            APIMock.shared.getContainerItems(playlistId: playlistId, pageNumber: 0, pageSize: Config.pageSize) { [weak self ] response in
+            APIMock.shared.getContainerItems(playlistId: playlistId, pageNumber: 0, pageSize: Config.pageSize) { [weak self] response in
+                
                 guard let self, let editorialItems = response.editorialItems?.compactMap({ (itemWithType: EditorialItemWithType) in
                     itemWithType.item
                 }) else { return }
+                
+                let storedContainer = store.createStoredContainerForPlaylistId(playlistId: playlistId, response: response)
+                store.updateContainerStoreForPlaylist(playlistId: playlistId, containerToStore: storedContainer)
                 setupCarousel(editorialItems: editorialItems)
+                
             } failure: { errorMessage in
                 print("error \(errorMessage)")
             }
         }
     }
     
-    func setupCarousel(editorialItems: [EditorialItem]) {
-        self.items.removeAll(keepingCapacity: true)
+    private func setupCarousel(editorialItems: [EditorialItem]) {
+        self.items.removeAll()
         items += editorialItems
         DispatchQueue.main.async {
             self.collectionView.reloadData()
         }
     }
     
-    func style() {
+    private func style() {
         
         backgroundColor = ThemeColor.nero
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.backgroundColor = ThemeColor.transparent
     }
     
-    func layout() {
+    private func layout() {
         
         [label, collectionView].forEach(contentView.addSubview(_:))
         

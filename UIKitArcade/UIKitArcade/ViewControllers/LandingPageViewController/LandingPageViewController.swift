@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 class LandingPageViewController : UIViewController {
-    typealias ContainerCache = [ContainersCacheKey: Any?]
-    var containersCache: [String: ContainerCache] = [:]
+   
+    let store = LandingPageContainersStore()
     
     lazy var tableView : UITableView = {
         let view = UITableView()
@@ -48,7 +48,7 @@ extension LandingPageViewController {
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.backgroundColor = ThemeColor.nero
-        tableView.contentInsetAdjustmentBehavior = .never
+        //tableView.contentInsetAdjustmentBehavior = .never
         
     }
     
@@ -94,14 +94,14 @@ extension LandingPageViewController {
         switch template {
         case ContainerTemplate.LANDING_HERO.rawValue:
             if let cell = tableView.dequeueReusableCell(withIdentifier: HeroSliderTableViewCell.reusableId, for: indexPath) as? HeroSliderTableViewCell {
-                cell.configure(container: container)
+                cell.configure(container: container, store: store)
                 return cell
             }
         case ContainerTemplate.DEFAULT_LANDSCAPE.rawValue:
             fallthrough
         default:
             if let cell =  tableView.dequeueReusableCell(withIdentifier: LandscapeCarouselTableViewCell.reusableId, for: indexPath) as? LandscapeCarouselTableViewCell {
-                cell.configure(container: container)
+                cell.configure(container: container, store: store)
                 return cell
             }
         }

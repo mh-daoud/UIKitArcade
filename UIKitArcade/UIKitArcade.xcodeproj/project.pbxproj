@@ -49,8 +49,7 @@
 		8496BAAE2B41B66600D63FEA /* TopTenAndSeasonTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAAD2B41B66600D63FEA /* TopTenAndSeasonTag.swift */; };
 		8496BAB02B43D23500D63FEA /* SliderIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAAF2B43D23500D63FEA /* SliderIndicator.swift */; };
 		8496BABA2B45203F00D63FEA /* HeroSliderScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BAB92B45203F00D63FEA /* HeroSliderScrollViewDelegate.swift */; };
-		8496BABC2B452B1800D63FEA /* LandingPageViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BABB2B452B1800D63FEA /* LandingPageViewController+Networking.swift */; };
-		8496BABF2B452D8400D63FEA /* ContainersCacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BABE2B452D8400D63FEA /* ContainersCacheKey.swift */; };
+		8496BABF2B452D8400D63FEA /* LandingPageContainersStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BABE2B452D8400D63FEA /* LandingPageContainersStore.swift */; };
 		84C9FA142B22FC3D0054E90E /* PasswordCriteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */; };
 		84C9FA162B243BEC0054E90E /* PasswordStatusViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */; };
 		84C9FA182B2443D30054E90E /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA172B2443D30054E90E /* ViewControllerTests.swift */; };
@@ -123,8 +122,7 @@
 		8496BAAD2B41B66600D63FEA /* TopTenAndSeasonTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenAndSeasonTag.swift; sourceTree = "<group>"; };
 		8496BAAF2B43D23500D63FEA /* SliderIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderIndicator.swift; sourceTree = "<group>"; };
 		8496BAB92B45203F00D63FEA /* HeroSliderScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroSliderScrollViewDelegate.swift; sourceTree = "<group>"; };
-		8496BABB2B452B1800D63FEA /* LandingPageViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LandingPageViewController+Networking.swift"; sourceTree = "<group>"; };
-		8496BABE2B452D8400D63FEA /* ContainersCacheKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainersCacheKey.swift; sourceTree = "<group>"; };
+		8496BABE2B452D8400D63FEA /* LandingPageContainersStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageContainersStore.swift; sourceTree = "<group>"; };
 		84C9FA0A2B22FB7B0054E90E /* UIKitArcadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitArcadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C9FA132B22FC3D0054E90E /* PasswordCriteriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaTests.swift; sourceTree = "<group>"; };
 		84C9FA152B243BEC0054E90E /* PasswordStatusViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusViewTests.swift; sourceTree = "<group>"; };
@@ -248,11 +246,10 @@
 		8496BA6C2B3D776400D63FEA /* LandingPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8496BA6D2B3D777D00D63FEA /* LandingPageViewController.swift */,
+				8496BABE2B452D8400D63FEA /* LandingPageContainersStore.swift */,
 				8496BA8F2B4152FF00D63FEA /* HeroSlider */,
 				8496BA812B3FDFD100D63FEA /* Cells */,
-				8496BA6D2B3D777D00D63FEA /* LandingPageViewController.swift */,
-				8496BABB2B452B1800D63FEA /* LandingPageViewController+Networking.swift */,
-				8496BABE2B452D8400D63FEA /* ContainersCacheKey.swift */,
 			);
 			path = LandingPageViewController;
 			sourceTree = "<group>";
@@ -520,7 +517,7 @@
 				8496BA7C2B3D90F900D63FEA /* LandscapeCarouselTableViewCell.swift in Sources */,
 				8496BAAA2B41A6D700D63FEA /* ProductModelSharedDetails.swift in Sources */,
 				84C9FA3E2B2971C50054E90E /* BadgeCell.swift in Sources */,
-				8496BABF2B452D8400D63FEA /* ContainersCacheKey.swift in Sources */,
+				8496BABF2B452D8400D63FEA /* LandingPageContainersStore.swift in Sources */,
 				8496BABA2B45203F00D63FEA /* HeroSliderScrollViewDelegate.swift in Sources */,
 				84C9FA412B29721F0054E90E /* CardModel.swift in Sources */,
 				843949EC2B2194BF00F2C59B /* UIResponder+Utils.swift in Sources */,
@@ -529,7 +526,6 @@
 				8496BA8A2B3FE5C600D63FEA /* SizedImage.swift in Sources */,
 				8496BAA62B41A58000D63FEA /* Person.swift in Sources */,
 				8496BA932B41541700D63FEA /* PortraitCard.swift in Sources */,
-				8496BABC2B452B1800D63FEA /* LandingPageViewController+Networking.swift in Sources */,
 				8496BAA42B41A41500D63FEA /* Season.swift in Sources */,
 				8496BA8E2B3FEAA900D63FEA /* SplashServiceUrl.swift in Sources */,
 				8496BA9E2B418FE100D63FEA /* UIView+Utils.swift in Sources */,

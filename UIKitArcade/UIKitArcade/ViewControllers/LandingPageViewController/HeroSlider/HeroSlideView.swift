@@ -11,21 +11,20 @@ import UIKit
 
 class HeroSlideView : UIView {
     
-    var item: ProductModelSharedDetails!
-    var posterImageView = makeImageView()
-    var logoTitleImageView = makeImageView()
+    private var item: ProductModelSharedDetails?
     
-    var stackView = makeStackView(axies: .horizontal)
-    var watchNowButton = makeButton()
-    var addToMyListButton = makeButton(withType: .capsuleGradientBorder)
-    var bottomGradientBG = UIView()
-    var seasonAndGenraView: SeasonAndGenraView!
-    var topTenAndSeasonTag: TopTenAndSeasonTag?
+    private var posterImageView = makeImageView()
+    private var logoTitleImageView = makeImageView()
     
-    init(item: EditorialItem) {
-        self.item = item
-        super.init(frame: .zero)
-        setup()
+    private var stackView = makeStackView(axies: .horizontal)
+    private var watchNowButton = makeButton()
+    private var addToMyListButton = makeButton(withType: .capsuleGradientBorder)
+    private var bottomGradientBG = UIView()
+    private var seasonAndGenraView = SeasonAndGenraView()
+    private var topTenAndSeasonTag =  TopTenAndSeasonTag()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         style()
         layout()
     }
@@ -40,33 +39,42 @@ class HeroSlideView : UIView {
 }
 
 extension HeroSlideView {
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         if bottomGradientBG.layer.sublayers == nil {
             let _ = bottomGradientBG.applyGradient(colours: [ThemeColor.nero,ThemeColor.transparent.withAlphaComponent(0)], startPoint: CGPoint(x: 0, y: 1), endPoint: CGPoint(x: 0, y: 0))
         }
-       
+        
     }
 }
 
 extension HeroSlideView {
     
-    func setup() {
+    func configure(item: EditorialItem) {
+        self.item = item
+        setup()
+    }
+    
+    private func setup() {
+        guard let item else {return}
+        
         if let heroUrl = ProductModelUtil.getHeroImage(item: item).getUrlWithDimension(size: CommonSizes.shared.heroImageSize) {
             posterImageView.load(url: heroUrl)
         }
         
         if let logoTitleUrl = ProductModelUtil.getLogoTitle(item: item).getUrlWithDimension(width: CommonSizes.shared.logoTitle.width, height: 0, withType: .Webp) {
             logoTitleImageView.load(url: logoTitleUrl)
-            logoTitleImageView.contentMode = .scaleAspectFit
         }
-        seasonAndGenraView = SeasonAndGenraView(item: item)
+        seasonAndGenraView.configure(item: item)
         if let editorialItem = item as? EditorialItem {
-            topTenAndSeasonTag = TopTenAndSeasonTag(item: editorialItem)
+            topTenAndSeasonTag.configure(item: editorialItem)
+        } else {
+            topTenAndSeasonTag.isHidden = true
         }
     }
     
-    func style(){
+    private func style(){
         translatesAutoresizingMaskIntoConstraints = false
         
         watchNowButton.setTitle("Watch now", for: .normal)
@@ -76,6 +84,7 @@ extension HeroSlideView {
         addToMyListButton.setAddToFavIcon()
         
         posterImageView.layer.zPosition = 5
+        logoTitleImageView.contentMode = .scaleAspectFit
         
         bottomGradientBG.translatesAutoresizingMaskIntoConstraints = false
         bottomGradientBG.backgroundColor = .clear
@@ -83,16 +92,16 @@ extension HeroSlideView {
         
         seasonAndGenraView.translatesAutoresizingMaskIntoConstraints = false
         
-        topTenAndSeasonTag?.translatesAutoresizingMaskIntoConstraints = false
-        topTenAndSeasonTag?.layer.zPosition = 10
+        topTenAndSeasonTag.translatesAutoresizingMaskIntoConstraints = false
+        topTenAndSeasonTag.layer.zPosition = 10
     }
     
-    func layout(){
-        [posterImageView, bottomGradientBG, logoTitleImageView, seasonAndGenraView, stackView].forEach(addSubview(_:))
-        
+    private func layout(){
+        [posterImageView, bottomGradientBG, logoTitleImageView, seasonAndGenraView, stackView, topTenAndSeasonTag].forEach(addSubview(_:))
+
         stackView.addArrangedSubview(addToMyListButton)
         stackView.addArrangedSubview(watchNowButton)
-
+        
         //main poster image
         NSLayoutConstraint.activate([
             posterImageView.topAnchor.constraint(equalTo: topAnchor),
@@ -121,23 +130,12 @@ extension HeroSlideView {
             seasonAndGenraView.centerXAnchor.constraint(equalTo: centerXAnchor),
         ])
         
-        if let topTenAndSeasonTag, !topTenAndSeasonTag.isHidden {
-            addSubview(topTenAndSeasonTag)
-           
-            //topten and season tag
-            NSLayoutConstraint.activate([
-                topTenAndSeasonTag.topAnchor.constraint(equalToSystemSpacingBelow: seasonAndGenraView.bottomAnchor, multiplier: 2),
-                stackView.topAnchor.constraint(equalToSystemSpacingBelow: topTenAndSeasonTag.bottomAnchor, multiplier: 2),
-                topTenAndSeasonTag.centerXAnchor.constraint(equalTo: centerXAnchor)
-            ])
-        }
-        else {
-            NSLayoutConstraint.activate([
-                stackView.topAnchor.constraint(equalToSystemSpacingBelow: seasonAndGenraView.bottomAnchor, multiplier: 2)
-            ])
-        }
-        
-       
+        //topten and season tag
+        NSLayoutConstraint.activate([
+            topTenAndSeasonTag.topAnchor.constraint(equalToSystemSpacingBelow: seasonAndGenraView.bottomAnchor, multiplier: 2),
+            stackView.topAnchor.constraint(equalToSystemSpacingBelow: topTenAndSeasonTag.bottomAnchor, multiplier: 2),
+            topTenAndSeasonTag.centerXAnchor.constraint(equalTo: centerXAnchor)
+        ])
         
         //bottomGradientBG
         NSLayoutConstraint.activate([

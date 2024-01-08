@@ -12,6 +12,8 @@ import UIKit
 class SliderIndicator : UIView {
     
     private var count: Int = 0
+    private var indicators: [UIView] = []
+    
     private var activeIndicator: Int = 0 {
         didSet {
             UIView.animate(withDuration: 0.25) { [weak self] in
@@ -27,16 +29,16 @@ class SliderIndicator : UIView {
         }
     }
     
-    private var indicators: [UIView] = []
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
     func configure(count: Int) {
-        self.count = count
-        setup()
-        layout()
+        if self.count != count {
+            self.count = count
+            setup()
+            layout()
+        }
     }
     
     required init?(coder: NSCoder) {
@@ -51,6 +53,10 @@ class SliderIndicator : UIView {
 extension SliderIndicator {
     
     func setup() {
+        for indicator in self.indicators {
+            indicator.removeFromSuperview()
+            indicator.removeConstraints(indicator.constraints)
+        }
         indicators.removeAll()
         for _ in 0..<count {
             let indicator = makeIndicator()

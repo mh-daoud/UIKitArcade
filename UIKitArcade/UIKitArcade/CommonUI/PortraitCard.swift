@@ -14,12 +14,16 @@ class PortraitCard : UIView {
     
     var imageView = makeImageView()
     
-    init(item: EditorialItem) {
-        self.item = item
-        super.init(frame: .zero)
-        setup()
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         style()
         layout()
+    }
+    
+    func configure(item: EditorialItem) {
+        self.item = item
+        setup()
+       
     }
     
     required init?(coder: NSCoder) {
@@ -50,7 +54,7 @@ extension PortraitCard {
         imageView.translatesAutoresizingMaskIntoConstraints = false
     }
     
-    func layout(){
+    func layout() {
         addSubview(imageView)
         NSLayoutConstraint.activate([
             imageView.topAnchor.constraint(equalTo: topAnchor),

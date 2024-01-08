@@ -15,9 +15,10 @@ protocol HeroSliderDelegate : AnyObject {
 
 //MARK: Snap Behivour
 class HeroSliderScrollViewDelegate: NSObject {
+    
     private let threshold: CGFloat
     private var slideNumber = 2
-    private let maxPages: Int
+    private var maxPages: Int
     private var userDraging = false
     private var oldXOffset: CGFloat = 0
     weak var delegate: HeroSliderDelegate?
@@ -50,6 +51,10 @@ class HeroSliderScrollViewDelegate: NSObject {
     func snapToNextSlide(scrollView: UIScrollView) {
         // no need to add + 1 aleady we add in snapToSlide
         snapToSlide(slideNumber: slideNumber, scrollView: scrollView)
+    }
+    
+    func setMaxPages(maxPages: Int) {
+        self.maxPages = maxPages
     }
     
     private func setContentOffset(scrollView: UIScrollView, animated: Bool = true) {

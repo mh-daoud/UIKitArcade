@@ -10,16 +10,19 @@ import UIKit
 
 class TopTenAndSeasonTag : UIView {
     
-    var item: EditorialItem
-    var separatorView = UIView()
-    var label = makeLabel(text: "", fontType: .small, fontColor: ThemeColor.white)
+    private var item: EditorialItem?
+    private var separatorView = UIView()
+    private var label = makeLabel(text: "", fontType: .small, fontColor: ThemeColor.white)
     
-    init(item: EditorialItem) {
-        self.item = item
-        super.init(frame: .zero)
-        setup()
+    override init(frame: CGRect){
+        super.init(frame: frame)
         style()
         layout()
+    }
+    
+    func configure(item: EditorialItem) {
+        self.item = item
+        setup()
     }
     
     required init?(coder: NSCoder) {
@@ -31,22 +34,25 @@ class TopTenAndSeasonTag : UIView {
 
 
 extension TopTenAndSeasonTag {
+    
     func setup() {
+        
         label.isHidden = true
         isHidden = true
-        if let season = ProductModelUtil.getSeason(item: item), let tag = ProductModelUtil.getTag(item: season) {
+        if let item, let season = ProductModelUtil.getSeason(item: item), let tag = ProductModelUtil.getTag(item: season) {
             label.isHidden = false
             isHidden = false
             label.text = tag
         }
+        
     }
     
-    func style(){        
+    private func style(){
         separatorView.translatesAutoresizingMaskIntoConstraints = false
         separatorView.backgroundColor = ThemeColor.jungleGreen
     }
     
-    func layout(){
+    private func layout(){
         [separatorView, label].forEach(addSubview(_:))
         NSLayoutConstraint.activate([
             separatorView.widthAnchor.constraint(equalToConstant: dimensionCalculation(4, 4)),

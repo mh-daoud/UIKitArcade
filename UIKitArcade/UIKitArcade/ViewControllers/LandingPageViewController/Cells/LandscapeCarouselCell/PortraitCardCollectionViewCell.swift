@@ -11,28 +11,32 @@ import UIKit
 class PortraitCardCollectionViewCell : UICollectionViewCell {
     static let reusableId = "portrait_card_collection_view_cell_id"
     
-    var portraitCardView : PortraitCard!
+    var portraitCardView = PortraitCard()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        style()
+        layout()
     }
     
     func configure(item: EditorialItem) {
         setup(item: item)
-        style()
-        layout()
-        
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        portraitCardView.imageView.image = nil
     }
 }
 
 
 extension PortraitCardCollectionViewCell {
     func setup(item: EditorialItem) {
-        portraitCardView = PortraitCard(item: item)
+        portraitCardView.configure(item: item)
     }
     
     func style(){
