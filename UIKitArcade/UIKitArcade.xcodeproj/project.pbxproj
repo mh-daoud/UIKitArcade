@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AC3D48867B7DF31036F536E /* libPods-UIKitArcadeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0977955461C2F792D6910A15 /* libPods-UIKitArcadeTests.a */; };
+		8436ED4E2B4D0C00008F694E /* NativeAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436ED4D2B4D0C00008F694E /* NativeAdTableViewCell.swift */; };
 		843949B22B1EE49000F2C59B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B12B1EE49000F2C59B /* AppDelegate.swift */; };
 		843949B62B1EE49000F2C59B /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B52B1EE49000F2C59B /* PasswordResetViewController.swift */; };
 		843949BB2B1EE49300F2C59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843949BA2B1EE49300F2C59B /* Assets.xcassets */; };
@@ -65,6 +67,7 @@
 		84C9FA432B297A350054E90E /* CollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA422B297A350054E90E /* CollectionViewFlowLayout.swift */; };
 		84C9FA462B297E830054E90E /* StateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA452B297E830054E90E /* StateButton.swift */; };
 		84C9FA482B2981440054E90E /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9FA472B2981440054E90E /* HeaderCell.swift */; };
+		CC7100F479297AEE7DA954FD /* libPods-UIKitArcade.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEF18A8521EB18919EB9660 /* libPods-UIKitArcade.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0977955461C2F792D6910A15 /* libPods-UIKitArcadeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIKitArcadeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEF18A8521EB18919EB9660 /* libPods-UIKitArcade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIKitArcade.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39ACC5CB35B71A99A5670968 /* Pods-UIKitArcadeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitArcadeTests.release.xcconfig"; path = "Target Support Files/Pods-UIKitArcadeTests/Pods-UIKitArcadeTests.release.xcconfig"; sourceTree = "<group>"; };
+		814380DE38BCCCFB11190692 /* Pods-UIKitArcade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitArcade.release.xcconfig"; path = "Target Support Files/Pods-UIKitArcade/Pods-UIKitArcade.release.xcconfig"; sourceTree = "<group>"; };
+		8436ED4D2B4D0C00008F694E /* NativeAdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdTableViewCell.swift; sourceTree = "<group>"; };
 		843949AE2B1EE49000F2C59B /* UIKitArcade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitArcade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843949B12B1EE49000F2C59B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843949B52B1EE49000F2C59B /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +147,8 @@
 		84C9FA422B297A350054E90E /* CollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		84C9FA452B297E830054E90E /* StateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateButton.swift; sourceTree = "<group>"; };
 		84C9FA472B2981440054E90E /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		BE16CD3E799A8A159959008A /* Pods-UIKitArcadeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitArcadeTests.debug.xcconfig"; path = "Target Support Files/Pods-UIKitArcadeTests/Pods-UIKitArcadeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FEFCEAB5AA9300B4E8923E77 /* Pods-UIKitArcade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitArcade.debug.xcconfig"; path = "Target Support Files/Pods-UIKitArcade/Pods-UIKitArcade.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7100F479297AEE7DA954FD /* libPods-UIKitArcade.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,18 +164,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC3D48867B7DF31036F536E /* libPods-UIKitArcadeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24BE870E07EEB1D64E9716EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF18A8521EB18919EB9660 /* libPods-UIKitArcade.a */,
+				0977955461C2F792D6910A15 /* libPods-UIKitArcadeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BF7841F740D56088EE3BA7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEFCEAB5AA9300B4E8923E77 /* Pods-UIKitArcade.debug.xcconfig */,
+				814380DE38BCCCFB11190692 /* Pods-UIKitArcade.release.xcconfig */,
+				BE16CD3E799A8A159959008A /* Pods-UIKitArcadeTests.debug.xcconfig */,
+				39ACC5CB35B71A99A5670968 /* Pods-UIKitArcadeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8436ED4C2B4D0BE8008F694E /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				8436ED4D2B4D0C00008F694E /* NativeAdTableViewCell.swift */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		8436ED4F2B4D0CFC008F694E /* HeroSliderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8496BA952B4158B500D63FEA /* HeroSliderTableViewCell.swift */,
+			);
+			path = HeroSliderTableViewCell;
+			sourceTree = "<group>";
+		};
 		843949A52B1EE49000F2C59B = {
 			isa = PBXGroup;
 			children = (
 				843949B02B1EE49000F2C59B /* UIKitArcade */,
 				84C9FA0B2B22FB7B0054E90E /* UIKitArcadeTests */,
 				843949AF2B1EE49000F2C59B /* Products */,
+				7BF7841F740D56088EE3BA7D /* Pods */,
+				24BE870E07EEB1D64E9716EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -274,8 +324,9 @@
 		8496BA812B3FDFD100D63FEA /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				8436ED4F2B4D0CFC008F694E /* HeroSliderTableViewCell */,
+				8436ED4C2B4D0BE8008F694E /* NativeAd */,
 				8496BA942B41586900D63FEA /* LandscapeCarouselCell */,
-				8496BA952B4158B500D63FEA /* HeroSliderTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -409,9 +460,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843949C22B1EE49300F2C59B /* Build configuration list for PBXNativeTarget "UIKitArcade" */;
 			buildPhases = (
+				1C70F8122DCA21B127A40647 /* [CP] Check Pods Manifest.lock */,
 				843949AA2B1EE49000F2C59B /* Sources */,
 				843949AB2B1EE49000F2C59B /* Frameworks */,
 				843949AC2B1EE49000F2C59B /* Resources */,
+				3F5BB5E3C4803C8D12EF2D2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -426,6 +479,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C9FA122B22FB7B0054E90E /* Build configuration list for PBXNativeTarget "UIKitArcadeTests" */;
 			buildPhases = (
+				5E33285822EE68809DE3ECFF /* [CP] Check Pods Manifest.lock */,
 				84C9FA062B22FB7B0054E90E /* Sources */,
 				84C9FA072B22FB7B0054E90E /* Frameworks */,
 				84C9FA082B22FB7B0054E90E /* Resources */,
@@ -499,12 +553,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C70F8122DCA21B127A40647 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIKitArcade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5BB5E3C4803C8D12EF2D2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIKitArcade/Pods-UIKitArcade-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIKitArcade/Pods-UIKitArcade-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIKitArcade/Pods-UIKitArcade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E33285822EE68809DE3ECFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIKitArcadeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		843949AA2B1EE49000F2C59B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				845DABFF2B2ACD7B0066D6C8 /* BasicCell.swift in Sources */,
+				8436ED4E2B4D0C00008F694E /* NativeAdTableViewCell.swift in Sources */,
 				845DAC042B2AD2460066D6C8 /* SnapCarousel.swift in Sources */,
 				84C9FA252B2572850054E90E /* UIImageView+Utils.swift in Sources */,
 				843949B62B1EE49000F2C59B /* PasswordResetViewController.swift in Sources */,
@@ -712,12 +831,14 @@
 		};
 		843949C32B1EE49300F2C59B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEFCEAB5AA9300B4E8923E77 /* Pods-UIKitArcade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 548SPFR25M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIKitArcade/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -729,7 +850,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nopa.UIKitArcade;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopa.UIKitArcade.shahid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -739,12 +860,14 @@
 		};
 		843949C42B1EE49300F2C59B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814380DE38BCCCFB11190692 /* Pods-UIKitArcade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 548SPFR25M;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIKitArcade/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -756,7 +879,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nopa.UIKitArcade;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nopa.UIKitArcade.shahid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -766,6 +889,7 @@
 		};
 		84C9FA102B22FB7B0054E90E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE16CD3E799A8A159959008A /* Pods-UIKitArcadeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -786,6 +910,7 @@
 		};
 		84C9FA112B22FB7B0054E90E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39ACC5CB35B71A99A5670968 /* Pods-UIKitArcadeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;

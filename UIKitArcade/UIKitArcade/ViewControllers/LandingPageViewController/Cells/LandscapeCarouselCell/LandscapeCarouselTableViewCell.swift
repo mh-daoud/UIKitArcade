@@ -42,6 +42,11 @@ class LandscapeCarouselTableViewCell : UITableViewCell {
     }
     
     func configure(container: AccedoContainer, store: LandingPageContainersStore) {
+        guard container.playlistId != self.container?.playlistId else {
+            label.text = container.displaytext ?? container.title ?? ""
+
+            return
+        }
         self.container = container
         self.store = store
         setup()
@@ -53,10 +58,9 @@ class LandscapeCarouselTableViewCell : UITableViewCell {
 }
 
 extension LandscapeCarouselTableViewCell {
-    
     func setup() {
         if let container, let playlistId = container.playlistId {
-            label.text =  container.displaytext ?? container.title  ?? "Title"
+            label.text =  container.displaytext ?? container.title  ??  ""
             if let storedContainer = store.getContainerFromStore(playlistId: playlistId), let editorialItems = storedContainer.editorials as? [EditorialItem] {
                 setupCarousel(editorialItems: editorialItems)
             }
@@ -64,7 +68,6 @@ extension LandscapeCarouselTableViewCell {
                 fetchEditorials()
             }
         }
-        
     }
     
     private func fetchEditorials() {
@@ -73,7 +76,11 @@ extension LandscapeCarouselTableViewCell {
                 
                 guard let self, let editorialItems = response.editorialItems?.compactMap({ (itemWithType: EditorialItemWithType) in
                     itemWithType.item
-                }) else { return }
+                }) else 
+                {
+                    print("fetchEditorials failed ==== \(playlistId)")
+                    return
+                }
                 
                 let storedContainer = store.createStoredContainerForPlaylistId(playlistId: playlistId, response: response)
                 store.updateContainerStoreForPlaylist(playlistId: playlistId, containerToStore: storedContainer)

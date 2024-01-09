@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class LandingPageViewController : UIViewController {
-   
+    
     let store = LandingPageContainersStore()
     
     lazy var tableView : UITableView = {
@@ -34,8 +34,10 @@ class LandingPageViewController : UIViewController {
 extension LandingPageViewController {
     func setup() {
         navigationController?.setNavigationBarHidden(true, animated: false)
+        
         tableView.register(LandscapeCarouselTableViewCell.self, forCellReuseIdentifier: LandscapeCarouselTableViewCell.reusableId)
         tableView.register(HeroSliderTableViewCell.self, forCellReuseIdentifier: HeroSliderTableViewCell.reusableId)
+        tableView.register(NativeAdTableViewCell.self, forCellReuseIdentifier: NativeAdTableViewCell.reusableId)
         
         if let containers = APIMock.shared.getContainers() {
             self.containers = containers
@@ -94,6 +96,11 @@ extension LandingPageViewController {
         switch template {
         case ContainerTemplate.LANDING_HERO.rawValue:
             if let cell = tableView.dequeueReusableCell(withIdentifier: HeroSliderTableViewCell.reusableId, for: indexPath) as? HeroSliderTableViewCell {
+                cell.configure(container: container, store: store)
+                return cell
+            }
+        case ContainerTemplate.NATIVE_AD.rawValue:
+            if let cell = tableView.dequeueReusableCell(withIdentifier: NativeAdTableViewCell.reusableId, for: indexPath) as? NativeAdTableViewCell {
                 cell.configure(container: container, store: store)
                 return cell
             }
