@@ -20,7 +20,6 @@
 		843949EC2B2194BF00F2C59B /* UIResponder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949EB2B2194BE00F2C59B /* UIResponder+Utils.swift */; };
 		845DABFF2B2ACD7B0066D6C8 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DABFE2B2ACD7B0066D6C8 /* BasicCell.swift */; };
 		845DAC012B2ACEAB0066D6C8 /* HorizontalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DAC002B2ACEAB0066D6C8 /* HorizontalCollectionView.swift */; };
-		845DAC042B2AD2460066D6C8 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DAC032B2AD2460066D6C8 /* SnapCarousel.swift */; };
 		8496BA6E2B3D777D00D63FEA /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA6D2B3D777D00D63FEA /* LandingPageViewController.swift */; };
 		8496BA732B3D7AEE00D63FEA /* APIMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA722B3D7AEE00D63FEA /* APIMock.swift */; };
 		8496BA782B3D7B5000D63FEA /* AccedoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496BA772B3D7B5000D63FEA /* AccedoContainer.swift */; };
@@ -99,7 +98,6 @@
 		843949EB2B2194BE00F2C59B /* UIResponder+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Utils.swift"; sourceTree = "<group>"; };
 		845DABFE2B2ACD7B0066D6C8 /* BasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
 		845DAC002B2ACEAB0066D6C8 /* HorizontalCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionView.swift; sourceTree = "<group>"; };
-		845DAC032B2AD2460066D6C8 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
 		8496BA6D2B3D777D00D63FEA /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
 		8496BA722B3D7AEE00D63FEA /* APIMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMock.swift; sourceTree = "<group>"; };
 		8496BA772B3D7B5000D63FEA /* AccedoContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccedoContainer.swift; sourceTree = "<group>"; };
@@ -285,14 +283,6 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		845DAC022B2AD21B0066D6C8 /* SnapCarousel */ = {
-			isa = PBXGroup;
-			children = (
-				845DAC032B2AD2460066D6C8 /* SnapCarousel.swift */,
-			);
-			path = SnapCarousel;
-			sourceTree = "<group>";
-		};
 		8496BA6C2B3D776400D63FEA /* LandingPageViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,7 +363,6 @@
 			isa = PBXGroup;
 			children = (
 				8496BA6C2B3D776400D63FEA /* LandingPageViewController */,
-				845DAC022B2AD21B0066D6C8 /* SnapCarousel */,
 				84C9FA272B2820370054E90E /* GridViewController */,
 				84C9FA1F2B24C5E70054E90E /* HorizontalCarouselViewController */,
 				84C9FA1C2B24C0190054E90E /* MainApp */,
@@ -624,7 +613,6 @@
 			files = (
 				845DABFF2B2ACD7B0066D6C8 /* BasicCell.swift in Sources */,
 				8436ED4E2B4D0C00008F694E /* NativeAdTableViewCell.swift in Sources */,
-				845DAC042B2AD2460066D6C8 /* SnapCarousel.swift in Sources */,
 				84C9FA252B2572850054E90E /* UIImageView+Utils.swift in Sources */,
 				843949B62B1EE49000F2C59B /* PasswordResetViewController.swift in Sources */,
 				84C9FA212B24C5FC0054E90E /* HorizontalViewController.swift in Sources */,

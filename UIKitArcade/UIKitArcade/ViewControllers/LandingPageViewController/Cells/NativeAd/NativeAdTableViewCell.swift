@@ -10,16 +10,17 @@ import UIKit
 
 
 class NativeAdTableViewCell : UITableViewCell {
+    
     static let reusableId = "native_ad_table_view_cell"
     
     private var container: AccedoContainer?
+    private let label = makeLabel(text: "Natve Ad")
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.style()
         self.layout()
         selectionStyle = .none
-        isHidden = true
     }
     
     required init?(coder: NSCoder) {
@@ -27,7 +28,7 @@ class NativeAdTableViewCell : UITableViewCell {
     }
     
     override var intrinsicContentSize: CGSize {
-        return .zero
+        return CGSize(width: UIView.noIntrinsicMetric, height: 200)
     }
     
 }
@@ -49,6 +50,11 @@ extension NativeAdTableViewCell {
     }
     
     private func layout(){
+        contentView.addSubview(label)
         
+        NSLayoutConstraint.activate([
+            label.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            label.centerXAnchor.constraint(equalTo: contentView.centerXAnchor)
+        ])
     }
 }

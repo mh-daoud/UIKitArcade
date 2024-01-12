@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import SDWebImage
 
 class PortraitCard : UIView {
     
@@ -43,8 +42,7 @@ extension PortraitCard {
     
     func setup() {
         if let posterUrl = ProductModelUtil.getPosterImage(item: item).getUrlWithDimension(size: CommonSizes.shared.portraitShowCard) {
-            //imageView.load(url: posterUrl)
-            imageView.sd_setImage(with: posterUrl)
+            imageView.load(url: posterUrl)
         }
     }
     

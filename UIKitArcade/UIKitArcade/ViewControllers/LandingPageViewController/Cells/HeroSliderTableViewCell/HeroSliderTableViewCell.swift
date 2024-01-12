@@ -14,6 +14,22 @@ class HeroSliderTableViewCell : UITableViewCell {
     
     static let reusableId = "hero_slider_table_view_cell"
     
+    private let disableAutoScrollThreshold = dimensionCalculation(40, 40)
+    
+    var autoScrollEnable: Bool = true {
+        didSet {
+            if autoScrollEnable {
+                configureAutoScroll(withInterval: autoScrollTimeInterval)
+            }
+            else {
+                if timer != nil {
+                    timer?.invalidate()
+                    timer = nil
+                }
+            }
+        }
+    }
+    
     private var items: [EditorialItem]? = nil
     private var heroSliderScrollView : HeroSliderScrollView!
     private var sliderIndicator: SliderIndicator!
@@ -32,17 +48,20 @@ class HeroSliderTableViewCell : UITableViewCell {
         sliderIndicator = SliderIndicator()
         self.style()
         self.layout()
+        NotificationCenter.default.addObserver(self, selector: #selector(landingPageTableViewDidScroll), name: .landingPageTableViewDidScroll, object: nil)
     }
     
     func configure(container: AccedoContainer, store: LandingPageContainersStore) {
-        guard  container.playlistId != self.container?.playlistId else { return }
+        guard  container.playlistId != self.container?.playlistId else {
+            return
+        }
         self.container = container
         self.store = store
         setup { [weak self] in
             guard let self, let items else {return}
             heroSliderScrollView.configure(items: items, delegate: self)
             sliderIndicator.configure(count: items.count)
-            heroSliderScrollView.snapToSlide(slideNumber: 1)
+            heroSliderScrollView.snapToSlide(slideNumber: 1, animated: false)
             configureAutoScroll(withInterval: autoScrollTimeInterval)
         }
     }
@@ -50,10 +69,11 @@ class HeroSliderTableViewCell : UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
 }
-
-
-
 
 extension HeroSliderTableViewCell {
     
@@ -119,6 +139,7 @@ extension HeroSliderTableViewCell {
             timer?.invalidate()
             timer = nil
         }
+        guard autoScrollEnable else {return}
         timer = Timer.scheduledTimer(withTimeInterval: TimeInterval(withInterval), repeats: true, block: { [weak self] _ in
             guard let self else { return }
             heroSliderScrollView.snapToNextSlide()
@@ -132,5 +153,17 @@ extension HeroSliderTableViewCell : HeroSliderDelegate {
     func didSnapToSlide(slideIndex: Int) {
         sliderIndicator.setActive(index: slideIndex)
         configureAutoScroll(withInterval: autoScrollTimeInterval)
+    }
+}
+
+//MARK: Actions
+extension HeroSliderTableViewCell  {
+    @objc func landingPageTableViewDidScroll(notification: NSNotification) {
+        guard let userInfo = notification.userInfo as? [String: Any], let scrollPosition = userInfo["scrollPosition"] as? CGPoint else { return }
+        if scrollPosition.y >  disableAutoScrollThreshold {
+            autoScrollEnable = false
+        } else if !autoScrollEnable {
+            autoScrollEnable = true
+        }
     }
 }

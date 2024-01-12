@@ -47,10 +47,6 @@ extension HeroSliderScrollView {
     }
     
     private func setup(_ heroSliderDelegate: HeroSliderDelegate? = nil) {
-        if slides.count < heroSlideViews.count - 2 {
-            //removeExtraSlideViews()
-        }
-        
         if slides.count > 1 {
             if let lastSlide = slides.last {
                 addSlideView(index: 0, slide: lastSlide)
@@ -65,20 +61,6 @@ extension HeroSliderScrollView {
         
         heroSliderScrollViewDelegate.setMaxPages(maxPages : heroSlideViews.count)
         heroSliderScrollViewDelegate.delegate = heroSliderDelegate
-    }
-    
-    private func removeExtraSlideViews(){
-        //remove last two slides
-//        let slidesCountToRemove = heroSlideViews.count - 2 - slides.count
-//        var removeCount = 0
-//        
-//        for slideToRemove in heroSlideViews.reversed() {
-//            if removeCount >= slidesCountToRemove {
-//                break;
-//            }
-//            slideToRemove.removeFromSuperview()
-//            heroSlideViews.remove(at: <#T##Int#>)
-//        }
     }
     
     private func addSlideView(index: Int, slide: EditorialItem, isLastSlide: Bool = false) {
@@ -139,8 +121,8 @@ extension HeroSliderScrollView {
         ])
     }
     
-    func snapToSlide(slideNumber: Int) {
-        heroSliderScrollViewDelegate.snapToSlide(slideNumber: slideNumber, scrollView: self)
+    func snapToSlide(slideNumber: Int, animated: Bool = true) {
+        heroSliderScrollViewDelegate.snapToSlide(slideNumber: slideNumber, scrollView: self, animated: animated)
     }
     
     func snapToNextSlide() {

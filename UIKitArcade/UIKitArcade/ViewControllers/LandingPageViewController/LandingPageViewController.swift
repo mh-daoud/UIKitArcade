@@ -15,6 +15,7 @@ class LandingPageViewController : UIViewController {
     lazy var tableView : UITableView = {
         let view = UITableView()
         view.dataSource = self
+        view.delegate = self
         view.rowHeight = UITableView.automaticDimension
         return view
     }()
@@ -28,8 +29,6 @@ class LandingPageViewController : UIViewController {
         layout()
     }
 }
-
-
 
 extension LandingPageViewController {
     func setup() {
@@ -67,7 +66,7 @@ extension LandingPageViewController {
 }
 
 
-
+//MARK: UITableViewDataSource
 extension LandingPageViewController : UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         1
@@ -88,7 +87,7 @@ extension LandingPageViewController : UITableViewDataSource {
 }
 
 
-
+//MARK: Template to get cells based on the container
 extension LandingPageViewController {
     
     func getTemplateCell(_ tableView: UITableView, container: AccedoContainer, indexPath: IndexPath) -> UITableViewCell? {
@@ -97,6 +96,7 @@ extension LandingPageViewController {
         case ContainerTemplate.LANDING_HERO.rawValue:
             if let cell = tableView.dequeueReusableCell(withIdentifier: HeroSliderTableViewCell.reusableId, for: indexPath) as? HeroSliderTableViewCell {
                 cell.configure(container: container, store: store)
+                cell.autoScrollEnable = true
                 return cell
             }
         case ContainerTemplate.NATIVE_AD.rawValue:
@@ -114,5 +114,18 @@ extension LandingPageViewController {
         }
         return nil
     }
-    
+}
+
+
+//MARK: UITableViewDelegate
+
+extension LandingPageViewController : UITableViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        NotificationCenter.default.post(name: .landingPageTableViewDidScroll, object: nil, userInfo: ["scrollPosition": scrollView.contentOffset])
+    }
+}
+
+
+extension NSNotification.Name {
+    static let landingPageTableViewDidScroll = Notification.Name("landingPageTableViewDidScroll")
 }

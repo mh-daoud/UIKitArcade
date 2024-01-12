@@ -43,9 +43,9 @@ class HeroSliderScrollViewDelegate: NSObject {
         self.maxPages = maxPages
     }
     
-    func snapToSlide(slideNumber: Int, scrollView: UIScrollView) {
+    func snapToSlide(slideNumber: Int, scrollView: UIScrollView, animated: Bool = true) {
         self.slideNumber = slideNumber + 1
-        setContentOffset(scrollView: scrollView)
+        setContentOffset(scrollView: scrollView, animated: animated)
     }
     
     func snapToNextSlide(scrollView: UIScrollView) {
