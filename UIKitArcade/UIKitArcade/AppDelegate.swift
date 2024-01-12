@@ -15,8 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = ThemeColor.nero
-        //let vc = MainAppViewController()
-        //window?.rootViewController = UINavigationController(rootViewController: vc)
         window?.clipsToBounds = true
         window?.rootViewController = UINavigationController(rootViewController: LandingPageViewController())
         window?.makeKeyAndVisible()
