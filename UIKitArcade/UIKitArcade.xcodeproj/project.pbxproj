@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0AC3D48867B7DF31036F536E /* libPods-UIKitArcadeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0977955461C2F792D6910A15 /* libPods-UIKitArcadeTests.a */; };
+		841769D52B5245D700F14495 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841769D42B5245D700F14495 /* SplashViewController.swift */; };
 		8436ED4E2B4D0C00008F694E /* NativeAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436ED4D2B4D0C00008F694E /* NativeAdTableViewCell.swift */; };
 		843949B22B1EE49000F2C59B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B12B1EE49000F2C59B /* AppDelegate.swift */; };
 		843949B62B1EE49000F2C59B /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843949B52B1EE49000F2C59B /* PasswordResetViewController.swift */; };
@@ -84,6 +85,7 @@
 		1EEF18A8521EB18919EB9660 /* libPods-UIKitArcade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIKitArcade.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39ACC5CB35B71A99A5670968 /* Pods-UIKitArcadeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitArcadeTests.release.xcconfig"; path = "Target Support Files/Pods-UIKitArcadeTests/Pods-UIKitArcadeTests.release.xcconfig"; sourceTree = "<group>"; };
 		814380DE38BCCCFB11190692 /* Pods-UIKitArcade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitArcade.release.xcconfig"; path = "Target Support Files/Pods-UIKitArcade/Pods-UIKitArcade.release.xcconfig"; sourceTree = "<group>"; };
+		841769D42B5245D700F14495 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		8436ED4D2B4D0C00008F694E /* NativeAdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdTableViewCell.swift; sourceTree = "<group>"; };
 		843949AE2B1EE49000F2C59B /* UIKitArcade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitArcade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843949B12B1EE49000F2C59B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -187,6 +189,14 @@
 				39ACC5CB35B71A99A5670968 /* Pods-UIKitArcadeTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		841769D32B5245C300F14495 /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				841769D42B5245D700F14495 /* SplashViewController.swift */,
+			);
+			path = SplashViewController;
 			sourceTree = "<group>";
 		};
 		8436ED4C2B4D0BE8008F694E /* NativeAd */ = {
@@ -362,6 +372,7 @@
 		84C9FA192B24BBE20054E90E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				841769D32B5245C300F14495 /* SplashViewController */,
 				8496BA6C2B3D776400D63FEA /* LandingPageViewController */,
 				84C9FA272B2820370054E90E /* GridViewController */,
 				84C9FA1F2B24C5E70054E90E /* HorizontalCarouselViewController */,
@@ -651,6 +662,7 @@
 				8496BA9C2B4186AF00D63FEA /* BasicButton.swift in Sources */,
 				84C9FA292B2820540054E90E /* GridViewController.swift in Sources */,
 				84C9FA462B297E830054E90E /* StateButton.swift in Sources */,
+				841769D52B5245D700F14495 /* SplashViewController.swift in Sources */,
 				8496BA912B41531000D63FEA /* HeroSliderScrollView.swift in Sources */,
 				8496BA832B3FDFEA00D63FEA /* PortraitCardCollectionViewCell.swift in Sources */,
 				8496BA882B3FE5AF00D63FEA /* EditorialItem.swift in Sources */,
